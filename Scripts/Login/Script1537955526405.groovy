@@ -29,6 +29,8 @@ WebUI.setText(findTestObject('Login/Page_ng nhp/input_UserName'), 'admin1')
 WebUI.setText(findTestObject('Login/Page_ng nhp/input_Password'), '123456')
 
 WebUI.click(findTestObject('Login/Page_ng nhp/button_NG NHP'))
-
-WebUI.closeBrowser()
+Thread.sleep(5000);
+WebUI.switchToWindowIndex(0)
+String title = WebUI.getWindowTitle()
+WebUI.verifyMatch(title, "Quản trị viên", true)
 
