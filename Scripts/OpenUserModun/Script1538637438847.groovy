@@ -18,30 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://ntmtien.cls.vn/account/login')
+WebUI.click(findTestObject('OpenUserModun/Page_Qun tr vin/div_Ngi dng'))
 
-WebUI.click(findTestObject('Forgot password/Page_ng nhp/a_Qun mt khu'))
+Thread.sleep(3000)
 
-Thread.sleep(5000)
-
-WebUI.switchToWindowIndex(0)
-
-String title = WebUI.getWindowTitle()
-
-WebUI.verifyMatch(title, 'Quên mật khẩu', true)
-
-WebUI.setText(findTestObject('Forgot password/Page_Qun mt khu/input_Email'), 'buithithan.cntt@gmail.com')
-
-WebUI.click(findTestObject('Forgot password/Page_Qun mt khu/button_GI'))
-
-Thread.sleep(5000)
-
-WebUI.verifyTextPresent('Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn', 
-    false)
-
-WebUI.closeBrowser()
+WebUI.verifyTextPresent('Quản lý người dùng', false)
 

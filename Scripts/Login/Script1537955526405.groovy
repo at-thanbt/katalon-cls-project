@@ -38,5 +38,3 @@ String title = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(title, 'Quản trị viên', true)
 
-WebUI.closeBrowser()
-
