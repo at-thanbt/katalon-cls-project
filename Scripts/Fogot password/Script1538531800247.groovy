@@ -24,11 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ntmtien.cls.vn/account/login')
 
-WebUI.setText(findTestObject('Login/Page_ng nhp/input_UserName'), 'admin1')
-
-WebUI.setText(findTestObject('Login/Page_ng nhp/input_Password'), '123456')
-
-WebUI.click(findTestObject('Login/Page_ng nhp/button_NG NHP'))
+WebUI.click(findTestObject('Forgot password/Page_ng nhp/a_Qun mt khu'))
 
 Thread.sleep(5000)
 
@@ -36,7 +32,15 @@ WebUI.switchToWindowIndex(0)
 
 String title = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(title, 'Quản trị viên', true)
+WebUI.verifyMatch(title, 'Quên mật khẩu', true)
+
+WebUI.setText(findTestObject('Forgot password/Page_Qun mt khu/input_Email'), 'buithithan.cntt@gmail.com')
+
+WebUI.click(findTestObject('Forgot password/Page_Qun mt khu/button_GI'))
+Thread.sleep(5000)
+
+WebUI.verifyTextPresent('Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn', 
+    false)
 
 WebUI.closeBrowser()
 
