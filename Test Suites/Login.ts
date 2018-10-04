@@ -4,7 +4,7 @@
    <name>Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-04T14:03:12</lastRun>
+   <lastRun>2018-10-04T15:38:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -22,5 +22,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Fogot password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34b6677f-4aef-4674-bd8e-3018423bf0ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AddUser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

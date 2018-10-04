@@ -19,23 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-//Thread.sleep(30000)
-WebUI.callTestCase(findTestCase('DeleteUser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('AddUser/Page_Qun l ngi dng/span_THM NGI DNG'))
+WebUI.callTestCase(findTestCase('AddUser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Thread.sleep(5000)
+WebUI.click(findTestObject('EditUser/Page_Qun l ngi dng/span_fa fa-pencil'))
 
-WebUI.setText(findTestObject('AddUser/Page_Qun l ngi dng/input_NewUserName'), 'usertest')
+WebUI.setText(findTestObject('EditUser/Page_- usertest/input_EditUserName'), 'usertest1')
 
-WebUI.setText(findTestObject('AddUser/Page_Qun l ngi dng/input_NewPassword'), '123456')
+WebUI.click(findTestObject('EditUser/Page_- usertest/button_Lu'))
 
-WebUI.setText(findTestObject('AddUser/Page_Qun l ngi dng/input_NewEmail'), 'usertest@gmail.com')
+Thread.sleep(3000)
 
-WebUI.click(findTestObject('AddUser/Page_Qun l ngi dng/button_Lu'))
+WebUI.setText(findTestObject('EditUser/Page_Qun l ngi dng/input_txtUserSearchBox'), 'usertest1')
 
-Thread.sleep(10000)
+Thread.sleep(3000)
 
-WebUI.verifyTextPresent('usertest', false)
+WebUI.verifyTextPresent('usertest1', false)
 
+WebUI.closeBrowser()
 
