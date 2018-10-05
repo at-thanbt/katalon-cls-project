@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_NG NHP</name>
+   <name>span_Kho hc</name>
    <tag></tag>
-   <elementGuidId>1e0c464b-dee8-4a02-8348-82ffc6319af9</elementGuidId>
+   <elementGuidId>60299b0a-343d-4742-8d79-e9efec8c2976</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,34 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-submit btn-expanded-width</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnLogin</value>
+      <value>mobile-hide</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ĐĂNG NHẬP</value>
+      <value>Khoá học</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
+      <value>id(&quot;moduleContent&quot;)/div[1]/ul[@class=&quot;nav nav-tabs lms-tabs&quot;]/li[2]/a[1]/span[@class=&quot;mobile-hide&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

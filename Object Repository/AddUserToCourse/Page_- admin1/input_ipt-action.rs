@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_UserName</name>
+   <name>input_ipt-action</name>
    <tag></tag>
-   <elementGuidId>21473987-a025-466a-9281-fa208382b52b</elementGuidId>
+   <elementGuidId>4c9fb397-c008-45e6-b025-e285f4744b79</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,34 +18,34 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-userid</name>
+      <type>Main</type>
+      <value>993</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>UserName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Tên đăng nhập</value>
+      <value>ipt-action</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-dialog&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;login-form&quot;]/div[@class=&quot;account-form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;tblUserCourses&quot;)/tbody[1]/tr[1]/td[@class=&quot;text-center&quot;]/input[@class=&quot;ipt-action&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

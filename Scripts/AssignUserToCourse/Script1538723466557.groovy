@@ -18,14 +18,47 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 Thread.sleep(30000)
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('OpenUserModun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OpenUserModun/Page_Qun tr vin/div_Ngi dng'))
+WebUI.setText(findTestObject('AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'), 'admin1')
 
 Thread.sleep(3000)
 
-WebUI.verifyTextPresent('Quản lý người dùng', false)
+WebUI.click(findTestObject('AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil'))
+
+Thread.sleep(3000)
+
+WebUI.click(findTestObject('AddUserToCourse/Page_- admin1/span_Kho hc'))
+
+WebUI.setText(findTestObject('AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'), 'Vận hành CLS trong Doanh Nghiệp')
+
+Thread.sleep(3000)
+
+WebUI.click(findTestObject('AddUserToCourse/Page_- admin1/input_ipt-action'))
+
+WebUI.click(findTestObject('AddUserToCourse/Page_- admin1/button_Lu'))
+
+Thread.sleep(5000)
+
+WebUI.mouseOver(findTestObject('AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down'))
+
+Thread.sleep(5000)
+
+//WebUI.click(findTestObject('AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down'))
+//Thread.sleep(3000)
+WebUI.click(findTestObject('AddUserToCourse/Page_Qun tr vin/a_Ngi hc'))
+
+WebUI.setText(findTestObject('AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'), 'Vận hành CLS trong Doanh Nghiệp')
+
+WebUI.verifyTextPresent('Vận hành CLS trong Doanh Nghiệp', false)
+
+Thread.sleep(3000)
+
+WebUI.click(findTestObject('AddUserToCourse/Page_Ngi hc/a_Vn hnh CLS trong Doanh Nghip'))
+
+WebUI.callTestCase(findTestCase('UnssignUserToCours'), [:], FailureHandling.STOP_ON_FAILURE)
 

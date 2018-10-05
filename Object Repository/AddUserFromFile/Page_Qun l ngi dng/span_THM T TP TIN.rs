@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>span_THM T TP TIN</name>
    <tag></tag>
-   <elementGuidId>dcfde5ee-36f3-475b-b9a1-91819d6330f2</elementGuidId>
+   <elementGuidId>cb240faa-a09b-4a63-912f-56f77d6d6d58</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,41 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>mobile-hide</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Mật khẩu</value>
+      <value>THÊM TỪ TẬP TIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-dialog&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;login-form&quot;]/div[@class=&quot;account-form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;moduleContent&quot;)/div[@class=&quot;group-action btn-1 searchbox&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-add mobile-hide&quot;]/span[@class=&quot;mobile-hide&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

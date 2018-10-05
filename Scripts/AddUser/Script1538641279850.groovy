@@ -19,8 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 //Thread.sleep(30000)
 WebUI.callTestCase(findTestCase('DeleteUser'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(3000)
 
 WebUI.click(findTestObject('AddUser/Page_Qun l ngi dng/span_THM NGI DNG'))
 
@@ -37,5 +39,4 @@ WebUI.click(findTestObject('AddUser/Page_Qun l ngi dng/button_Lu'))
 Thread.sleep(10000)
 
 WebUI.verifyTextPresent('usertest', false)
-
 

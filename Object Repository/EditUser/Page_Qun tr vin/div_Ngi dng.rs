@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_UserName</name>
+   <name>div_Ngi dng</name>
    <tag></tag>
-   <elementGuidId>36f43cd3-7b53-48e9-8b9e-e8a9800486d3</elementGuidId>
+   <elementGuidId>973302d5-9b4f-4e88-a500-f2bcb3d76b6e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,41 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>UserName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Tên đăng nhập</value>
+      <value>Người dùng</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-dialog&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;login-form&quot;]/div[@class=&quot;account-form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;body-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;management-index&quot;]/div[@class=&quot;feature-list&quot;]/div[@class=&quot;feature&quot;]/div[@class=&quot;detail&quot;]/div[@class=&quot;name&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>input_EditUserName</name>
    <tag></tag>
-   <elementGuidId>5d4e2d37-bcb0-40ed-a735-851075d1ef3a</elementGuidId>
+   <elementGuidId>b90269b3-774d-44fc-b1bd-9b626250f513</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,28 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>EditUserName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>usertest</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>32</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,24 +49,10 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>Password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Mật khẩu</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-dialog&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;login-form&quot;]/div[@class=&quot;account-form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;editUserInfo&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-sm-8&quot;]/div[@class=&quot;lms-input-group&quot;]/div[@class=&quot;input-group-content&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
