@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User" time="358" tests="9" failures="0" errors="0">
+   <testsuite name="User" tests="9" failures="0" errors="0" time="358" timestamp="2018-10-12 15:55:27" hostname="buithan - 192.168.1.23" id="Test Suites/User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\User\\20181012_155525"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\User\\20181012_155525\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="buithan - 192.168.1.23"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.23"/>
+         <property name="sessionId" value="a74be84b49c2df39ae0a54de9180dc40"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/Fogot password" classname="Test Cases/Authentication/Fogot password" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:55:27 - [TEST_CASE][PASSED] - Test Cases/Authentication/Fogot password: Test Cases/Authentication/Fogot password
+
+2018-10-12 15:55:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:55:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:55:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:55:32 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:55:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Forgot password/Page_ng nhp/a_Qun mt khu' is clicked on
+
+2018-10-12 15:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Forgot password/Page_ng nhp/a_Qun mt khu' is clicked on
+
+2018-10-12 15:55:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:55:35 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-12 15:55:35 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-12 15:55:35 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quên mật khẩu'
+
+2018-10-12 15:55:36 - [MESSAGE][PASSED] - Current window's title is: 'Quên mật khẩu'
+
+2018-10-12 15:55:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quên mật khẩu' and expected text 'Quên mật khẩu' are matched  using regular expression
+
+2018-10-12 15:55:36 - [MESSAGE][PASSED] - Actual text 'Quên mật khẩu' and expected text 'Quên mật khẩu' are matched  using regular expression
+
+2018-10-12 15:55:36 - [TEST_STEP][PASSED] - setText: Text 'buithithan.cntt@gmail.com' is set on object 'Object Repository/Authemtincation/Forgot password/Page_Qun mt khu/input_Email'
+
+2018-10-12 15:55:36 - [MESSAGE][PASSED] - Text 'buithithan.cntt@gmail.com' is set on object 'Object Repository/Authemtincation/Forgot password/Page_Qun mt khu/input_Email'
+
+2018-10-12 15:55:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Forgot password/Page_Qun mt khu/button_GI' is clicked on
+
+2018-10-12 15:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Forgot password/Page_Qun mt khu/button_GI' is clicked on
+
+2018-10-12 15:55:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:55:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn' is present on page 
+
+2018-10-12 15:55:41 - [MESSAGE][PASSED] - Text 'Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn' is present on page 
+
+2018-10-12 15:55:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-12 15:55:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/Login" classname="Test Cases/Authentication/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:55:42 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login: Test Cases/Authentication/Login
+
+2018-10-12 15:55:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:55:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:55:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:55:45 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:55:45 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:55:45 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:55:45 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:55:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:55:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:55:48 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-12 15:55:48 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-12 15:55:48 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-12 15:55:48 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-12 15:55:48 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-12 15:55:48 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-12 15:55:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:55:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 15:55:51 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 15:55:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:55:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:55:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/UserInformation" classname="Test Cases/User/UserInformation" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:55:52 - [TEST_CASE][PASSED] - Test Cases/User/UserInformation: Test Cases/User/UserInformation
+
+2018-10-12 15:55:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:55:52 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 15:55:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:55:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 15:55:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:55:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:55:55 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:55:55 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:55:56 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:55:56 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:55:56 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:55:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:55:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:55:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserInformation/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UserInformation/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:55:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserInformation/Page_Qun tr vin/a_Thng tin c nhn' is clicked on
+
+2018-10-12 15:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UserInformation/Page_Qun tr vin/a_Thng tin c nhn' is clicked on
+
+2018-10-12 15:56:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserInformation/Page_Thng tin c nhn/button_Lu' is clicked on
+
+2018-10-12 15:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UserInformation/Page_Thng tin c nhn/button_Lu' is clicked on
+
+2018-10-12 15:56:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:03 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thông tin cá nhân của bạn đã được cập nhật' is present on page 
+
+2018-10-12 15:56:03 - [MESSAGE][PASSED] - Text 'Thông tin cá nhân của bạn đã được cập nhật' is present on page 
+
+2018-10-12 15:56:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserInformation/Page_Thng tin c nhn/button_' is clicked on
+
+2018-10-12 15:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UserInformation/Page_Thng tin c nhn/button_' is clicked on
+
+2018-10-12 15:56:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserInformation/Page_Thng tin c nhn/a_Kho hc' is clicked on
+
+2018-10-12 15:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UserInformation/Page_Thng tin c nhn/a_Kho hc' is clicked on
+
+2018-10-12 15:56:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-10-12 15:56:07 - [TEST_STEP][PASSED] - setText: Text 'thời gian video' is set on object 'Object Repository/UserInformation/Page_Thng tin c nhn/seach_course'
+
+2018-10-12 15:56:07 - [MESSAGE][PASSED] - Text 'thời gian video' is set on object 'Object Repository/UserInformation/Page_Thng tin c nhn/seach_course'
+
+2018-10-12 15:56:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'thời gian video' is present on page 
+
+2018-10-12 15:56:07 - [MESSAGE][PASSED] - Text 'thời gian video' is present on page 
+
+2018-10-12 15:56:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 15:56:10 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 15:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:56:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/EditUser" classname="Test Cases/User/EditUser" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:56:11 - [TEST_CASE][PASSED] - Test Cases/User/EditUser: Test Cases/User/EditUser
+
+2018-10-12 15:56:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User/AddUser' successfully
+
+2018-10-12 15:56:11 - [TEST_CASE][PASSED] - Test Cases/User/AddUser: Test Cases/User/AddUser
+
+2018-10-12 15:56:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User/DeleteUser' successfully
+
+2018-10-12 15:56:11 - [TEST_CASE][PASSED] - Test Cases/User/DeleteUser: Test Cases/User/DeleteUser
+
+2018-10-12 15:56:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User/OpenUserModun' successfully
+
+2018-10-12 15:56:11 - [TEST_CASE][PASSED] - Test Cases/User/OpenUserModun: Test Cases/User/OpenUserModun
+
+2018-10-12 15:56:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:56:12 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 15:56:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:56:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 15:56:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:56:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:56:15 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:56:15 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:56:16 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:56:16 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:56:16 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:56:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:56:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:56:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/User/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:56:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:23 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Quản lý người dùng' is present on page 
+
+2018-10-12 15:56:24 - [MESSAGE][PASSED] - Text 'Quản lý người dùng' is present on page 
+
+2018-10-12 15:56:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/OpenUserModun' successfully
+
+2018-10-12 15:56:24 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:56:24 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:56:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash' is clicked on
+
+2018-10-12 15:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash' is clicked on
+
+2018-10-12 15:56:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/button_ng' is clicked on
+
+2018-10-12 15:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/button_ng' is clicked on
+
+2018-10-12 15:56:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:33 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:56:33 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/User/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:56:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:36 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'usertest' is not present on page
+
+2018-10-12 15:56:36 - [MESSAGE][PASSED] - Text 'usertest' is not present on page
+
+2018-10-12 15:56:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/DeleteUser' successfully
+
+2018-10-12 15:56:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUser/Page_Qun l ngi dng/span_THM NGI DNG' is clicked on
+
+2018-10-12 15:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUser/Page_Qun l ngi dng/span_THM NGI DNG' is clicked on
+
+2018-10-12 15:56:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:56:44 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/User/AddUser/Page_Qun l ngi dng/input_NewUserName'
+
+2018-10-12 15:56:44 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/User/AddUser/Page_Qun l ngi dng/input_NewUserName'
+
+2018-10-12 15:56:44 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/User/AddUser/Page_Qun l ngi dng/input_NewPassword'
+
+2018-10-12 15:56:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/User/AddUser/Page_Qun l ngi dng/input_NewPassword'
+
+2018-10-12 15:56:45 - [TEST_STEP][PASSED] - setText: Text 'usertest@gmail.com' is set on object 'Object Repository/User/AddUser/Page_Qun l ngi dng/input_NewEmail'
+
+2018-10-12 15:56:45 - [MESSAGE][PASSED] - Text 'usertest@gmail.com' is set on object 'Object Repository/User/AddUser/Page_Qun l ngi dng/input_NewEmail'
+
+2018-10-12 15:56:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUser/Page_Qun l ngi dng/button_Lu' is clicked on
+
+2018-10-12 15:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUser/Page_Qun l ngi dng/button_Lu' is clicked on
+
+2018-10-12 15:56:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-10-12 15:56:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'usertest' is present on page 
+
+2018-10-12 15:56:55 - [MESSAGE][PASSED] - Text 'usertest' is present on page 
+
+2018-10-12 15:56:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/AddUser' successfully
+
+2018-10-12 15:56:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:56:56 - [TEST_STEP][PASSED] - setText: Text 'usertest1' is set on object 'Object Repository/User/EditUser/Page_- usertest/input_EditUserName'
+
+2018-10-12 15:56:56 - [MESSAGE][PASSED] - Text 'usertest1' is set on object 'Object Repository/User/EditUser/Page_- usertest/input_EditUserName'
+
+2018-10-12 15:56:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/EditUser/Page_- usertest/button_Lu' is clicked on
+
+2018-10-12 15:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/EditUser/Page_- usertest/button_Lu' is clicked on
+
+2018-10-12 15:56:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:56:59 - [TEST_STEP][PASSED] - setText: Text 'usertest1' is set on object 'Object Repository/User/EditUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:57:00 - [MESSAGE][PASSED] - Text 'usertest1' is set on object 'Object Repository/User/EditUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:57:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:03 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'usertest1' is present on page 
+
+2018-10-12 15:57:03 - [MESSAGE][PASSED] - Text 'usertest1' is present on page 
+
+2018-10-12 15:57:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 15:57:06 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 15:57:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:57:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:57:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AssignUserToCourse" classname="Test Cases/User/AssignUserToCourse" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:57:07 - [TEST_CASE][PASSED] - Test Cases/User/AssignUserToCourse: Test Cases/User/AssignUserToCourse
+
+2018-10-12 15:57:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User/OpenUserModun' successfully
+
+2018-10-12 15:57:07 - [TEST_CASE][PASSED] - Test Cases/User/OpenUserModun: Test Cases/User/OpenUserModun
+
+2018-10-12 15:57:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:57:07 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 15:57:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:57:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 15:57:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:57:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:57:11 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:57:11 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:57:11 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:57:11 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:57:11 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:57:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:57:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:57:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:57:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:19 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Quản lý người dùng' is present on page 
+
+2018-10-12 15:57:19 - [MESSAGE][PASSED] - Text 'Quản lý người dùng' is present on page 
+
+2018-10-12 15:57:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/OpenUserModun' successfully
+
+2018-10-12 15:57:19 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:57:19 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:57:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:57:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:57:26 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:57:27 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:57:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:57:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:57:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:57:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:57:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:57:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 15:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 15:57:41 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 15:57:41 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 15:57:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Vận hành CLS trong Doanh Nghiệp' is present on page 
+
+2018-10-12 15:57:41 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is present on page 
+
+2018-10-12 15:57:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:57:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Ngi hc/a_Vn hnh CLS trong Doanh Nghip' is clicked on
+
+2018-10-12 15:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Ngi hc/a_Vn hnh CLS trong Doanh Nghip' is clicked on
+
+2018-10-12 15:57:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User/UnssignUserToCours' successfully
+
+2018-10-12 15:57:45 - [TEST_CASE][PASSED] - Test Cases/User/UnssignUserToCours: Test Cases/User/UnssignUserToCours
+
+2018-10-12 15:57:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-10-12 15:57:56 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:57:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' is clicked on
+
+2018-10-12 15:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' is clicked on
+
+2018-10-12 15:58:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/User/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:58:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Quản lý người dùng' is present on page 
+
+2018-10-12 15:58:08 - [MESSAGE][PASSED] - Text 'Quản lý người dùng' is present on page 
+
+2018-10-12 15:58:08 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:58:08 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:58:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:58:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:58:15 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:58:16 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:58:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:58:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:58:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:58:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 15:58:28 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 15:58:28 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 15:58:28 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'Vận hành CLS trong Doanh Nghiệp' is not present on page
+
+2018-10-12 15:58:28 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is not present on page
+
+2018-10-12 15:58:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 15:58:31 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 15:58:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:58:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:58:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 15:58:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/UnssignUserToCours' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AssignUserToGroup" classname="Test Cases/User/AssignUserToGroup" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:58:31 - [TEST_CASE][PASSED] - Test Cases/User/AssignUserToGroup: Test Cases/User/AssignUserToGroup
+
+2018-10-12 15:58:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:58:31 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 15:58:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:58:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 15:58:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:58:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:58:35 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:58:35 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:58:35 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:58:35 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:58:36 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:58:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:58:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:58:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:58:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:43 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/User/AdddUserToGroup/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:58:43 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/User/AdddUserToGroup/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:58:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:58:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/span_Nhm ngi dng' is clicked on
+
+2018-10-12 15:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/span_Nhm ngi dng' is clicked on
+
+2018-10-12 15:58:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:48 - [TEST_STEP][PASSED] - setText: Text 'Nhóm quản lý' is set on object 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_txtUserGroupSearchBox'
+
+2018-10-12 15:58:48 - [MESSAGE][PASSED] - Text 'Nhóm quản lý' is set on object 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_txtUserGroupSearchBox'
+
+2018-10-12 15:58:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:58:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:58:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:58:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:58:53 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong doanh nghiệp' is set on object 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:58:54 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong doanh nghiệp' is set on object 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:58:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:56 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_ipt-action' is checked
+
+2018-10-12 15:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/User/AdddUserToGroup/Page_- admin1/input_ipt-action' is checked
+
+2018-10-12 15:58:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:58:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/span_Qun tr vin' is clicked on
+
+2018-10-12 15:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_- admin1/span_Qun tr vin' is clicked on
+
+2018-10-12 15:58:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_Qun tr vin/div_Nhm ngi dng' is clicked on
+
+2018-10-12 15:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_Qun tr vin/div_Nhm ngi dng' is clicked on
+
+2018-10-12 15:59:02 - [TEST_STEP][PASSED] - setText: Text 'Nhóm quản lý' is set on object 'Object Repository/User/AdddUserToGroup/Page_Qun l nhm ngi dng/input_txtGroupSearchBox'
+
+2018-10-12 15:59:03 - [MESSAGE][PASSED] - Text 'Nhóm quản lý' is set on object 'Object Repository/User/AdddUserToGroup/Page_Qun l nhm ngi dng/input_txtGroupSearchBox'
+
+2018-10-12 15:59:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_Qun l nhm ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_Qun l nhm ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AdddUserToGroup/Page_Nhm qun l/span_Ngi dng' is clicked on
+
+2018-10-12 15:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AdddUserToGroup/Page_Nhm qun l/span_Ngi dng' is clicked on
+
+2018-10-12 15:59:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:08 - [TEST_STEP][PASSED] - setText: Text 'Admin1' is set on object 'Object Repository/User/AdddUserToGroup/Page_Nhm qun l/input_txtGroupUserSearchBox'
+
+2018-10-12 15:59:08 - [MESSAGE][PASSED] - Text 'Admin1' is set on object 'Object Repository/User/AdddUserToGroup/Page_Nhm qun l/input_txtGroupUserSearchBox'
+
+2018-10-12 15:59:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:10 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/User/AdddUserToGroup/Page_Nhm qun l/input_ipt-action' is checked
+
+2018-10-12 15:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/User/AdddUserToGroup/Page_Nhm qun l/input_ipt-action' is checked
+
+2018-10-12 15:59:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:59:15 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 15:59:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 15:59:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 15:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 15:59:21 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 15:59:21 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 15:59:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Vận hành CLS trong Doanh Nghiệp' is present on page 
+
+2018-10-12 15:59:21 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is present on page 
+
+2018-10-12 15:59:21 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:59:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 15:59:24 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 15:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 15:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 15:59:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/UnsignUserToGroup" classname="Test Cases/User/UnsignUserToGroup" status="PASSED">
+         <system-out><![CDATA[2018-10-12 15:59:24 - [TEST_CASE][PASSED] - Test Cases/User/UnsignUserToGroup: Test Cases/User/UnsignUserToGroup
+
+2018-10-12 15:59:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:59:24 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 15:59:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 15:59:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 15:59:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 15:59:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:59:28 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 15:59:28 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:59:28 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 15:59:28 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:59:28 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 15:59:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 15:59:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 15:59:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 15:59:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:35 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/User/UnsignUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:59:35 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/User/UnsignUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 15:59:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 15:59:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/span_Nhm ngi dng' is clicked on
+
+2018-10-12 15:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/span_Nhm ngi dng' is clicked on
+
+2018-10-12 15:59:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:41 - [TEST_STEP][PASSED] - setText: Text 'Nhóm quản lý' is set on object 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_txtUserGroupSearchBox'
+
+2018-10-12 15:59:41 - [MESSAGE][PASSED] - Text 'Nhóm quản lý' is set on object 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_txtUserGroupSearchBox'
+
+2018-10-12 15:59:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 15:59:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 15:59:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 15:59:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-12 15:59:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:48 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong doanh nghiệp' is set on object 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:59:48 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong doanh nghiệp' is set on object 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-12 15:59:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:50 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_ipt-action' is not checked
+
+2018-10-12 15:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/User/UnsignUserToCourse/Page_- admin1/input_ipt-action' is not checked
+
+2018-10-12 15:59:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/span_Qun tr vin' is clicked on
+
+2018-10-12 15:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_- admin1/span_Qun tr vin' is clicked on
+
+2018-10-12 15:59:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun tr vin/div_Nhm ngi dng' is clicked on
+
+2018-10-12 15:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun tr vin/div_Nhm ngi dng' is clicked on
+
+2018-10-12 15:59:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 15:59:58 - [TEST_STEP][PASSED] - setText: Text 'Nhóm quản lý' is set on object 'Object Repository/User/UnsignUserToCourse/Page_Qun l nhm ngi dng/input_txtGroupSearchBox'
+
+2018-10-12 15:59:58 - [MESSAGE][PASSED] - Text 'Nhóm quản lý' is set on object 'Object Repository/User/UnsignUserToCourse/Page_Qun l nhm ngi dng/input_txtGroupSearchBox'
+
+2018-10-12 15:59:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun l nhm ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 16:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_Qun l nhm ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 16:00:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/UnsignUserToCourse/Page_Nhm qun l/span_Ngi dng' is clicked on
+
+2018-10-12 16:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/User/UnsignUserToCourse/Page_Nhm qun l/span_Ngi dng' is clicked on
+
+2018-10-12 16:00:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:04 - [TEST_STEP][PASSED] - setText: Text 'Admin1' is set on object 'Object Repository/User/UnsignUserToCourse/Page_Nhm qun l/input_txtGroupUserSearchBox'
+
+2018-10-12 16:00:04 - [MESSAGE][PASSED] - Text 'Admin1' is set on object 'Object Repository/User/UnsignUserToCourse/Page_Nhm qun l/input_txtGroupUserSearchBox'
+
+2018-10-12 16:00:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:06 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/User/UnsignUserToCourse/Page_Nhm qun l/input_ipt-action' is not checked
+
+2018-10-12 16:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/User/UnsignUserToCourse/Page_Nhm qun l/input_ipt-action' is not checked
+
+2018-10-12 16:00:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 16:00:11 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 16:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-12 16:00:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 16:00:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 16:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-12 16:00:15 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 16:00:15 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-12 16:00:15 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'Vận hành CLS trong Doanh Nghiệp' is not present on page
+
+2018-10-12 16:00:15 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is not present on page
+
+2018-10-12 16:00:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-12 16:00:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 16:00:18 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 16:00:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:00:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:00:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AssignUserToBranch" classname="Test Cases/User/AssignUserToBranch" status="PASSED">
+         <system-out><![CDATA[2018-10-12 16:00:18 - [TEST_CASE][PASSED] - Test Cases/User/AssignUserToBranch: Test Cases/User/AssignUserToBranch
+
+2018-10-12 16:00:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 16:00:19 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 16:00:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 16:00:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 16:00:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 16:00:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:00:22 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:00:22 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 16:00:22 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 16:00:22 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 16:00:22 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 16:00:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 16:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 16:00:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 16:00:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignUserToBranch/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 16:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignUserToBranch/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 16:00:27 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/AssignUserToBranch/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 16:00:27 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/AssignUserToBranch/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 16:00:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignUserToBranch/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 16:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignUserToBranch/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 16:00:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignUserToBranch/Page_- admin1/span_Chi nhnh' is clicked on
+
+2018-10-12 16:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignUserToBranch/Page_- admin1/span_Chi nhnh' is clicked on
+
+2018-10-12 16:00:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:33 - [TEST_STEP][PASSED] - setText: Text 'Cà Mau' is set on object 'Object Repository/AssignUserToBranch/Page_- admin1/input_txtUserBranchSearchBox'
+
+2018-10-12 16:00:33 - [MESSAGE][PASSED] - Text 'Cà Mau' is set on object 'Object Repository/AssignUserToBranch/Page_- admin1/input_txtUserBranchSearchBox'
+
+2018-10-12 16:00:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:00:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignUserToBranch/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 16:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignUserToBranch/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 16:00:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignUserToBranch/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 16:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignUserToBranch/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 16:00:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 16:00:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 16:00:40 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 16:00:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:00:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:00:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 16:00:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-12 16:00:41 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-12 16:00:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 16:00:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 16:00:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://camau-ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:00:44 - [MESSAGE][PASSED] - Navigate to 'https://camau-ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:00:44 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/AssignUserToBranch/Page_ng nhp (1)/input_UserName'
+
+2018-10-12 16:00:44 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/AssignUserToBranch/Page_ng nhp (1)/input_UserName'
+
+2018-10-12 16:00:44 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/AssignUserToBranch/Page_ng nhp (1)/input_Password'
+
+2018-10-12 16:00:44 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/AssignUserToBranch/Page_ng nhp (1)/input_Password'
+
+2018-10-12 16:00:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AssignUserToBranch/Page_ng nhp (1)/button_NG NHP' is clicked on
+
+2018-10-12 16:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AssignUserToBranch/Page_ng nhp (1)/button_NG NHP' is clicked on
+
+2018-10-12 16:00:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 16:00:50 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-12 16:00:50 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-12 16:00:50 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-12 16:00:50 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-12 16:00:50 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-12 16:00:50 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-12 16:00:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 16:00:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 16:00:55 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 16:00:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:00:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:00:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/UnsignUserToBranch" classname="Test Cases/User/UnsignUserToBranch" status="PASSED">
+         <system-out><![CDATA[2018-10-12 16:00:55 - [TEST_CASE][PASSED] - Test Cases/User/UnsignUserToBranch: Test Cases/User/UnsignUserToBranch
+
+2018-10-12 16:00:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 16:00:55 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-10-12 16:00:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 16:00:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-12 16:00:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 16:00:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:00:59 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:00:59 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 16:00:59 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_UserName'
+
+2018-10-12 16:00:59 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 16:00:59 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authemtincation/Login/Page_ng nhp/input_Password'
+
+2018-10-12 16:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 16:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-12 16:00:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-10-12 16:00:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:01:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UnsignUserToBranch/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 16:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsignUserToBranch/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-12 16:01:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:01:06 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/UnsignUserToBranch/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 16:01:06 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/UnsignUserToBranch/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-12 16:01:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:01:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UnsignUserToBranch/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 16:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsignUserToBranch/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-12 16:01:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UnsignUserToBranch/Page_- admin1/span_Chi nhnh' is clicked on
+
+2018-10-12 16:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsignUserToBranch/Page_- admin1/span_Chi nhnh' is clicked on
+
+2018-10-12 16:01:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:01:11 - [TEST_STEP][PASSED] - setText: Text 'Cà Mau' is set on object 'Object Repository/UnsignUserToBranch/Page_- admin1/input_txtUserBranchSearchBox'
+
+2018-10-12 16:01:11 - [MESSAGE][PASSED] - Text 'Cà Mau' is set on object 'Object Repository/UnsignUserToBranch/Page_- admin1/input_txtUserBranchSearchBox'
+
+2018-10-12 16:01:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UnsignUserToBranch/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 16:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsignUserToBranch/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-12 16:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UnsignUserToBranch/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 16:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsignUserToBranch/Page_- admin1/button_Lu' is clicked on
+
+2018-10-12 16:01:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-12 16:01:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 16:01:19 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-10-12 16:01:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/span_fa fa-caret-down' is clicked on
+
+2018-10-12 16:01:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Authemtincation/Logout/Page_Qun tr vin/a_ng xut' is clicked on
+
+2018-10-12 16:01:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-10-12 16:01:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-12 16:01:19 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-12 16:01:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 16:01:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 16:01:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://camau-ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:01:22 - [MESSAGE][PASSED] - Navigate to 'https://camau-ntmtien.cls.vn/account/login' successfully
+
+2018-10-12 16:01:22 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/UnsignUserToBranch/Page_ng nhp (1)/input_UserName'
+
+2018-10-12 16:01:23 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/UnsignUserToBranch/Page_ng nhp (1)/input_UserName'
+
+2018-10-12 16:01:23 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/UnsignUserToBranch/Page_ng nhp (1)/input_Password'
+
+2018-10-12 16:01:23 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/UnsignUserToBranch/Page_ng nhp (1)/input_Password'
+
+2018-10-12 16:01:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UnsignUserToBranch/Page_ng nhp (1)/button_NG NHP' is clicked on
+
+2018-10-12 16:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsignUserToBranch/Page_ng nhp (1)/button_NG NHP' is clicked on
+
+2018-10-12 16:01:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-10-12 16:01:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tên đăng nhập hoặc mật khẩu không đúng' is present on page 
+
+2018-10-12 16:01:25 - [MESSAGE][PASSED] - Text 'Tên đăng nhập hoặc mật khẩu không đúng' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-12 15:55:27 - [TEST_SUITE][PASSED] - User: Test Cases/User/UnsignUserToBranch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

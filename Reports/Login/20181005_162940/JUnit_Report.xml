@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="217" tests="2" failures="2" errors="0">
+   <testsuite name="Login" tests="2" failures="2" errors="0" time="217" timestamp="2018-10-05 16:29:42" hostname="buithan - 192.168.1.121" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Login\\20181005_162940"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Login\\20181005_162940\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Login\\20181005_162940\\1538731998808.png"/>
+         <property name="hostName" value="buithan - 192.168.1.121"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.121"/>
+         <property name="sessionId" value="f95e1d1f08195f7cbf7c516d8410b967"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-05 16:29:42 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-05 16:29:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:29:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:29:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:29:48 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:29:48 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:29:48 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:29:48 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:29:48 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:29:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:29:54 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:29:54 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:29:54 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:29:54 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:29:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:29:54 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fogot password" classname="Test Cases/Fogot password" status="PASSED">
+         <system-out><![CDATA[2018-10-05 16:29:54 - [TEST_CASE][PASSED] - Test Cases/Fogot password: Test Cases/Fogot password
+
+2018-10-05 16:29:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:29:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-05 16:29:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:29:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:29:58 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot password/Page_ng nhp/a_Qun mt khu' is clicked on
+
+2018-10-05 16:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot password/Page_ng nhp/a_Qun mt khu' is clicked on
+
+2018-10-05 16:29:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:30:03 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:30:03 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:30:03 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quên mật khẩu'
+
+2018-10-05 16:30:03 - [MESSAGE][PASSED] - Current window's title is: 'Quên mật khẩu'
+
+2018-10-05 16:30:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quên mật khẩu' and expected text 'Quên mật khẩu' are matched  using regular expression
+
+2018-10-05 16:30:03 - [MESSAGE][PASSED] - Actual text 'Quên mật khẩu' and expected text 'Quên mật khẩu' are matched  using regular expression
+
+2018-10-05 16:30:03 - [TEST_STEP][PASSED] - setText: Text 'buithithan.cntt@gmail.com' is set on object 'Object Repository/Forgot password/Page_Qun mt khu/input_Email'
+
+2018-10-05 16:30:03 - [MESSAGE][PASSED] - Text 'buithithan.cntt@gmail.com' is set on object 'Object Repository/Forgot password/Page_Qun mt khu/input_Email'
+
+2018-10-05 16:30:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot password/Page_Qun mt khu/button_GI' is clicked on
+
+2018-10-05 16:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot password/Page_Qun mt khu/button_GI' is clicked on
+
+2018-10-05 16:30:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:30:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn' is present on page 
+
+2018-10-05 16:30:08 - [MESSAGE][PASSED] - Text 'Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn' is present on page 
+
+2018-10-05 16:30:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-05 16:30:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EditUser" classname="Test Cases/EditUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-10-05 16:30:09 - [TEST_CASE][FAILED] - Test Cases/EditUser: Test Cases/EditUser FAILED because (of) Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-05 16:30:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/AddUser' successfully
+
+2018-10-05 16:30:10 - [TEST_CASE][PASSED] - Test Cases/AddUser: Test Cases/AddUser
+
+2018-10-05 16:30:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(30000): null
+
+2018-10-05 16:30:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/DeleteUser' successfully
+
+2018-10-05 16:30:40 - [TEST_CASE][PASSED] - Test Cases/DeleteUser: Test Cases/DeleteUser
+
+2018-10-05 16:30:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/OpenUserModun' successfully
+
+2018-10-05 16:30:40 - [TEST_CASE][PASSED] - Test Cases/OpenUserModun: Test Cases/OpenUserModun
+
+2018-10-05 16:30:40 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(30000): null
+
+2018-10-05 16:31:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-10-05 16:31:10 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-05 16:31:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:31:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:31:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:31:13 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:31:13 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:31:14 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:31:14 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:31:14 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:31:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:31:19 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:31:19 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:31:19 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:31:19 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:31:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:31:19 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:31:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-10-05 16:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-05 16:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-05 16:31:21 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:31:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Quản lý người dùng' is present on page 
+
+2018-10-05 16:31:24 - [MESSAGE][PASSED] - Text 'Quản lý người dùng' is present on page 
+
+2018-10-05 16:31:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OpenUserModun' successfully
+
+2018-10-05 16:31:24 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:31:24 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:31:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash' is clicked on
+
+2018-10-05 16:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash' is clicked on
+
+2018-10-05 16:31:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:31:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/button_ng' is clicked on
+
+2018-10-05 16:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/button_ng' is clicked on
+
+2018-10-05 16:31:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:31:34 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:31:34 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:31:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:31:37 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'usertest' is not present on page
+
+2018-10-05 16:31:37 - [MESSAGE][PASSED] - Text 'usertest' is not present on page
+
+2018-10-05 16:31:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DeleteUser' successfully
+
+2018-10-05 16:31:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUser/Page_Qun l ngi dng/span_THM NGI DNG' is clicked on
+
+2018-10-05 16:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUser/Page_Qun l ngi dng/span_THM NGI DNG' is clicked on
+
+2018-10-05 16:31:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:31:42 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewUserName'
+
+2018-10-05 16:31:42 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewUserName'
+
+2018-10-05 16:31:42 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewPassword'
+
+2018-10-05 16:31:42 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewPassword'
+
+2018-10-05 16:31:42 - [TEST_STEP][PASSED] - setText: Text 'usertest@gmail.com' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewEmail'
+
+2018-10-05 16:31:43 - [MESSAGE][PASSED] - Text 'usertest@gmail.com' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewEmail'
+
+2018-10-05 16:31:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUser/Page_Qun l ngi dng/button_Lu' is clicked on
+
+2018-10-05 16:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUser/Page_Qun l ngi dng/button_Lu' is clicked on
+
+2018-10-05 16:31:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-10-05 16:31:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'usertest' is present on page 
+
+2018-10-05 16:31:53 - [MESSAGE][PASSED] - Text 'usertest' is present on page 
+
+2018-10-05 16:31:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-05 16:31:54 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-05 16:31:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AddUser' successfully
+
+2018-10-05 16:31:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-05 16:31:54 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-05 16:31:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-05 16:30:09 - [TEST_CASE][FAILED] - Test Cases/EditUser: Test Cases/EditUser FAILED because (of) Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AssignUserToCourse" classname="Test Cases/AssignUserToCourse" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f95e1d1f08195f7cbf7c516d8410b967)"/>
+         <system-out><![CDATA[2018-10-05 16:31:54 - [TEST_CASE][FAILED] - Test Cases/AssignUserToCourse: Test Cases/AssignUserToCourse FAILED because (of) Unable to click on object 'Object Repository/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f95e1d1f08195f7cbf7c516d8410b967)
+
+2018-10-05 16:31:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/OpenUserModun' successfully
+
+2018-10-05 16:31:54 - [TEST_CASE][PASSED] - Test Cases/OpenUserModun: Test Cases/OpenUserModun
+
+2018-10-05 16:31:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(30000): null
+
+2018-10-05 16:32:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-10-05 16:32:24 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-05 16:32:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:32:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:32:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:32:27 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:32:27 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:32:27 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:32:27 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:32:28 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:32:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:32:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:32:33 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:32:33 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:32:33 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:32:33 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:32:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:32:33 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:32:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-10-05 16:32:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-05 16:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-05 16:32:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:32:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Quản lý người dùng' is present on page 
+
+2018-10-05 16:32:38 - [MESSAGE][PASSED] - Text 'Quản lý người dùng' is present on page 
+
+2018-10-05 16:32:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OpenUserModun' successfully
+
+2018-10-05 16:32:38 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:32:38 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:32:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-05 16:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil' is clicked on
+
+2018-10-05 16:32:42 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:32:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-05 16:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_- admin1/span_Kho hc' is clicked on
+
+2018-10-05 16:32:45 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-05 16:32:46 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'
+
+2018-10-05 16:32:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:32:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-05 16:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_- admin1/input_ipt-action' is clicked on
+
+2018-10-05 16:32:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-05 16:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_- admin1/button_Lu' is clicked on
+
+2018-10-05 16:32:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:32:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-05 16:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-05 16:32:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-05 16:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_Qun tr vin/a_Ngi hc' is clicked on
+
+2018-10-05 16:32:58 - [TEST_STEP][PASSED] - setText: Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-05 16:32:58 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is set on object 'Object Repository/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'
+
+2018-10-05 16:32:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Vận hành CLS trong Doanh Nghiệp' is present on page 
+
+2018-10-05 16:32:58 - [MESSAGE][PASSED] - Text 'Vận hành CLS trong Doanh Nghiệp' is present on page 
+
+2018-10-05 16:32:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUserToCourse/Page_Ngi hc/a_Vn hnh CLS trong Doanh Nghip' is clicked on
+
+2018-10-05 16:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_Ngi hc/a_Vn hnh CLS trong Doanh Nghip' is clicked on
+
+2018-10-05 16:33:03 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UnssignUserToCours' (Root cause: Call Test Case 'Test Cases/UnssignUserToCours' failed)
+
+2018-10-05 16:33:03 - [TEST_CASE][FAILED] - Test Cases/UnssignUserToCours: Test Cases/UnssignUserToCours FAILED because (of) Unable to click on object 'Object Repository/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f95e1d1f08195f7cbf7c516d8410b967)
+
+2018-10-05 16:33:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-10-05 16:33:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-05 16:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down' is hovered
+
+2018-10-05 16:33:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:33:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f95e1d1f08195f7cbf7c516d8410b967)
+
+2018-10-05 16:33:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f95e1d1f08195f7cbf7c516d8410b967)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Login\\20181005_162940\\1538731998808.png]]
+
+2018-10-05 16:33:19 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UnssignUserToCours' (Root cause: Call Test Case 'Test Cases/UnssignUserToCours' failed)]]></system-out>
+         <system-err><![CDATA[2018-10-05 16:31:54 - [TEST_CASE][FAILED] - Test Cases/AssignUserToCourse: Test Cases/AssignUserToCourse FAILED because (of) Unable to click on object 'Object Repository/AddUserToCourse/Page_Ngi hc (1)/a_Qun tr vin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f95e1d1f08195f7cbf7c516d8410b967)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-05 16:29:42 - [TEST_SUITE][FAILED] - Login: Test Cases/EditUser FAILED because (of) Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-10-05 16:29:42 - [TEST_SUITE][FAILED] - Login: Test Cases/EditUser FAILED because (of) Unable to click on object 'Object Repository/EditUser/Page_Qun l ngi dng/span_fa fa-pencil' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

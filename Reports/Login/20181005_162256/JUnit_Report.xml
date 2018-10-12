@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="111" tests="3" failures="1" errors="0">
+   <testsuite name="Login" tests="3" failures="1" errors="0" time="111" timestamp="2018-10-05 16:22:58" hostname="buithan - 192.168.1.121" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Login\\20181005_162256"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Login\\20181005_162256\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="buithan - 192.168.1.121"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.121"/>
+         <property name="sessionId" value="3c3421063a2020415ba476c724ffb583"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-05 16:22:58 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-05 16:22:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:23:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:23:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:23:04 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:23:04 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:23:04 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:23:04 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:23:04 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:23:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:23:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:23:10 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:23:10 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:23:10 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:23:10 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:23:10 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:23:10 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fogot password" classname="Test Cases/Fogot password" status="PASSED">
+         <system-out><![CDATA[2018-10-05 16:23:10 - [TEST_CASE][PASSED] - Test Cases/Fogot password: Test Cases/Fogot password
+
+2018-10-05 16:23:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:23:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-05 16:23:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:23:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:23:14 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot password/Page_ng nhp/a_Qun mt khu' is clicked on
+
+2018-10-05 16:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot password/Page_ng nhp/a_Qun mt khu' is clicked on
+
+2018-10-05 16:23:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:23:19 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:23:19 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:23:19 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quên mật khẩu'
+
+2018-10-05 16:23:19 - [MESSAGE][PASSED] - Current window's title is: 'Quên mật khẩu'
+
+2018-10-05 16:23:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quên mật khẩu' and expected text 'Quên mật khẩu' are matched  using regular expression
+
+2018-10-05 16:23:19 - [MESSAGE][PASSED] - Actual text 'Quên mật khẩu' and expected text 'Quên mật khẩu' are matched  using regular expression
+
+2018-10-05 16:23:19 - [TEST_STEP][PASSED] - setText: Text 'buithithan.cntt@gmail.com' is set on object 'Object Repository/Forgot password/Page_Qun mt khu/input_Email'
+
+2018-10-05 16:23:20 - [MESSAGE][PASSED] - Text 'buithithan.cntt@gmail.com' is set on object 'Object Repository/Forgot password/Page_Qun mt khu/input_Email'
+
+2018-10-05 16:23:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot password/Page_Qun mt khu/button_GI' is clicked on
+
+2018-10-05 16:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot password/Page_Qun mt khu/button_GI' is clicked on
+
+2018-10-05 16:23:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:23:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn' is present on page 
+
+2018-10-05 16:23:25 - [MESSAGE][PASSED] - Text 'Chúng tôi đã gửi một email tới hòm thư của bạn, vui lòng kiểm tra và làm theo hướng dẫn để thiết lập lại tài khoản của bạn' is present on page 
+
+2018-10-05 16:23:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-05 16:23:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddUser" classname="Test Cases/AddUser" status="PASSED">
+         <system-out><![CDATA[2018-10-05 16:23:26 - [TEST_CASE][PASSED] - Test Cases/AddUser: Test Cases/AddUser
+
+2018-10-05 16:23:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(30000): null
+
+2018-10-05 16:23:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/DeleteUser' successfully
+
+2018-10-05 16:23:56 - [TEST_CASE][PASSED] - Test Cases/DeleteUser: Test Cases/DeleteUser
+
+2018-10-05 16:23:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/OpenUserModun' successfully
+
+2018-10-05 16:23:56 - [TEST_CASE][PASSED] - Test Cases/OpenUserModun: Test Cases/OpenUserModun
+
+2018-10-05 16:23:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-10-05 16:23:56 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-05 16:23:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:23:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:23:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:24:00 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:24:00 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:24:00 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:24:00 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:24:00 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:24:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:24:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:24:05 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:24:05 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:24:05 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:24:05 - [MESSAGE][PASSED] - Current window's title is: 'Quản trị viên'
+
+2018-10-05 16:24:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:24:05 - [MESSAGE][PASSED] - Actual text 'Quản trị viên' and expected text 'Quản trị viên' are matched  using regular expression
+
+2018-10-05 16:24:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-10-05 16:24:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-05 16:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OpenUserModun/Page_Qun tr vin/div_Ngi dng' is clicked on
+
+2018-10-05 16:24:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:24:10 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Quản lý người dùng' is present on page 
+
+2018-10-05 16:24:10 - [MESSAGE][PASSED] - Text 'Quản lý người dùng' is present on page 
+
+2018-10-05 16:24:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OpenUserModun' successfully
+
+2018-10-05 16:24:10 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:24:10 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:24:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:24:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash' is clicked on
+
+2018-10-05 16:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash' is clicked on
+
+2018-10-05 16:24:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:24:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/button_ng' is clicked on
+
+2018-10-05 16:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteUser/Page_Qun l ngi dng/button_ng' is clicked on
+
+2018-10-05 16:24:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:24:20 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:24:20 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'
+
+2018-10-05 16:24:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-10-05 16:24:23 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'usertest' is not present on page
+
+2018-10-05 16:24:23 - [MESSAGE][PASSED] - Text 'usertest' is not present on page
+
+2018-10-05 16:24:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DeleteUser' successfully
+
+2018-10-05 16:24:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUser/Page_Qun l ngi dng/span_THM NGI DNG' is clicked on
+
+2018-10-05 16:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUser/Page_Qun l ngi dng/span_THM NGI DNG' is clicked on
+
+2018-10-05 16:24:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:24:28 - [TEST_STEP][PASSED] - setText: Text 'usertest' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewUserName'
+
+2018-10-05 16:24:28 - [MESSAGE][PASSED] - Text 'usertest' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewUserName'
+
+2018-10-05 16:24:28 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewPassword'
+
+2018-10-05 16:24:28 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewPassword'
+
+2018-10-05 16:24:28 - [TEST_STEP][PASSED] - setText: Text 'usertest@gmail.com' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewEmail'
+
+2018-10-05 16:24:29 - [MESSAGE][PASSED] - Text 'usertest@gmail.com' is set on object 'Object Repository/AddUser/Page_Qun l ngi dng/input_NewEmail'
+
+2018-10-05 16:24:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddUser/Page_Qun l ngi dng/button_Lu' is clicked on
+
+2018-10-05 16:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AddUser/Page_Qun l ngi dng/button_Lu' is clicked on
+
+2018-10-05 16:24:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-10-05 16:24:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'usertest' is present on page 
+
+2018-10-05 16:24:39 - [MESSAGE][PASSED] - Text 'usertest' is present on page 
+
+2018-10-05 16:24:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-05 16:24:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AssignUserToCourse" classname="Test Cases/AssignUserToCourse" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-10-05 16:24:40 - [TEST_CASE][FAILED] - Test Cases/AssignUserToCourse: Test Cases/AssignUserToCourse FAILED because (of) Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)
+
+2018-10-05 16:24:40 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/OpenUserModun' (Root cause: Call Test Case 'Test Cases/OpenUserModun' failed)
+
+2018-10-05 16:24:40 - [TEST_CASE][FAILED] - Test Cases/OpenUserModun: Test Cases/OpenUserModun FAILED because (of) Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)
+
+2018-10-05 16:24:40 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Login' (Root cause: Call Test Case 'Test Cases/Login' failed)
+
+2018-10-05 16:24:40 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)
+
+2018-10-05 16:24:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 16:24:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 16:24:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:24:43 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-10-05 16:24:43 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:24:43 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Login/Page_ng nhp/input_UserName'
+
+2018-10-05 16:24:43 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:24:43 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_ng nhp/input_Password'
+
+2018-10-05 16:24:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_ng nhp/button_NG NHP' is clicked on
+
+2018-10-05 16:24:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-10-05 16:24:49 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-05 16:24:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-05 16:24:49 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Đăng nhập'
+
+2018-10-05 16:24:49 - [MESSAGE][PASSED] - Current window's title is: 'Đăng nhập'
+
+2018-10-05 16:24:49 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)
+
+2018-10-05 16:24:49 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)
+
+2018-10-05 16:24:49 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Login' (Root cause: Call Test Case 'Test Cases/Login' failed)
+
+2018-10-05 16:24:49 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/OpenUserModun' (Root cause: Call Test Case 'Test Cases/OpenUserModun' failed)]]></system-out>
+         <system-err><![CDATA[2018-10-05 16:24:40 - [TEST_CASE][FAILED] - Test Cases/AssignUserToCourse: Test Cases/AssignUserToCourse FAILED because (of) Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-05 16:22:58 - [TEST_SUITE][FAILED] - Login: Test Cases/AssignUserToCourse FAILED because (of) Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)]]></system-out>
+      <system-err><![CDATA[2018-10-05 16:22:58 - [TEST_SUITE][FAILED] - Login: Test Cases/AssignUserToCourse FAILED because (of) Unable to verify match between actual text 'Đăng nhập' and expected text 'Quản trị viên' using regular expression (Root cause: Actual text 'Đăng nhập' and expected text 'Quản trị viên' are not matched using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>
