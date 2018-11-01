@@ -24,11 +24,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ntmtien.cls.vn/account/login')
 
-WebUI.setText(findTestObject('Authentincation/Login/Page_ng nhp/input_UserName'), 'admin1')
+WebUI.setText(findTestObject('Authentincation/Login/Page Login/input_UserName'), 'admin1')
 
-WebUI.setText(findTestObject('Authentincation/Login/Page_ng nhp/input_Password'), '123456')
+WebUI.setText(findTestObject('Authentincation/Login/Page Login/input_Password'), '123456')
 
-WebUI.click(findTestObject('Authentincation/Login/Page_ng nhp/button_NG NHP'))
+WebUI.click(findTestObject('Authentincation/Login/Page Login/button_login'))
 
 Thread.sleep(3000)
 

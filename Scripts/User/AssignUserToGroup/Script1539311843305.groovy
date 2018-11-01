@@ -19,74 +19,69 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-Thread.sleep(2000)
+WebUI.callTestCase(findTestCase('User/OpenUserModun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_Qun tr vin/div_Ngi dng'))
-
-Thread.sleep(2000)
-
-WebUI.setText(findTestObject('User/AdddUserToGroup/Page_Qun l ngi dng/input_txtUserSearchBox'), 'admin1')
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'admin1')
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_Qun l ngi dng/span_fa fa-pencil'))
+WebUI.click(findTestObject('User/Page Manage User/icon_edit_user'))
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_- admin1/span_Nhm ngi dng'))
-
-Thread.sleep(2000)
-
-WebUI.setText(findTestObject('User/AdddUserToGroup/Page_- admin1/input_txtUserGroupSearchBox'), 'Nhóm quản lý')
+WebUI.click(findTestObject('User/Page Edit User/tab_group_user'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_- admin1/input_ipt-action'))
+WebUI.setText(findTestObject('User/Page Edit User/Tab Group/input_txtUserGroupSearchBox'), 'Nhóm quản lý')
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_- admin1/button_Lu'))
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('User/Page Edit User/Tab Group/input_checkbox_action'))
+
+WebUI.click(findTestObject('User/Page Edit User/Tab Group/button_save_assign_group'))
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_- admin1/span_Kho hc'))
+WebUI.click(findTestObject('User/Page Edit User/tab_course'))
 
-WebUI.setText(findTestObject('User/AdddUserToGroup/Page_- admin1/input_txtUserCourseSearchBox'), 'Vận hành CLS trong doanh nghiệp')
-
-Thread.sleep(2000)
-
-WebUI.verifyElementChecked(findTestObject('User/AdddUserToGroup/Page_- admin1/input_ipt-action'), 1)
+WebUI.setText(findTestObject('User/Page Edit User/Tab Course/input_txtUserCourseSearchBox'), 'Vận hành CLS trong doanh nghiệp')
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_- admin1/span_Qun tr vin'))
+WebUI.verifyElementChecked(findTestObject('User/Page Edit User/Tab Group/input_checkbox_action'), 1)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_Qun tr vin/div_Nhm ngi dng'))
-
-WebUI.setText(findTestObject('User/AdddUserToGroup/Page_Qun l nhm ngi dng/input_txtGroupSearchBox'), 'Nhóm quản lý')
+WebUI.click(findTestObject('User/Page Edit User/span_link_administrator'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_Qun l nhm ngi dng/span_fa fa-pencil'))
+WebUI.click(findTestObject('Administrator/div_modun_group_user'))
 
-WebUI.click(findTestObject('User/AdddUserToGroup/Page_Nhm qun l/span_Ngi dng'))
+WebUI.setText(findTestObject('Group User/Page Manage Group User/input_txtGroupSearchBox'), 'Nhóm quản lý')
+
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('User/AdddUserToGroup/Page_Nhm qun l/input_txtGroupUserSearchBox'), 'Admin1')
+WebUI.click(findTestObject('Group User/Page Manage Group User/icon_edit_group_user'))
+
+WebUI.click(findTestObject('Group User/Page Manage Group User/Page Edit Group User/tab_user'))
 Thread.sleep(2000)
 
-WebUI.verifyElementChecked(findTestObject('User/AdddUserToGroup/Page_Nhm qun l/input_ipt-action'), 1)
+WebUI.setText(findTestObject('Group User/Page Manage Group User/Page Edit Group User/input_txtGroupUserSearchBox'), 'Admin1')
+Thread.sleep(2000)
+
+WebUI.verifyElementChecked(findTestObject('Group User/Page Manage Group User/Page Edit Group User/input_checkbox_action'), 1)
 
 Thread.sleep(5000)
 
-WebUI.mouseOver(findTestObject('User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down'))
+WebUI.mouseOver(findTestObject('Administrator/select_user_action'))
 
 Thread.sleep(5000)
 
-//WebUI.click(findTestObject('User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down'))
+//WebUI.click(findTestObject('Administrator/select_user_action'))
 //Thread.sleep(3000)
-WebUI.click(findTestObject('User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc'))
+WebUI.click(findTestObject('Administrator/a_role_learner'))
 
-WebUI.setText(findTestObject('User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'), 'Vận hành CLS trong Doanh Nghiệp')
+WebUI.setText(findTestObject('User/Page Learner/input_course_search_box'), 'Vận hành CLS trong Doanh Nghiệp')
 
 WebUI.verifyTextPresent('Vận hành CLS trong Doanh Nghiệp', false)
 Thread.sleep(3000)

@@ -20,29 +20,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('User/OpenUserModun'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'admin1')
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AssignUserToBranch/Page_Qun tr vin/div_Ngi dng'))
+WebUI.click(findTestObject('User/Page Manage User/icon_edit_user'))
 
-WebUI.setText(findTestObject('User/AssignUserToBranch/Page_Qun l ngi dng/input_txtUserSearchBox'), 'admin1')
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('User/AssignUserToBranch/Page_Qun l ngi dng/span_fa fa-pencil'))
-
-WebUI.click(findTestObject('User/AssignUserToBranch/Page_- admin1/span_Chi nhnh'))
+WebUI.click(findTestObject('User/Page Edit User/tab_branch'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('User/AssignUserToBranch/Page_- admin1/input_txtUserBranchSearchBox'), 'Cà Mau')
+WebUI.setText(findTestObject('User/Page Edit User/Tab Branch/input_txtUserBranchSearchBox'), 'Cà Mau')
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('User/AssignUserToBranch/Page_- admin1/input_ipt-action'))
+WebUI.click(findTestObject('User/Page Edit User/Tab Branch/checkbox_action'))
 
-WebUI.click(findTestObject('User/AssignUserToBranch/Page_- admin1/button_Lu'))
+WebUI.click(findTestObject('User/Page Edit User/Tab Branch/button_Save'))
 
 Thread.sleep(5000)
 
@@ -54,11 +50,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://camau-ntmtien.cls.vn/account/login')
 
-WebUI.setText(findTestObject('User/AssignUserToBranch/Page_ng nhp (1)/input_UserName'), 'admin1')
+WebUI.setText(findTestObject('Authentincation/Page Login Branch/input_UserName'), 'admin1')
 
-WebUI.setText(findTestObject('User/AssignUserToBranch/Page_ng nhp (1)/input_Password'), '123456')
+WebUI.setText(findTestObject('Authentincation/Page Login Branch/input_Password'), '123456')
 
-WebUI.click(findTestObject('User/AssignUserToBranch/Page_ng nhp (1)/button_NG NHP'))
+WebUI.click(findTestObject('Authentincation/Page Login Branch/button_login'))
 
 Thread.sleep(5000)
 

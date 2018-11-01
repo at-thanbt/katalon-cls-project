@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User/OpenUserModun/Page_Qun tr vin/div_Ngi dng'))
+WebUI.click(findTestObject('Administrator/div_modun_user'))
 
 Thread.sleep(3000)
 

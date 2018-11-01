@@ -24,19 +24,23 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('User/DeleteUser'), [:], FailureHandling.STOP_ON_FAILURE)
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/AddUser/Page_Qun l ngi dng/span_THM NGI DNG'))
+WebUI.click(findTestObject('User/Page Manage User/button_add_user'))
 
 Thread.sleep(5000)
 
-WebUI.setText(findTestObject('User/AddUser/Page_Qun l ngi dng/input_NewUserName'), 'usertest')
+WebUI.setText(findTestObject('User/Page Manage User/input_NewUserName'), 'usertest')
 
-WebUI.setText(findTestObject('User/AddUser/Page_Qun l ngi dng/input_NewPassword'), '123456')
+WebUI.setText(findTestObject('User/Page Manage User/input_NewPassword'), '123456')
 
-WebUI.setText(findTestObject('User/AddUser/Page_Qun l ngi dng/input_NewEmail'), 'usertest@gmail.com')
+WebUI.setText(findTestObject('User/Page Manage User/input_NewEmail'), 'usertest@gmail.com')
 
-WebUI.click(findTestObject('User/AddUser/Page_Qun l ngi dng/button_Lu'))
+WebUI.click(findTestObject('User/Page Manage User/button_save_addUser'))
 
 Thread.sleep(10000)
+
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'usertest')
+
+Thread.sleep(2000)
 
 WebUI.verifyTextPresent('usertest', false)
 

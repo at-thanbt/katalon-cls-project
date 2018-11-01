@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('Authentication/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Authentincation/Logout/Page_Qun tr vin/span_fa fa-caret-down'))
+WebUI.click(findTestObject('Authentincation/Logout/Page Administrator/select_user_action'))
 
-WebUI.click(findTestObject('Authentincation/Logout/Page_Qun tr vin/a_ng xut'))
+WebUI.click(findTestObject('Authentincation/Logout/Page Administrator/logout'))
 
 ///Thread.sleep(3000)
 

@@ -22,19 +22,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('User/OpenUserModun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('User/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'), 'usertest')
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'usertest')
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/DeleteUser/Page_Qun l ngi dng/span_fa fa-trash'))
+WebUI.click(findTestObject('User/Page Manage User/icon_delete_user'))
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/DeleteUser/Page_Qun l ngi dng/button_ng'))
+WebUI.click(findTestObject('User/Page Manage User/button_agree_delete_user'))
 
 Thread.sleep(3000)
 
-WebUI.setText(findTestObject('User/DeleteUser/Page_Qun l ngi dng/input_txtUserSearchBox'), 'usertest')
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'usertest')
 
 Thread.sleep(3000)
 

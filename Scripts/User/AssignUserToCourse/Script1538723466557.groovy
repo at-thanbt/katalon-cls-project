@@ -22,41 +22,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('User/OpenUserModun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('User/AddUserToCourse/Page_Qun l ngi dng/input_txtUserSearchBox'), 'admin1')
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'admin1')
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/AddUserToCourse/Page_Qun l ngi dng/span_fa fa-pencil'))
+WebUI.click(findTestObject('User/Page Manage User/icon_edit_user'))
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/AddUserToCourse/Page_- admin1/span_Kho hc'))
+WebUI.click(findTestObject('User/Page Edit User/tab_course'))
 
-WebUI.setText(findTestObject('User/AddUserToCourse/Page_- admin1/input_txtUserCourseSearchBox'), 'Vận hành CLS trong Doanh Nghiệp')
+WebUI.setText(findTestObject('User/Page Edit User/input_search_course_in_user'), 'Vận hành CLS trong Doanh Nghiệp')
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/AddUserToCourse/Page_- admin1/input_ipt-action'))
+WebUI.click(findTestObject('User/Page Edit User/Tab Course/checkbox_assign_course'))
 
-WebUI.click(findTestObject('User/AddUserToCourse/Page_- admin1/button_Lu'))
+WebUI.click(findTestObject('User/Page Edit User/Tab Course/button_save_assign_course'))
 
 Thread.sleep(5000)
 
-WebUI.mouseOver(findTestObject('User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down'))
+WebUI.mouseOver(findTestObject('Administrator/select_user_action'))
 
 Thread.sleep(5000)
 
-//WebUI.click(findTestObject('User/AddUserToCourse/Page_Qun tr vin/span_fa fa-caret-down'))
+//WebUI.click(findTestObject('Administrator/select_user_action'))
 //Thread.sleep(3000)
-WebUI.click(findTestObject('User/AddUserToCourse/Page_Qun tr vin/a_Ngi hc'))
+WebUI.click(findTestObject('Administrator/a_role_learner'))
 
-WebUI.setText(findTestObject('User/AddUserToCourse/Page_Ngi hc/input_txtCourseSearchBox'), 'Vận hành CLS trong Doanh Nghiệp')
+WebUI.setText(findTestObject('User/Page Learner/input_course_search_box'), 'Vận hành CLS trong Doanh Nghiệp')
 
 WebUI.verifyTextPresent('Vận hành CLS trong Doanh Nghiệp', false)
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('User/AddUserToCourse/Page_Ngi hc/a_Vn hnh CLS trong Doanh Nghip'))
+WebUI.click(findTestObject('User/Page Learner/a_name_of_course'))
 
-WebUI.callTestCase(findTestCase('User/UnssignUserToCours'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('User/UnssignUserToCourse'), [:], FailureHandling.STOP_ON_FAILURE)
 

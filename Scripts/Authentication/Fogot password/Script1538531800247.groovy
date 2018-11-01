@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ntmtien.cls.vn/account/login')
 
-WebUI.click(findTestObject('Authentincation/Forgot password/Page_ng nhp/a_Qun mt khu'))
+WebUI.click(findTestObject('Authentincation/Forgot password/Page Login/a_forgot_password'))
 
 Thread.sleep(3000)
 
@@ -34,9 +34,9 @@ String title = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(title, 'Quên mật khẩu', true)
 
-WebUI.setText(findTestObject('Authentincation/Forgot password/Page_Qun mt khu/input_Email'), 'buithithan.cntt@gmail.com')
+WebUI.setText(findTestObject('Authentincation/Forgot password/Page Forgot Password/input_Email'), 'buithithan.cntt@gmail.com')
 
-WebUI.click(findTestObject('Authentincation/Forgot password/Page_Qun mt khu/button_GI'))
+WebUI.click(findTestObject('Authentincation/Forgot password/Page Forgot Password/button_send_forgotpass'))
 
 Thread.sleep(5000)
 

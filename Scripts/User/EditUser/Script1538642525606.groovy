@@ -22,15 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('User/AddUser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User/EditUser/Page_Qun l ngi dng/span_fa fa-pencil'))
+WebUI.click(findTestObject('User/Page Manage User/icon_edit_user'))
 
-WebUI.setText(findTestObject('User/EditUser/Page_- usertest/input_EditUserName'), 'usertest1')
+WebUI.setText(findTestObject('User/Page Edit User/input_EditUserName'), 'usertest1')
 
-WebUI.click(findTestObject('User/EditUser/Page_- usertest/button_Lu'))
+WebUI.click(findTestObject('User/Page Edit User/button_save_edit_user'))
 
 Thread.sleep(3000)
 
-WebUI.setText(findTestObject('User/EditUser/Page_Qun l ngi dng/input_txtUserSearchBox'), 'usertest1')
+WebUI.setText(findTestObject('User/Page Manage User/input_txtUserSearchBox'), 'usertest1')
 
 Thread.sleep(3000)
 
