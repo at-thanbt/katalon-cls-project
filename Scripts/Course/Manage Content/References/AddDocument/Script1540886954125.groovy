@@ -19,26 +19,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
-Thread.sleep(2000)
+//WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Course/ManageContent/References/tab_reference'))
+Thread.sleep(5000)
 
-Thread.sleep(000)
+WebUI.click(findTestObject('Course/ManageContent/NameContent/tab_reference'))
+
+Thread.sleep(3000)
 
 WebUI.click(findTestObject('Course/ManageContent/References/button_add_reference'))
 
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Course/ManageContent/References/button_add_document'))
+
 Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Course/ManageContent/References/input_document_name'), 'Document 1')
 
 WebUI.uploadFile(findTestObject('Course/ManageContent/References/button_upload'), 'E:\\api.xlsx')
+
 Thread.sleep(5000)
 
 WebUI.click(findTestObject('Course/ManageContent/References/button_save'))
 
+Thread.sleep(5000)
 
+WebUI.click(findTestObject('Course/ManageContent/NameContent/tab_content'))
 

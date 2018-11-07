@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;setting-content&quot;)/div[@class=&quot;btn-group kbtn-hidden open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[17]/a[1][count(. | //a[(text() = 'Bài kiểm tra' or . = 'Bài kiểm tra')]) = count(//a[(text() = 'Bài kiểm tra' or . = 'Bài kiểm tra')])]</value>
+         <value>//a[(text() = 'Bài kiểm tra' or . = 'Bài kiểm tra')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,7 +41,7 @@
       <value>Bài kiểm tra</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

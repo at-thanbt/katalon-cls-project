@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(5000)
 WebUI.click(findTestObject('Course/ManageContent/NameContent/span_select_list_content'))
 
 Thread.sleep(2000)
@@ -40,28 +40,28 @@ Thread.sleep(5000)
 WebUI.click(findTestObject('Course/ManageContent/Flash/button_save'))
 
 //Sua document
-Thread.sleep(5000)
+//Thread.sleep(5000)
 
-WebUI.click(findTestObject('Course/ManageContent/Flash/icon_edit_flash'))
+//WebUI.click(findTestObject('Course/ManageContent/Flash/icon_edit_flash'))
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/ManageContent/Flash/input_name_flash'), 'Flash')
+//WebUI.setText(findTestObject('Course/ManageContent/Flash/input_name_flash'), 'Flash')
 
-Thread.sleep(3000)
+//Thread.sleep(3000)
 
-WebUI.uploadFile(findTestObject('Course/ManageContent/Flash/button_upload_file'), 'E:\\ban nhac 01.swf')
+//WebUI.uploadFile(findTestObject('Course/ManageContent/Flash/button_upload_file'), 'E:\\ban nhac 01.swf')
 
-Thread.sleep(7000)
+//Thread.sleep(7000)
 
-WebUI.click(findTestObject('Course/ManageContent/Flash/button_save_edit_flash'))
+//WebUI.click(findTestObject('Course/ManageContent/Flash/button_save_edit_flash'))
 
 //Xoa document
-Thread.sleep(5000)
+//Thread.sleep(5000)
 
-WebUI.click(findTestObject('Course/ManageContent/Flash/icon_delete_flash'))
+//WebUI.click(findTestObject('Course/ManageContent/Flash/icon_delete_flash'))
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/ManageContent/Flash/button_agree_delete_flash'))
+//WebUI.click(findTestObject('Course/ManageContent/Flash/button_agree_delete_flash'))
 

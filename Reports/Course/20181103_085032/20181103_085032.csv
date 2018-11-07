@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Course,Chrome 70.0.3538.77,,2018-11-03 08:50:35,2018-11-03 08:51:09,34.322s,PASSED
+,,,,,,
+Test Cases/Course/AddCourse,Chrome 70.0.3538.77,,2018-11-03 08:50:35,2018-11-03 08:50:58,22.601s,PASSED
+callTestCase,Chrome 70.0.3538.77,,2018-11-03 08:50:36,2018-11-03 08:50:44,7.733s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-03 08:50:44,2018-11-03 08:50:49,5.104s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.77,,2018-11-03 08:50:49,2018-11-03 08:50:51,2.009s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-03 08:50:51,2018-11-03 08:50:51,0.143s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.77,,2018-11-03 08:50:51,2018-11-03 08:50:53,2.001s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-03 08:50:53,2018-11-03 08:50:53,0.502s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.77,,2018-11-03 08:50:53,2018-11-03 08:50:55,2.001s,PASSED
+selectOptionByValue,Chrome 70.0.3538.77,,2018-11-03 08:50:55,2018-11-03 08:50:56,0.300s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.77,,2018-11-03 08:50:56,2018-11-03 08:50:58,2.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.77,,2018-11-03 08:50:58,2018-11-03 08:50:58,0.008s,PASSED
+Statement - js = driver,Chrome 70.0.3538.77,,2018-11-03 08:50:58,2018-11-03 08:50:58,0.022s,PASSED
+"Statement - js.executeScript(""CKEDITOR.instances[""GioiThieuKhoaHoc""].setData(""<p>testContent</p>"")"")",Chrome 70.0.3538.77,,2018-11-03 08:50:58,2018-11-03 08:50:58,0.025s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-03 08:50:58,2018-11-03 08:50:58,0.178s,PASSED
+,,,,,,
+Test Cases/Course/GoToContent,Chrome 70.0.3538.77,,2018-11-03 08:50:58,2018-11-03 08:51:08,10.083s,PASSED
+Statement - java.lang.Thread.sleep(4000),Chrome 70.0.3538.77,,2018-11-03 08:50:58,2018-11-03 08:51:02,4.001s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-03 08:51:02,2018-11-03 08:51:02,0.350s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.77,,2018-11-03 08:51:02,2018-11-03 08:51:04,2.001s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-03 08:51:04,2018-11-03 08:51:06,1.483s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.77,,2018-11-03 08:51:06,2018-11-03 08:51:08,2.001s,PASSED

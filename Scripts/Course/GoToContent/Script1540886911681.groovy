@@ -20,18 +20,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.click(findTestObject('Administrator/div_modun_course'))
+//WebUI.click(findTestObject('Administrator/div_modun_course'))
 
-Thread.sleep(2000)
+Thread.sleep(4000)
 
-WebUI.setText(findTestObject('Course/Page Manage Course/input_txtSearchBox'), 'khóa học test auto')
+WebUI.setText(findTestObject('Course/Page Manage Course/input_txtSearchBox'), 'Khóa học tự động do thân tạo')
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Course/Page Manage Course/icon_detail_course'))
-Thread.sleep(2000)
-
-
+Thread.sleep(3000)

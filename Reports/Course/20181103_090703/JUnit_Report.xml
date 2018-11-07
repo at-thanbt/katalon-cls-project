@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Course" time="377" tests="12" failures="2" errors="0">
+   <testsuite name="Course" tests="12" failures="2" errors="0" time="377" timestamp="2018-11-03 09:07:05" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Course">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_090703"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_090703\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_090703\\1541211165277.png, C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_090703\\1541211201751.png"/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="dfb83187a33b53580a40f9b200ba8075"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Course/AddCourse" classname="Test Cases/Course/AddCourse" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:07:06 - [TEST_CASE][PASSED] - Test Cases/Course/AddCourse: Test Cases/Course/AddCourse
+
+2018-11-03 09:07:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-03 09:07:06 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-11-03 09:07:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-03 09:07:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-03 09:07:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-03 09:07:11 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-03 09:07:11 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-03 09:07:12 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-03 09:07:12 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-03 09:07:12 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-03 09:07:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-03 09:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-03 09:07:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-03 09:07:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_course' is clicked on
+
+2018-11-03 09:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_course' is clicked on
+
+2018-11-03 09:07:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/Page Manage Course/addcourse/button_add_course' is clicked on
+
+2018-11-03 09:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/Page Manage Course/addcourse/button_add_course' is clicked on
+
+2018-11-03 09:07:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:21 - [TEST_STEP][PASSED] - setText: Text 'Khóa học tự động do thân tạo' is set on object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'
+
+2018-11-03 09:07:22 - [MESSAGE][PASSED] - Text 'Khóa học tự động do thân tạo' is set on object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'
+
+2018-11-03 09:07:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'  using regular expression
+
+2018-11-03 09:07:24 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'  using regular expression
+
+2018-11-03 09:07:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:26 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-03 09:07:26 - [TEST_STEP][PASSED] - Statement - js = driver: null
+
+2018-11-03 09:07:26 - [TEST_STEP][PASSED] - Statement - js.executeScript("CKEDITOR.instances["GioiThieuKhoaHoc"].setData("<p>testContent</p>")"): null
+
+2018-11-03 09:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_saveCourse' is clicked on
+
+2018-11-03 09:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_saveCourse' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/GoToContent" classname="Test Cases/Course/GoToContent" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:07:26 - [TEST_CASE][PASSED] - Test Cases/Course/GoToContent: Test Cases/Course/GoToContent
+
+2018-11-03 09:07:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): null
+
+2018-11-03 09:07:30 - [TEST_STEP][PASSED] - setText: Text 'Khóa học tự động do thân tạo' is set on object 'Object Repository/Course/Page Manage Course/input_txtSearchBox'
+
+2018-11-03 09:07:31 - [MESSAGE][PASSED] - Text 'Khóa học tự động do thân tạo' is set on object 'Object Repository/Course/Page Manage Course/input_txtSearchBox'
+
+2018-11-03 09:07:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/Page Manage Course/icon_detail_course' is clicked on
+
+2018-11-03 09:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/Page Manage Course/icon_detail_course' is clicked on
+
+2018-11-03 09:07:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Section/AddChuyenDe" classname="Test Cases/Course/Manage Content/Section/AddChuyenDe" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:07:36 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Section/AddChuyenDe: Test Cases/Course/Manage Content/Section/AddChuyenDe
+
+2018-11-03 09:07:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:07:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:07:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_section' is clicked on
+
+2018-11-03 09:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_section' is clicked on
+
+2018-11-03 09:07:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:46 - [TEST_STEP][PASSED] - setText: Text 'Chuyên đề 1' is set on object 'Object Repository/Course/ManageContent/Section/input_text_section'
+
+2018-11-03 09:07:46 - [MESSAGE][PASSED] - Text 'Chuyên đề 1' is set on object 'Object Repository/Course/ManageContent/Section/input_text_section'
+
+2018-11-03 09:07:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Section/button_save' is clicked on
+
+2018-11-03 09:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Section/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Document/AddDocument" classname="Test Cases/Course/Manage Content/Document/AddDocument" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:07:48 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Document/AddDocument: Test Cases/Course/Manage Content/Document/AddDocument
+
+2018-11-03 09:07:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:07:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:07:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_document' is clicked on
+
+2018-11-03 09:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_document' is clicked on
+
+2018-11-03 09:07:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:07:59 - [TEST_STEP][PASSED] - setText: Text 'Tài liệu 1' is set on object 'Object Repository/Course/ManageContent/Document/input_name_document'
+
+2018-11-03 09:07:59 - [MESSAGE][PASSED] - Text 'Tài liệu 1' is set on object 'Object Repository/Course/ManageContent/Document/input_name_document'
+
+2018-11-03 09:07:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:01 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Course/ManageContent/Document/button_upload_file'
+
+2018-11-03 09:08:01 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Course/ManageContent/Document/button_upload_file'
+
+2018-11-03 09:08:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:08:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Document/button_save' is clicked on
+
+2018-11-03 09:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Document/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Document/AddDocumentWithQuestion" classname="Test Cases/Course/Manage Content/Document/AddDocumentWithQuestion" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:08:06 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Document/AddDocumentWithQuestion: Test Cases/Course/Manage Content/Document/AddDocumentWithQuestion
+
+2018-11-03 09:08:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:08:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:08:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_document' is clicked on
+
+2018-11-03 09:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_document' is clicked on
+
+2018-11-03 09:08:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:17 - [TEST_STEP][PASSED] - setText: Text 'document question' is set on object 'Object Repository/Course/ManageContent/Document/input_name_document'
+
+2018-11-03 09:08:17 - [MESSAGE][PASSED] - Text 'document question' is set on object 'Object Repository/Course/ManageContent/Document/input_name_document'
+
+2018-11-03 09:08:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_question' is clicked on
+
+2018-11-03 09:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_question' is clicked on
+
+2018-11-03 09:08:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_add_question' is clicked on
+
+2018-11-03 09:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_add_question' is clicked on
+
+2018-11-03 09:08:21 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Tạo câu hỏi'
+
+2018-11-03 09:08:22 - [MESSAGE][PASSED] - Switched to window with title: 'Tạo câu hỏi'
+
+2018-11-03 09:08:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:24 - [TEST_STEP][PASSED] - setText: Text 'Câu hỏi một lựa chọn' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/textarea_editor_name_of_question'
+
+2018-11-03 09:08:24 - [MESSAGE][PASSED] - Text 'Câu hỏi một lựa chọn' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/textarea_editor_name_of_question'
+
+2018-11-03 09:08:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/a_create_new_answer_single' is clicked on
+
+2018-11-03 09:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/a_create_new_answer_single' is clicked on
+
+2018-11-03 09:08:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:29 - [TEST_STEP][PASSED] - setText: Text 'đáp án 1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_answer_single_answer'
+
+2018-11-03 09:08:29 - [MESSAGE][PASSED] - Text 'đáp án 1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_answer_single_answer'
+
+2018-11-03 09:08:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/input_true_radio_single_answer' is clicked on
+
+2018-11-03 09:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/input_true_radio_single_answer' is clicked on
+
+2018-11-03 09:08:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_save_question' is clicked on
+
+2018-11-03 09:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_save_question' is clicked on
+
+2018-11-03 09:08:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:35 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Thêm nội dung'
+
+2018-11-03 09:08:35 - [MESSAGE][PASSED] - Switched to window with title: 'Thêm nội dung'
+
+2018-11-03 09:08:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/checkbox_choose_question' is clicked on
+
+2018-11-03 09:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/checkbox_choose_question' is clicked on
+
+2018-11-03 09:08:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:39 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Course/ManageContent/Document/button_upload_file'
+
+2018-11-03 09:08:39 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Course/ManageContent/Document/button_upload_file'
+
+2018-11-03 09:08:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Document/button_save' is clicked on
+
+2018-11-03 09:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Document/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Document/AddDocumentWithTime" classname="Test Cases/Course/Manage Content/Document/AddDocumentWithTime" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:08:44 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Document/AddDocumentWithTime: Test Cases/Course/Manage Content/Document/AddDocumentWithTime
+
+2018-11-03 09:08:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:08:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:08:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_document' is clicked on
+
+2018-11-03 09:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_document' is clicked on
+
+2018-11-03 09:08:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:55 - [TEST_STEP][PASSED] - setText: Text 'document with time' is set on object 'Object Repository/Course/ManageContent/Document/input_name_document'
+
+2018-11-03 09:08:55 - [MESSAGE][PASSED] - Text 'document with time' is set on object 'Object Repository/Course/ManageContent/Document/input_name_document'
+
+2018-11-03 09:08:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_time' is clicked on
+
+2018-11-03 09:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_time' is clicked on
+
+2018-11-03 09:08:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:08:59 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_minutes'
+
+2018-11-03 09:08:59 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_minutes'
+
+2018-11-03 09:08:59 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_second'
+
+2018-11-03 09:08:59 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_second'
+
+2018-11-03 09:08:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:01 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Course/ManageContent/Document/button_upload_file'
+
+2018-11-03 09:09:01 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Course/ManageContent/Document/button_upload_file'
+
+2018-11-03 09:09:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Document/button_save' is clicked on
+
+2018-11-03 09:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Document/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Flash/AddFlash" classname="Test Cases/Course/Manage Content/Flash/AddFlash" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:09:06 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Flash/AddFlash: Test Cases/Course/Manage Content/Flash/AddFlash
+
+2018-11-03 09:09:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:09:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:09:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_flash' is clicked on
+
+2018-11-03 09:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_flash' is clicked on
+
+2018-11-03 09:09:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:17 - [TEST_STEP][PASSED] - setText: Text 'Flash' is set on object 'Object Repository/Course/ManageContent/Flash/input_name_flash'
+
+2018-11-03 09:09:17 - [MESSAGE][PASSED] - Text 'Flash' is set on object 'Object Repository/Course/ManageContent/Flash/input_name_flash'
+
+2018-11-03 09:09:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:19 - [TEST_STEP][PASSED] - uploadFile: File 'E:\ban nhac 01.swf' sent to object: 'Object Repository/Course/ManageContent/Flash/button_upload_file'
+
+2018-11-03 09:09:19 - [MESSAGE][PASSED] - File 'E:\ban nhac 01.swf' sent to object: 'Object Repository/Course/ManageContent/Flash/button_upload_file'
+
+2018-11-03 09:09:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Flash/button_save' is clicked on
+
+2018-11-03 09:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Flash/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Flash/AddFlashWithQuestion" classname="Test Cases/Course/Manage Content/Flash/AddFlashWithQuestion" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:09:24 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Flash/AddFlashWithQuestion: Test Cases/Course/Manage Content/Flash/AddFlashWithQuestion
+
+2018-11-03 09:09:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:09:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:09:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_flash' is clicked on
+
+2018-11-03 09:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_flash' is clicked on
+
+2018-11-03 09:09:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:35 - [TEST_STEP][PASSED] - setText: Text 'flash question' is set on object 'Object Repository/Course/ManageContent/Flash/input_name_flash'
+
+2018-11-03 09:09:35 - [MESSAGE][PASSED] - Text 'flash question' is set on object 'Object Repository/Course/ManageContent/Flash/input_name_flash'
+
+2018-11-03 09:09:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_question' is clicked on
+
+2018-11-03 09:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_question' is clicked on
+
+2018-11-03 09:09:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_add_question' is clicked on
+
+2018-11-03 09:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_add_question' is clicked on
+
+2018-11-03 09:09:39 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Tạo câu hỏi'
+
+2018-11-03 09:09:40 - [MESSAGE][PASSED] - Switched to window with title: 'Tạo câu hỏi'
+
+2018-11-03 09:09:40 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:42 - [TEST_STEP][PASSED] - setText: Text 'Câu hỏi một lựa chọn' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/textarea_editor_name_of_question'
+
+2018-11-03 09:09:43 - [MESSAGE][PASSED] - Text 'Câu hỏi một lựa chọn' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/textarea_editor_name_of_question'
+
+2018-11-03 09:09:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/a_create_new_answer_single' is clicked on
+
+2018-11-03 09:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/a_create_new_answer_single' is clicked on
+
+2018-11-03 09:09:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:47 - [TEST_STEP][PASSED] - setText: Text 'đáp án 1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_answer_single_answer'
+
+2018-11-03 09:09:47 - [MESSAGE][PASSED] - Text 'đáp án 1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_answer_single_answer'
+
+2018-11-03 09:09:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/input_true_radio_single_answer' is clicked on
+
+2018-11-03 09:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/input_true_radio_single_answer' is clicked on
+
+2018-11-03 09:09:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_save_question' is clicked on
+
+2018-11-03 09:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_save_question' is clicked on
+
+2018-11-03 09:09:51 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:53 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Thêm nội dung'
+
+2018-11-03 09:09:53 - [MESSAGE][PASSED] - Switched to window with title: 'Thêm nội dung'
+
+2018-11-03 09:09:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/checkbox_choose_question' is clicked on
+
+2018-11-03 09:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/checkbox_choose_question' is clicked on
+
+2018-11-03 09:09:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:09:57 - [TEST_STEP][PASSED] - uploadFile: File 'E:\ban nhac 01.swf' sent to object: 'Object Repository/Course/ManageContent/Flash/button_upload_file'
+
+2018-11-03 09:09:57 - [MESSAGE][PASSED] - File 'E:\ban nhac 01.swf' sent to object: 'Object Repository/Course/ManageContent/Flash/button_upload_file'
+
+2018-11-03 09:09:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Flash/button_save' is clicked on
+
+2018-11-03 09:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Flash/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Flash/AddFlashWithTime" classname="Test Cases/Course/Manage Content/Flash/AddFlashWithTime" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:10:02 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Flash/AddFlashWithTime: Test Cases/Course/Manage Content/Flash/AddFlashWithTime
+
+2018-11-03 09:10:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:10:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:10:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_flash' is clicked on
+
+2018-11-03 09:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_flash' is clicked on
+
+2018-11-03 09:10:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:13 - [TEST_STEP][PASSED] - setText: Text 'flash with time' is set on object 'Object Repository/Course/ManageContent/Flash/input_name_flash'
+
+2018-11-03 09:10:13 - [MESSAGE][PASSED] - Text 'flash with time' is set on object 'Object Repository/Course/ManageContent/Flash/input_name_flash'
+
+2018-11-03 09:10:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_time' is clicked on
+
+2018-11-03 09:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_time' is clicked on
+
+2018-11-03 09:10:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:17 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_minutes'
+
+2018-11-03 09:10:17 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_minutes'
+
+2018-11-03 09:10:17 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_second'
+
+2018-11-03 09:10:17 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_second'
+
+2018-11-03 09:10:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:19 - [TEST_STEP][PASSED] - uploadFile: File 'E:\ban nhac 01.swf' sent to object: 'Object Repository/Course/ManageContent/Flash/button_upload_file'
+
+2018-11-03 09:10:20 - [MESSAGE][PASSED] - File 'E:\ban nhac 01.swf' sent to object: 'Object Repository/Course/ManageContent/Flash/button_upload_file'
+
+2018-11-03 09:10:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:10:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Flash/button_save' is clicked on
+
+2018-11-03 09:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Flash/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Scorm/AddScorm" classname="Test Cases/Course/Manage Content/Scorm/AddScorm" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:10:25 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Scorm/AddScorm: Test Cases/Course/Manage Content/Scorm/AddScorm
+
+2018-11-03 09:10:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:10:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:10:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_scorm' is clicked on
+
+2018-11-03 09:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_scorm' is clicked on
+
+2018-11-03 09:10:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:35 - [TEST_STEP][PASSED] - setText: Text 'scorm 1' is set on object 'Object Repository/Course/ManageContent/Scorm/input_scorm_name'
+
+2018-11-03 09:10:35 - [MESSAGE][PASSED] - Text 'scorm 1' is set on object 'Object Repository/Course/ManageContent/Scorm/input_scorm_name'
+
+2018-11-03 09:10:35 - [TEST_STEP][PASSED] - uploadFile: File 'E:\Test Feedback Score - Tracking result.zip' sent to object: 'Object Repository/Course/ManageContent/Scorm/button_add_scorm_file'
+
+2018-11-03 09:10:35 - [MESSAGE][PASSED] - File 'E:\Test Feedback Score - Tracking result.zip' sent to object: 'Object Repository/Course/ManageContent/Scorm/button_add_scorm_file'
+
+2018-11-03 09:10:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(15000): null
+
+2018-11-03 09:10:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Scorm/button_save_scorm' is clicked on
+
+2018-11-03 09:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Scorm/button_save_scorm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Scorm/AddScormWithQuestion" classname="Test Cases/Course/Manage Content/Scorm/AddScormWithQuestion" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:10:50 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Scorm/AddScormWithQuestion: Test Cases/Course/Manage Content/Scorm/AddScormWithQuestion
+
+2018-11-03 09:10:51 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:10:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:10:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:10:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_scorm' is clicked on
+
+2018-11-03 09:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_scorm' is clicked on
+
+2018-11-03 09:10:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:01 - [TEST_STEP][PASSED] - setText: Text 'scorm with question' is set on object 'Object Repository/Course/ManageContent/Scorm/input_scorm_name'
+
+2018-11-03 09:11:01 - [MESSAGE][PASSED] - Text 'scorm with question' is set on object 'Object Repository/Course/ManageContent/Scorm/input_scorm_name'
+
+2018-11-03 09:11:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_question' is clicked on
+
+2018-11-03 09:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_question' is clicked on
+
+2018-11-03 09:11:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_add_question' is clicked on
+
+2018-11-03 09:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_add_question' is clicked on
+
+2018-11-03 09:11:04 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Tạo câu hỏi'
+
+2018-11-03 09:11:05 - [MESSAGE][PASSED] - Switched to window with title: 'Tạo câu hỏi'
+
+2018-11-03 09:11:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:07 - [TEST_STEP][PASSED] - setText: Text 'Câu hỏi một lựa chọn' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/textarea_editor_name_of_question'
+
+2018-11-03 09:11:07 - [MESSAGE][PASSED] - Text 'Câu hỏi một lựa chọn' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/textarea_editor_name_of_question'
+
+2018-11-03 09:11:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/a_create_new_answer_single' is clicked on
+
+2018-11-03 09:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/a_create_new_answer_single' is clicked on
+
+2018-11-03 09:11:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:11 - [TEST_STEP][PASSED] - setText: Text 'đáp án 1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_answer_single_answer'
+
+2018-11-03 09:11:11 - [MESSAGE][PASSED] - Text 'đáp án 1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_answer_single_answer'
+
+2018-11-03 09:11:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/input_true_radio_single_answer' is clicked on
+
+2018-11-03 09:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/input_true_radio_single_answer' is clicked on
+
+2018-11-03 09:11:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_save_question' is clicked on
+
+2018-11-03 09:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/button_save_question' is clicked on
+
+2018-11-03 09:11:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:17 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Thêm nội dung'
+
+2018-11-03 09:11:17 - [MESSAGE][PASSED] - Switched to window with title: 'Thêm nội dung'
+
+2018-11-03 09:11:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/checkbox_choose_question' is clicked on
+
+2018-11-03 09:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/checkbox_choose_question' is clicked on
+
+2018-11-03 09:11:19 - [TEST_STEP][PASSED] - uploadFile: File 'E:\Test Feedback Score - Tracking result.zip' sent to object: 'Object Repository/Course/ManageContent/Scorm/button_add_scorm_file'
+
+2018-11-03 09:11:20 - [MESSAGE][PASSED] - File 'E:\Test Feedback Score - Tracking result.zip' sent to object: 'Object Repository/Course/ManageContent/Scorm/button_add_scorm_file'
+
+2018-11-03 09:11:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(15000): null
+
+2018-11-03 09:11:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Scorm/button_save_scorm' is clicked on
+
+2018-11-03 09:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Scorm/button_save_scorm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Scorm/AddScormWithTime" classname="Test Cases/Course/Manage Content/Scorm/AddScormWithTime" status="PASSED">
+         <system-out><![CDATA[2018-11-03 09:11:35 - [TEST_CASE][PASSED] - Test Cases/Course/Manage Content/Scorm/AddScormWithTime: Test Cases/Course/Manage Content/Scorm/AddScormWithTime
+
+2018-11-03 09:11:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:11:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:11:40 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/content_scorm' is clicked on
+
+2018-11-03 09:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/content_scorm' is clicked on
+
+2018-11-03 09:11:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:45 - [TEST_STEP][PASSED] - setText: Text 'scorm with time' is set on object 'Object Repository/Course/ManageContent/Scorm/input_scorm_name'
+
+2018-11-03 09:11:45 - [MESSAGE][PASSED] - Text 'scorm with time' is set on object 'Object Repository/Course/ManageContent/Scorm/input_scorm_name'
+
+2018-11-03 09:11:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_time' is clicked on
+
+2018-11-03 09:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/QuestionInContent/radio_time' is clicked on
+
+2018-11-03 09:11:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:49 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_minutes'
+
+2018-11-03 09:11:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_minutes'
+
+2018-11-03 09:11:49 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_second'
+
+2018-11-03 09:11:50 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Course/ManageContent/QuestionInContent/input_time_second'
+
+2018-11-03 09:11:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:11:52 - [TEST_STEP][PASSED] - uploadFile: File 'E:\Test Feedback Score - Tracking result.zip' sent to object: 'Object Repository/Course/ManageContent/Scorm/button_add_scorm_file'
+
+2018-11-03 09:11:52 - [MESSAGE][PASSED] - File 'E:\Test Feedback Score - Tracking result.zip' sent to object: 'Object Repository/Course/ManageContent/Scorm/button_add_scorm_file'
+
+2018-11-03 09:11:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(15000): null
+
+2018-11-03 09:12:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/Scorm/button_save_scorm' is clicked on
+
+2018-11-03 09:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/Scorm/button_save_scorm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Survey/AddSurvey" classname="Test Cases/Course/Manage Content/Survey/AddSurvey" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)"/>
+         <system-out><![CDATA[2018-11-03 09:12:07 - [TEST_CASE][FAILED] - Test Cases/Course/Manage Content/Survey/AddSurvey: Test Cases/Course/Manage Content/Survey/AddSurvey FAILED because (of) Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)
+
+2018-11-03 09:12:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:12:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' is clicked on
+
+2018-11-03 09:12:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 09:12:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)
+
+2018-11-03 09:12:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_090703\\1541211165277.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-03 09:12:07 - [TEST_CASE][FAILED] - Test Cases/Course/Manage Content/Survey/AddSurvey: Test Cases/Course/Manage Content/Survey/AddSurvey FAILED because (of) Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/Manage Content/Test/AddTest" classname="Test Cases/Course/Manage Content/Test/AddTest" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' located by 'By.xpath: id(&quot;setting-content&quot;)/div[@class=&quot;btn-group kbtn-hidden&quot;]/button[@class=&quot;btn btn-add btn-sm dropdown-toggle limit-btn&quot;]/span[@class=&quot;fa fa-caret-down&quot;]' not found)"/>
+         <system-out><![CDATA[2018-11-03 09:12:45 - [TEST_CASE][FAILED] - Test Cases/Course/Manage Content/Test/AddTest: Test Cases/Course/Manage Content/Test/AddTest FAILED because (of) Unable to click on object 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' located by 'By.xpath: id("setting-content")/div[@class="btn-group kbtn-hidden"]/button[@class="btn btn-add btn-sm dropdown-toggle limit-btn"]/span[@class="fa fa-caret-down"]' not found)
+
+2018-11-03 09:12:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-03 09:12:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' located by 'By.xpath: id("setting-content")/div[@class="btn-group kbtn-hidden"]/button[@class="btn btn-add btn-sm dropdown-toggle limit-btn"]/span[@class="fa fa-caret-down"]' not found)
+
+2018-11-03 09:13:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' located by 'By.xpath: id("setting-content")/div[@class="btn-group kbtn-hidden"]/button[@class="btn btn-add btn-sm dropdown-toggle limit-btn"]/span[@class="fa fa-caret-down"]' not found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_090703\\1541211201751.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-03 09:12:45 - [TEST_CASE][FAILED] - Test Cases/Course/Manage Content/Test/AddTest: Test Cases/Course/Manage Content/Test/AddTest FAILED because (of) Unable to click on object 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/span_select_list_content' located by 'By.xpath: id("setting-content")/div[@class="btn-group kbtn-hidden"]/button[@class="btn btn-add btn-sm dropdown-toggle limit-btn"]/span[@class="fa fa-caret-down"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-03 09:07:05 - [TEST_SUITE][FAILED] - Course: Test Cases/Course/Manage Content/Survey/AddSurvey FAILED because (of) Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)]]></system-out>
+      <system-err><![CDATA[2018-11-03 09:07:05 - [TEST_SUITE][FAILED] - Course: Test Cases/Course/Manage Content/Survey/AddSurvey FAILED because (of) Unable to click on object 'Object Repository/Course/ManageContent/NameContent/content_survey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Course/ManageContent/NameContent/content_survey' located by 'By.xpath: //a[(text() = 'Bài khảo sát' or . = 'Bài khảo sát') and @href = '/Contents/CreateSurvey/19265']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

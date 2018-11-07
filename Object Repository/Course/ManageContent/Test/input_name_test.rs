@@ -4,6 +4,12 @@
    <name>input_name_test</name>
    <tag></tag>
    <elementGuidId>81d03ead-2920-43bf-aea6-a8915ab8aa88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'txtTieuDeBaiKiemTra']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>NameContent</value>
+      <value>txtTieuDeBaiKiemTra</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(5000)
 WebUI.click(findTestObject('Course/ManageContent/NameContent/span_select_list_content'))
 
 Thread.sleep(2000)
@@ -40,28 +40,28 @@ Thread.sleep(5000)
 WebUI.click(findTestObject('Course/ManageContent/Document/button_save'))
 
 //Sua document
-Thread.sleep(5000)
+//Thread.sleep(5000)
 
-WebUI.click(findTestObject('Course/ManageContent/Document/icon_edit_document'))
+//WebUI.click(findTestObject('Course/ManageContent/Document/icon_edit_document'))
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/ManageContent/Document/input_name_document'), 'Tài liệu 1')
+//WebUI.setText(findTestObject('Course/ManageContent/Document/input_name_document'), 'Tài liệu 1')
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.uploadFile(findTestObject('Course/ManageContent/Document/button_upload_file'), 'E:\\api.xlsx')
+//WebUI.uploadFile(findTestObject('Course/ManageContent/Document/button_upload_file'), 'E:\\api.xlsx')
 
-Thread.sleep(5000)
+//Thread.sleep(5000)
 
-WebUI.click(findTestObject('Course/ManageContent/Document/button_save_edit_document'))
+//WebUI.click(findTestObject('Course/ManageContent/Document/button_save_edit_document'))
 
 //Xoa document
-Thread.sleep(5000)
+//Thread.sleep(5000)
 
-WebUI.click(findTestObject('Course/ManageContent/Document/icon_delete_document'))
+//WebUI.click(findTestObject('Course/ManageContent/Document/icon_delete_document'))
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/ManageContent/Document/button_agree_delete_document'))
+//WebUI.click(findTestObject('Course/ManageContent/Document/button_agree_delete_document'))
 

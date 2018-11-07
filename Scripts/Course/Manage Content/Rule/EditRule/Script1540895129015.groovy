@@ -19,11 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/ManageContent/Ruler/tab_ruler'))
+WebUI.click(findTestObject('Course/ManageContent/NameContent/tab_ruler'))
 
 Thread.sleep(2000)
 

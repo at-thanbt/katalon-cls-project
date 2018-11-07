@@ -4,7 +4,17 @@
    <name>a_name_of_course</name>
    <tag></tag>
    <elementGuidId>5c031305-b01f-4b6b-b636-6a3db1894b57</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/course/info/993' and (text() = 'Vận hành CLS trong Doanh Nghiệp' or . = 'Vận hành CLS trong Doanh Nghiệp')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tblCourses&quot;]/tbody/tr/td[1]/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

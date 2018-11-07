@@ -25,25 +25,23 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.By as By
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://ntmtien.cls.vn/account/login')
+WebUI.click(findTestObject('Administrator/div_modun_course'))
 
-WebUI.setText(findTestObject('Course/Page Manage Course/addcourse/Page_ng nhp/input_UserName'), 'admin1')
-
-WebUI.setText(findTestObject('Course/Page Manage Course/addcourse/Page_ng nhp/input_Password'), '123456')
-
-WebUI.sendKeys(findTestObject('Course/Page Manage Course/addcourse/Page_ng nhp/input_Password'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Course/Page Manage Course/addcourse/Page_Qun tr vin/div_Kho hc'))
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/span_THM KHA HC'))
+WebUI.click(findTestObject('Course/Page Manage Course/addcourse/button_add_course'))
+
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'), 'khóa học 1')
+WebUI.setText(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'), 'Khóa học tự động do thân tạo')
+
 Thread.sleep(2000)
-WebUI.selectOptionByValue(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'), '4', true)
+
+WebUI.selectOptionByValue(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'), '4', 
+    true)
+
 Thread.sleep(2000)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -52,9 +50,5 @@ JavascriptExecutor js = ((driver) as JavascriptExecutor)
 
 js.executeScript('CKEDITOR.instances["GioiThieuKhoaHoc"].setData("<p>testContent</p>")')
 
-
 WebUI.click(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_saveCourse'))
-
-
-//WebUI.closeBrowser()
 

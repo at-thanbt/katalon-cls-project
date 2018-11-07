@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ckeditor_name_question_truefalse_clause</name>
+   <tag></tag>
+   <elementGuidId>0fc55a8f-3c1e-4e15-8d1c-fa4fb11dc2ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cke_txtNoiDungCauHoiMenhDeDungSai</value>
+   </webElementProperties>
+</WebElementEntity>

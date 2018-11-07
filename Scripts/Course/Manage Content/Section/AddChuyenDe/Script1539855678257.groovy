@@ -20,8 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(5000)
 WebUI.click(findTestObject('Course/ManageContent/NameContent/span_select_list_content'))
 
 Thread.sleep(2000)
@@ -36,23 +36,23 @@ Thread.sleep(2000)
 
 WebUI.click(findTestObject('Course/ManageContent/Section/button_save'))
 
-Thread.sleep(7000)
+//Thread.sleep(7000)
 
-WebUI.click(findTestObject('Course/ManageContent/Section/icon_edit_section'))
+//WebUI.click(findTestObject('Course/ManageContent/Section/icon_edit_section'))
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/ManageContent/Section/input_text_section'), 'Chuyên đề 2')
+//WebUI.setText(findTestObject('Course/ManageContent/Section/input_text_section'), 'Chuyên đề 2')
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/ManageContent/Section/button_update'))
+//WebUI.click(findTestObject('Course/ManageContent/Section/button_update'))
 
-Thread.sleep(4000)
+//Thread.sleep(4000)
 
-WebUI.click(findTestObject('Course/ManageContent/Section/icon_delete_section'))
+//WebUI.click(findTestObject('Course/ManageContent/Section/icon_delete_section'))
 
-Thread.sleep(2000)
+//Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/ManageContent/Section/button_agree_delete_section'))
+//WebUI.click(findTestObject('Course/ManageContent/Section/button_agree_delete_section'))
 

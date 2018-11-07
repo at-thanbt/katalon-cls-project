@@ -18,9 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.By as By
 
-WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Course/GoToContent'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(5000)
 WebUI.click(findTestObject('Course/ManageContent/NameContent/span_select_list_content'))
 
 Thread.sleep(2000)
@@ -29,39 +35,67 @@ WebUI.click(findTestObject('Course/ManageContent/NameContent/content_test'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/ManageContent/Test/input_name_test'), 'Tài liệu 1')
+WebUI.setText(findTestObject('Course/ManageContent/Test/input_name_test'), 'Bài kiểm tra')
+
+WebUI.click(findTestObject('Course/ManageContent/Test/button_add_new_question'))
 
 Thread.sleep(2000)
 
-WebUI.uploadFile(findTestObject('Course/ManageContent/Document/button_upload_file'), 'E:\\api.xlsx')
-
-Thread.sleep(5000)
-
-WebUI.click(findTestObject('Course/ManageContent/Document/button_save'))
-
-//Sua document
-Thread.sleep(5000)
-
-WebUI.click(findTestObject('Course/ManageContent/Document/icon_edit_document'))
+//WebUI.click(findTestObject('Course/ManageContent/Test/select_type_question'))
+//Thread.sleep(2000)
+WebUI.click(findTestObject('Course/ManageContent/Test/TrueFalse/option_true_false'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/ManageContent/Document/input_name_document'), 'Tài liệu 1')
+WebDriver driver = DriverFactory.getWebDriver()
+
+JavascriptExecutor js = ((driver) as JavascriptExecutor)
+
+js.executeScript('CKEDITOR.instances["txtNoiDungCauHoiLuaChonDungSai"].setData("<p>Câu hỏi lựa chọn đúng sai</p>")')
 
 Thread.sleep(2000)
 
-WebUI.uploadFile(findTestObject('Course/ManageContent/Document/button_upload_file'), 'E:\\api.xlsx')
+WebUI.click(findTestObject('Course/ManageContent/Test/TrueFalse/button_save_and_create_new_truefalse'))
 
-Thread.sleep(5000)
-
-WebUI.click(findTestObject('Course/ManageContent/Document/button_save_edit_document'))
-
-//Xoa document
-Thread.sleep(5000)
-
-WebUI.click(findTestObject('Course/ManageContent/Document/icon_delete_document'))
+WebUI.acceptAlert()
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/ManageContent/Document/button_agree_delete_document'))
+WebUI.click(findTestObject('Course/ManageContent/Test/TrueFalseClause/option_true_false_cluase'))
+
+Thread.sleep(2000)
+
+js.executeScript('CKEDITOR.instances["txtNoiDungCauHoiMenhDeDungSai"].setData("<p>Câu hỏi mệnh đề đúng sai</p>")')
+
+Thread.sleep(2000)
+
+js.executeScript('CKEDITOR.instances["txtNoiDungPhuongAn_1"].setData("<p>Phươn án 1</p>")')
+
+js.executeScript('CKEDITOR.instances["txtNoiDungPhuongAn_2"].setData("<p>Phươn án 2</p>")')
+
+js.executeScript('CKEDITOR.instances["txtNoiDungPhuongAn_3"].setData("<p>Phươn án 3</p>")')
+
+js.executeScript('CKEDITOR.instances["txtNoiDungPhuongAn_4"].setData("<p>Phươn án 4</p>")')
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Course/ManageContent/Test/TrueFalseClause/button_save_and_close_truefalseclause'))
+
+WebUI.acceptAlert()
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Course/ManageContent/Test/tab_tuy_chon_nang_cao'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Course/ManageContent/Test/input_number_question_in_page'), '1')
+
+WebUI.click(findTestObject('Course/ManageContent/Test/tab_noi_dung'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Course/ManageContent/Test/button_save_test'))
+Thread.sleep(2000)
+WebUI.acceptAlert()
 

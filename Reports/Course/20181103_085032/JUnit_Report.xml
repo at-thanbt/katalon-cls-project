@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Course" time="34" tests="2" failures="0" errors="0">
+   <testsuite name="Course" tests="2" failures="0" errors="0" time="34" timestamp="2018-11-03 08:50:35" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Course">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_085032"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Course\\20181103_085032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="9a687a6b3b86579c177eb1638023fd36"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Course/AddCourse" classname="Test Cases/Course/AddCourse" status="PASSED">
+         <system-out><![CDATA[2018-11-03 08:50:35 - [TEST_CASE][PASSED] - Test Cases/Course/AddCourse: Test Cases/Course/AddCourse
+
+2018-11-03 08:50:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-03 08:50:36 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-11-03 08:50:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-03 08:50:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-03 08:50:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-03 08:50:43 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-03 08:50:43 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-03 08:50:43 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-03 08:50:43 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-03 08:50:43 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-03 08:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-03 08:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-03 08:50:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-03 08:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_course' is clicked on
+
+2018-11-03 08:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_course' is clicked on
+
+2018-11-03 08:50:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 08:50:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/Page Manage Course/addcourse/button_add_course' is clicked on
+
+2018-11-03 08:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/Page Manage Course/addcourse/button_add_course' is clicked on
+
+2018-11-03 08:50:51 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 08:50:53 - [TEST_STEP][PASSED] - setText: Text 'khóa học tự động do thân tạo' is set on object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'
+
+2018-11-03 08:50:53 - [MESSAGE][PASSED] - Text 'khóa học tự động do thân tạo' is set on object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'
+
+2018-11-03 08:50:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 08:50:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'  using regular expression
+
+2018-11-03 08:50:56 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'  using regular expression
+
+2018-11-03 08:50:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 08:50:58 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-03 08:50:58 - [TEST_STEP][PASSED] - Statement - js = driver: null
+
+2018-11-03 08:50:58 - [TEST_STEP][PASSED] - Statement - js.executeScript("CKEDITOR.instances["GioiThieuKhoaHoc"].setData("<p>testContent</p>")"): null
+
+2018-11-03 08:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_saveCourse' is clicked on
+
+2018-11-03 08:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_saveCourse' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course/GoToContent" classname="Test Cases/Course/GoToContent" status="PASSED">
+         <system-out><![CDATA[2018-11-03 08:50:58 - [TEST_CASE][PASSED] - Test Cases/Course/GoToContent: Test Cases/Course/GoToContent
+
+2018-11-03 08:50:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): null
+
+2018-11-03 08:51:02 - [TEST_STEP][PASSED] - setText: Text 'khóa học test auto' is set on object 'Object Repository/Course/Page Manage Course/input_txtSearchBox'
+
+2018-11-03 08:51:02 - [MESSAGE][PASSED] - Text 'khóa học test auto' is set on object 'Object Repository/Course/Page Manage Course/input_txtSearchBox'
+
+2018-11-03 08:51:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-03 08:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Course/Page Manage Course/icon_detail_course' is clicked on
+
+2018-11-03 08:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Course/Page Manage Course/icon_detail_course' is clicked on
+
+2018-11-03 08:51:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-03 08:50:35 - [TEST_SUITE][PASSED] - Course: Test Cases/Course/GoToContent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
