@@ -6,12 +6,15 @@
    <elementGuidId>3e58012d-da31-4a43-ae8b-0410109d0e62</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'btn btn-add mobile-hide']</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;moduleContent&quot;]/div[1]/div[1]/button[2]</value>
+         <value>//div[@class='moduleWrapper']//div[@class='btn-group']//button[@class='btn btn-add mobile-hide']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +22,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>btn btn-add mobile-hide</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>THÊM TỪ TỆP TIN</value>
+      <value>iptSelectUserImport</value>
    </webElementProperties>
 </WebElementEntity>

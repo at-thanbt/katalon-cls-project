@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Category" time="87" tests="3" failures="1" errors="0">
+   <testsuite name="Category" tests="3" failures="1" errors="0" time="87" timestamp="2018-11-09 09:32:00" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Category">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_093158"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_093158\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_093158\\1541730806804.png"/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="f1568ba1e24f85071f90a8889dbdae08"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Category/AddCategory" classname="Test Cases/Category/AddCategory" status="PASSED">
+         <system-out><![CDATA[2018-11-09 09:32:00 - [TEST_CASE][PASSED] - Test Cases/Category/AddCategory: Test Cases/Category/AddCategory
+
+2018-11-09 09:32:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-09 09:32:01 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-11-09 09:32:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-09 09:32:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-09 09:32:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-09 09:32:07 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-09 09:32:07 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-09 09:32:07 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-09 09:32:07 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-09 09:32:08 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-09 09:32:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-09 09:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-09 09:32:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-09 09:32:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_category' is clicked on
+
+2018-11-09 09:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_category' is clicked on
+
+2018-11-09 09:32:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 09:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 09:32:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/button_cancel_category' is clicked on
+
+2018-11-09 09:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/button_cancel_category' is clicked on
+
+2018-11-09 09:32:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 09:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 09:32:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:20 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 09:32:21 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 09:32:21 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 09:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 09:32:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/choose_higher_category' is clicked on
+
+2018-11-09 09:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/choose_higher_category' is clicked on
+
+2018-11-09 09:32:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:27 - [TEST_STEP][PASSED] - setText: Text 'Nội dung của chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 09:32:27 - [MESSAGE][PASSED] - Text 'Nội dung của chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 09:32:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 09:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 09:32:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:31 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:32:32 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:32:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chủ đề tạo từ katalon' is present on page 
+
+2018-11-09 09:32:34 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is present on page 
+
+2018-11-09 09:32:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/EditCategory" classname="Test Cases/Category/EditCategory" status="PASSED">
+         <system-out><![CDATA[2018-11-09 09:32:36 - [TEST_CASE][PASSED] - Test Cases/Category/EditCategory: Test Cases/Category/EditCategory
+
+2018-11-09 09:32:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:38 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:32:38 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:32:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 09:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 09:32:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/button_cancel_edit_category' is clicked on
+
+2018-11-09 09:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/button_cancel_edit_category' is clicked on
+
+2018-11-09 09:32:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:47 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:32:47 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:32:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 09:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 09:32:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:52 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 09:32:52 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 09:32:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 09:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 09:32:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/choose_higher_category_edit' is clicked on
+
+2018-11-09 09:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/choose_higher_category_edit' is clicked on
+
+2018-11-09 09:32:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:32:59 - [TEST_STEP][PASSED] - setText: Text 'Chỉnh sửa chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 09:32:59 - [MESSAGE][PASSED] - Text 'Chỉnh sửa chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 09:32:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 09:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 09:33:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:03 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:03 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:05 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chủ đề tạo từ katalon chỉnh sửa' is present on page 
+
+2018-11-09 09:33:05 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/DeleteCategory" classname="Test Cases/Category/DeleteCategory" status="PASSED">
+         <system-out><![CDATA[2018-11-09 09:33:05 - [TEST_CASE][PASSED] - Test Cases/Category/DeleteCategory: Test Cases/Category/DeleteCategory
+
+2018-11-09 09:33:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:08 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:08 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_delete_category' is clicked on
+
+2018-11-09 09:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_delete_category' is clicked on
+
+2018-11-09 09:33:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/button_confirm_delete_category' is clicked on
+
+2018-11-09 09:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/button_confirm_delete_category' is clicked on
+
+2018-11-09 09:33:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:14 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:15 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:17 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'Chủ đề tạo từ katalon chỉnh sửa' is not present on page
+
+2018-11-09 09:33:17 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is not present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/AssignCouseAndUser" classname="Test Cases/Category/AssignCouseAndUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)"/>
+         <system-out><![CDATA[2018-11-09 09:33:17 - [TEST_CASE][FAILED] - Test Cases/Category/AssignCouseAndUser: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)
+
+2018-11-09 09:33:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:19 - [TEST_STEP][PASSED] - setText: Text 'Xóa chủ đề' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:19 - [MESSAGE][PASSED] - Text 'Xóa chủ đề' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 09:33:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 09:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 09:33:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/tab_course' is clicked on
+
+2018-11-09 09:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/tab_course' is clicked on
+
+2018-11-09 09:33:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 09:33:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)
+
+2018-11-09 09:33:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_093158\\1541730806804.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-09 09:33:17 - [TEST_CASE][FAILED] - Test Cases/Category/AssignCouseAndUser: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-09 09:32:00 - [TEST_SUITE][FAILED] - Category: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)]]></system-out>
+      <system-err><![CDATA[2018-11-09 09:32:00 - [TEST_SUITE][FAILED] - Category: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9IOQSG7', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\buithan\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: f1568ba1e24f85071f90a8889dbdae08)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Category" time="139" tests="3" failures="1" errors="0">
+   <testsuite name="Category" tests="3" failures="1" errors="0" time="139" timestamp="2018-11-09 10:09:44" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Category">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_100942"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_100942\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_100942\\1541733123133.png"/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="f7825e8d4158b9e77a93f934a455c54c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Category/AddCategory" classname="Test Cases/Category/AddCategory" status="PASSED">
+         <system-out><![CDATA[2018-11-09 10:09:45 - [TEST_CASE][PASSED] - Test Cases/Category/AddCategory: Test Cases/Category/AddCategory
+
+2018-11-09 10:09:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-09 10:09:45 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-11-09 10:09:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-09 10:09:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-09 10:09:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-09 10:09:51 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-11-09 10:09:51 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-09 10:09:51 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-11-09 10:09:51 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-09 10:09:51 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-11-09 10:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-09 10:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-11-09 10:09:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-11-09 10:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_category' is clicked on
+
+2018-11-09 10:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_category' is clicked on
+
+2018-11-09 10:09:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:09:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 10:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 10:09:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/button_cancel_category' is clicked on
+
+2018-11-09 10:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/button_cancel_category' is clicked on
+
+2018-11-09 10:10:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 10:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/button_add_category' is clicked on
+
+2018-11-09 10:10:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:04 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 10:10:04 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 10:10:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 10:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 10:10:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/choose_higher_category' is clicked on
+
+2018-11-09 10:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/choose_higher_category' is clicked on
+
+2018-11-09 10:10:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:10 - [TEST_STEP][PASSED] - setText: Text 'Nội dung của chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 10:10:11 - [MESSAGE][PASSED] - Text 'Nội dung của chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 10:10:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 10:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 10:10:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:15 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:15 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:17 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chủ đề tạo từ katalon' is present on page 
+
+2018-11-09 10:10:17 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is present on page 
+
+2018-11-09 10:10:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/EditCategory" classname="Test Cases/Category/EditCategory" status="PASSED">
+         <system-out><![CDATA[2018-11-09 10:10:19 - [TEST_CASE][PASSED] - Test Cases/Category/EditCategory: Test Cases/Category/EditCategory
+
+2018-11-09 10:10:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:21 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:22 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:10:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/button_cancel_edit_category' is clicked on
+
+2018-11-09 10:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/button_cancel_edit_category' is clicked on
+
+2018-11-09 10:10:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:30 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:30 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:10:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:35 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 10:10:35 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/AddCategory/input_category_name'
+
+2018-11-09 10:10:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 10:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/selectbox_list_category' is clicked on
+
+2018-11-09 10:10:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/choose_higher_category_edit' is clicked on
+
+2018-11-09 10:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/choose_higher_category_edit' is clicked on
+
+2018-11-09 10:10:40 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:42 - [TEST_STEP][PASSED] - setText: Text 'Chỉnh sửa chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 10:10:42 - [MESSAGE][PASSED] - Text 'Chỉnh sửa chủ đề' is set on object 'Object Repository/Category/AddCategory/input_category_content'
+
+2018-11-09 10:10:42 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 10:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/AddCategory/button_save_category' is clicked on
+
+2018-11-09 10:10:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:46 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:46 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:48 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Chủ đề tạo từ katalon chỉnh sửa' is present on page 
+
+2018-11-09 10:10:48 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/DeleteCategory" classname="Test Cases/Category/DeleteCategory" status="PASSED">
+         <system-out><![CDATA[2018-11-09 10:10:48 - [TEST_CASE][PASSED] - Test Cases/Category/DeleteCategory: Test Cases/Category/DeleteCategory
+
+2018-11-09 10:10:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:51 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:51 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:51 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_delete_category' is clicked on
+
+2018-11-09 10:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_delete_category' is clicked on
+
+2018-11-09 10:10:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/button_confirm_delete_category' is clicked on
+
+2018-11-09 10:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/button_confirm_delete_category' is clicked on
+
+2018-11-09 10:10:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:57 - [TEST_STEP][PASSED] - setText: Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:57 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:10:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:10:59 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'Chủ đề tạo từ katalon chỉnh sửa' is not present on page
+
+2018-11-09 10:11:00 - [MESSAGE][PASSED] - Text 'Chủ đề tạo từ katalon chỉnh sửa' is not present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/AssignCouseAndUser" classname="Test Cases/Category/AssignCouseAndUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)"/>
+         <system-out><![CDATA[2018-11-09 10:11:00 - [TEST_CASE][FAILED] - Test Cases/Category/AssignCouseAndUser: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)
+
+2018-11-09 10:11:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:02 - [TEST_STEP][PASSED] - setText: Text 'Xóa chủ đề' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:11:02 - [MESSAGE][PASSED] - Text 'Xóa chủ đề' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:11:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:11:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/tab_course' is clicked on
+
+2018-11-09 10:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/tab_course' is clicked on
+
+2018-11-09 10:11:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:09 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 190, y = 200
+
+2018-11-09 10:11:09 - [MESSAGE][PASSED] - Browser is scrolled to position x = 190, y = 200
+
+2018-11-09 10:11:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' is clicked on
+
+2018-11-09 10:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/button_cancel_save_assign_course' is clicked on
+
+2018-11-09 10:11:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:14 - [TEST_STEP][PASSED] - setText: Text 'Xóa chủ đề' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:11:14 - [MESSAGE][PASSED] - Text 'Xóa chủ đề' is set on object 'Object Repository/Category/input_search_category'
+
+2018-11-09 10:11:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/icon_edit_category' is clicked on
+
+2018-11-09 10:11:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/tab_course' is clicked on
+
+2018-11-09 10:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/tab_course' is clicked on
+
+2018-11-09 10:11:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:22 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Category/EditCategory/input_seach_course'
+
+2018-11-09 10:11:22 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Category/EditCategory/input_seach_course'
+
+2018-11-09 10:11:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/checkbox_course' is clicked on
+
+2018-11-09 10:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/checkbox_course' is clicked on
+
+2018-11-09 10:11:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/button_save_assign_course' is clicked on
+
+2018-11-09 10:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/button_save_assign_course' is clicked on
+
+2018-11-09 10:11:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Category/EditCategory/tab_user' is clicked on
+
+2018-11-09 10:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Category/EditCategory/tab_user' is clicked on
+
+2018-11-09 10:11:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:30 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 190, y = 200
+
+2018-11-09 10:11:30 - [MESSAGE][PASSED] - Browser is scrolled to position x = 190, y = 200
+
+2018-11-09 10:11:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-09 10:11:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)
+
+2018-11-09 10:12:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Category\\20181109_100942\\1541733123133.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-09 10:11:00 - [TEST_CASE][FAILED] - Test Cases/Category/AssignCouseAndUser: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-09 10:09:44 - [TEST_SUITE][FAILED] - Category: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-11-09 10:09:44 - [TEST_SUITE][FAILED] - Category: Test Cases/Category/AssignCouseAndUser FAILED because (of) Unable to click on object 'Object Repository/Category/EditCategory/button_cancel_assign_user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Category/EditCategory/button_cancel_assign_user' located by 'By.xpath: //*[@class = 'btn btn-cancel btn-fixed-width xm-btn-full-width' and (text() = 'Hủy' or . = 'Hủy')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

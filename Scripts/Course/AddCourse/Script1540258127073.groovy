@@ -31,15 +31,15 @@ WebUI.click(findTestObject('Administrator/div_modun_course'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Course/Page Manage Course/addcourse/button_add_course'))
+WebUI.click(findTestObject('Course/Page Manage Course/AddNewCourse/button_add_course'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_TenKhoaHoc'), 'Khóa học tự động do thân tạo')
+WebUI.setText(findTestObject('Course/Page Manage Course/AddNewCourse/input_TenKhoaHoc'), 'Khóa học tự động do thân tạo')
 
 Thread.sleep(2000)
 
-WebUI.selectOptionByValue(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/select_La chn mc'), '4', 
+WebUI.selectOptionByValue(findTestObject('Course/Page Manage Course/AddNewCourse/select_choose_category'), '4', 
     true)
 
 Thread.sleep(2000)
@@ -50,5 +50,5 @@ JavascriptExecutor js = ((driver) as JavascriptExecutor)
 
 js.executeScript('CKEDITOR.instances["GioiThieuKhoaHoc"].setData("<p>testContent</p>")')
 
-WebUI.click(findTestObject('Course/Page Manage Course/addcourse/Page_Qun l kha hc/input_saveCourse'))
+WebUI.click(findTestObject('Course/Page Manage Course/AddNewCourse/button_saveCourse'))
 
