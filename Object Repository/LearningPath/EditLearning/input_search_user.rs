@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_edit_learning_path</name>
+   <name>input_search_user</name>
    <tag></tag>
-   <elementGuidId>3ac121b8-6b87-4ee4-8d81-4fbb54fec25f</elementGuidId>
+   <elementGuidId>e14eafa1-837e-40bb-8bdd-6eadf63a1c71</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;courses-group&quot;]/tbody/tr/td[6]/button[2]</value>
+         <value>//*[@id=&quot;GhiDanhNguoiDung&quot;]/div/div[2]/div/div/div[3]/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
