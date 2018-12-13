@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_receive_report</name>
+   <tag></tag>
+   <elementGuidId>3e4ba964-1308-4ac0-9753-907b1cfab9a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ThongTinCaiDatQuyTrinh&quot;)/div[@class=&quot;row form-data mobile-margin-bottom-10&quot;]/div[@class=&quot;col-xs-12 col-md-12  col-lg-12 form-item&quot;]/div[@class=&quot;col-xs-12 col-lg-6  col-md-6&quot;]/div[@class=&quot;checkbox custom-label-checkbox&quot;]/label[1]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;][count(. | //input[@ng-model = 'ctrl.QuyTrinhDaoTaoModel.QuyTrinhDaoTao.NhanBaoCaoChoTungBuoc' and @ng-change = 'ctrl.ThayDoiCaiDatLuaChonNguoiDungChonBaoCao(ctrl.QuyTrinhDaoTaoModel.QuyTrinhDaoTao.NhanBaoCaoChoTungBuoc)' and @type = 'checkbox' and @class = 'ng-pristine ng-untouched ng-valid ng-empty']) = count(//input[@ng-model = 'ctrl.QuyTrinhDaoTaoModel.QuyTrinhDaoTao.NhanBaoCaoChoTungBuoc' and @ng-change = 'ctrl.ThayDoiCaiDatLuaChonNguoiDungChonBaoCao(ctrl.QuyTrinhDaoTaoModel.QuyTrinhDaoTao.NhanBaoCaoChoTungBuoc)' and @type = 'checkbox' and @class = 'ng-pristine ng-untouched ng-valid ng-empty'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>ctrl.QuyTrinhDaoTaoModel.QuyTrinhDaoTao.NhanBaoCaoChoTungBuoc</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>ctrl.ThayDoiCaiDatLuaChonNguoiDungChonBaoCao(ctrl.QuyTrinhDaoTaoModel.QuyTrinhDaoTao.NhanBaoCaoChoTungBuoc)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ThongTinCaiDatQuyTrinh&quot;)/div[@class=&quot;row form-data mobile-margin-bottom-10&quot;]/div[@class=&quot;col-xs-12 col-md-12  col-lg-12 form-item&quot;]/div[@class=&quot;col-xs-12 col-lg-6  col-md-6&quot;]/div[@class=&quot;checkbox custom-label-checkbox&quot;]/label[1]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
