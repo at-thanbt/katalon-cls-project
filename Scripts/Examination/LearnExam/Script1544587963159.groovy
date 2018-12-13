@@ -31,7 +31,7 @@ Thread.sleep(5000)
 
 WebUI.setText(findTestObject('Examination/LearnExam/input_search_exam'), 'Kỳ thi tạo từ Katalon')
 
-Thread.sleep(2000)
+Thread.sleep(4000)
 
 WebUI.click(findTestObject('Examination/LearnExam/choose_exam'))
 

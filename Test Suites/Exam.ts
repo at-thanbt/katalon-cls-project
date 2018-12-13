@@ -4,7 +4,7 @@
    <name>Exam</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-12T14:13:37</lastRun>
+   <lastRun>2018-12-13T14:47:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -40,5 +40,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Examination/MarkTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2104f3d9-887d-485d-aa63-bb8967c69815</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Examination/ReportExam</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

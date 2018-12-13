@@ -19,51 +19,70 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Administrator/div_modun_exam'))
+Thread.sleep(4000)
 
-Thread.sleep(3000)
-
-WebUI.setText(findTestObject('Examination/ManageExam/input_search_exam'), 'Kỳ thi tạo từ Katalon')
+WebUI.click(findTestObject('Administrator/div_modun_report'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/ManageExam/icon_setup_category'))
+WebUI.click(findTestObject('Examination/ReportExam/button_report_exam'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/ManageExam/SetupCategory/icon_setup_category_detail'))
+WebUI.click(findTestObject('Examination/ReportExam/icon_detail_exam'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/MarkTesr/link_mark_test'))
+WebUI.click(findTestObject('Examination/ReportExam/button_export_file_exam'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/MarkTesr/button_mark'))
+WebUI.click(findTestObject('Examination/ReportExam/tab_category'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/MarkTesr/button_see_test'))
+WebUI.click(findTestObject('Examination/ReportExam/icon_detail_category'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/MarkTesr/link_cham_diem'))
+WebUI.click(findTestObject('Examination/ReportExam/icon_detail_test_of_student'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Examination/MarkTesr/input_score'), '1')
+WebUI.click(findTestObject('Examination/ReportExam/icon_close_model_test_of_student'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Examination/MarkTesr/input_reply'), 'ahihi')
+WebUI.click(findTestObject('Examination/ReportExam/icon_export_test_of_student'))
+Thread.sleep(2000)
+
+WebUI.back()
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Examination/MarkTesr/button_save_mark'))
+WebUI.click(findTestObject('Examination/ReportExam/tab_test_list'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Administrator/link_admin'))
+WebUI.click(findTestObject('Examination/ReportExam/icon_detail_de_thi_goc'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Examination/ReportExam/icon_close_de_thi_goc'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Examination/ReportExam/tab_violint'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Examination/ReportExam/tab_statistic_not_joined'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Examination/ReportExam/tab_category_info'))
+
+Thread.sleep(2000)
 

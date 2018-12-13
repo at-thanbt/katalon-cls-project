@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Exam" time="369" tests="4" failures="1" errors="0">
+   <testsuite name="Exam" tests="4" failures="1" errors="0" time="369" timestamp="2018-12-12 13:55:32" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Exam">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Exam\\20181212_135530"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Exam\\20181212_135530\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Exam\\20181212_135530\\1544598039127.png, C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Exam\\20181212_135530\\1544598039537.png"/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.80"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="42e6e97ffa64ed34dce8a41de8a469ae"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Examination/AddExam" classname="Test Cases/Examination/AddExam" status="PASSED">
+         <system-out><![CDATA[2018-12-12 13:55:33 - [TEST_CASE][PASSED] - Test Cases/Examination/AddExam: Test Cases/Examination/AddExam
+
+2018-12-12 13:55:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-12 13:55:34 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-12 13:55:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-12 13:55:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-12 13:55:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-12 13:55:46 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-12 13:55:46 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-12 13:55:46 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-12 13:55:46 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-12 13:55:46 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-12 13:55:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-12 13:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-12 13:55:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-12 13:55:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_exam' is clicked on
+
+2018-12-12 13:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_exam' is clicked on
+
+2018-12-12 13:56:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/button_add_exam' is clicked on
+
+2018-12-12 13:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/button_add_exam' is clicked on
+
+2018-12-12 13:56:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:13 - [TEST_STEP][PASSED] - setText: Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/AddExam/input_name_exam'
+
+2018-12-12 13:56:13 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/AddExam/input_name_exam'
+
+2018-12-12 13:56:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/AddExam/choose_category' is clicked on
+
+2018-12-12 13:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/AddExam/choose_category' is clicked on
+
+2018-12-12 13:56:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/AddExam/button_save' is clicked on
+
+2018-12-12 13:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/AddExam/button_save' is clicked on
+
+2018-12-12 13:56:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:19 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:56:19 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:56:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): null
+
+2018-12-12 13:56:23 - [TEST_STEP][PASSED] - setText: Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/ManageExam/input_search_exam'
+
+2018-12-12 13:56:24 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/ManageExam/input_search_exam'
+
+2018-12-12 13:56:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Kỳ thi tạo từ Katalon' is present on page 
+
+2018-12-12 13:56:26 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Examination/EditExam" classname="Test Cases/Examination/EditExam" status="PASSED">
+         <system-out><![CDATA[2018-12-12 13:56:26 - [TEST_CASE][PASSED] - Test Cases/Examination/EditExam: Test Cases/Examination/EditExam
+
+2018-12-12 13:56:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/icon_edit_exam' is clicked on
+
+2018-12-12 13:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/icon_edit_exam' is clicked on
+
+2018-12-12 13:56:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/icon_setup_category' is clicked on
+
+2018-12-12 13:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/icon_setup_category' is clicked on
+
+2018-12-12 13:56:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/tab_teacher' is clicked on
+
+2018-12-12 13:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/tab_teacher' is clicked on
+
+2018-12-12 13:56:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:43 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Examination/ManageExam/EditExam/input_search_teacher'
+
+2018-12-12 13:56:43 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Examination/ManageExam/EditExam/input_search_teacher'
+
+2018-12-12 13:56:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_teacher' is clicked on
+
+2018-12-12 13:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_teacher' is clicked on
+
+2018-12-12 13:56:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/button_add_teacher' is clicked on
+
+2018-12-12 13:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/button_add_teacher' is clicked on
+
+2018-12-12 13:56:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:49 - [TEST_STEP][PASSED] - setText: Text 'admin2' is set on object 'Object Repository/Examination/ManageExam/EditExam/input_search_teacher'
+
+2018-12-12 13:56:50 - [MESSAGE][PASSED] - Text 'admin2' is set on object 'Object Repository/Examination/ManageExam/EditExam/input_search_teacher'
+
+2018-12-12 13:56:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_teacher' is clicked on
+
+2018-12-12 13:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_teacher' is clicked on
+
+2018-12-12 13:56:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/button_add_teacher' is clicked on
+
+2018-12-12 13:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/button_add_teacher' is clicked on
+
+2018-12-12 13:56:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/tab_list_monitor' is clicked on
+
+2018-12-12 13:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/tab_list_monitor' is clicked on
+
+2018-12-12 13:56:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:56:58 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Examination/ManageExam/EditExam/input_search_monitor'
+
+2018-12-12 13:56:59 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Examination/ManageExam/EditExam/input_search_monitor'
+
+2018-12-12 13:56:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:57:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_monitor' is clicked on
+
+2018-12-12 13:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_monitor' is clicked on
+
+2018-12-12 13:57:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/button_add_monitor' is clicked on
+
+2018-12-12 13:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/button_add_monitor' is clicked on
+
+2018-12-12 13:57:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/tab_constructor' is clicked on
+
+2018-12-12 13:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/tab_constructor' is clicked on
+
+2018-12-12 13:57:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_constructor' is clicked on
+
+2018-12-12 13:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/checkbox_choose_constructor' is clicked on
+
+2018-12-12 13:57:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/button_save_constructor' is clicked on
+
+2018-12-12 13:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/button_save_constructor' is clicked on
+
+2018-12-12 13:57:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:12 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:57:12 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:57:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/EditExam/button_send_request' is clicked on
+
+2018-12-12 13:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/EditExam/button_send_request' is clicked on
+
+2018-12-12 13:57:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:57:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:57:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:57:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:57:20 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:57:20 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:57:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-12-12 13:57:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/button_duyet_exam' is clicked on
+
+2018-12-12 13:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/button_duyet_exam' is clicked on
+
+2018-12-12 13:57:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/icon_detail_duyet_exam' is clicked on
+
+2018-12-12 13:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/icon_detail_duyet_exam' is clicked on
+
+2018-12-12 13:57:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:57:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/button_duyet' is clicked on
+
+2018-12-12 13:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/button_duyet' is clicked on
+
+2018-12-12 13:57:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:57:44 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:57:44 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:57:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:57:47 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:57:47 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:57:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:57:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/button_back' is clicked on
+
+2018-12-12 13:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/button_back' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Examination/AddTest" classname="Test Cases/Examination/AddTest" status="PASSED">
+         <system-out><![CDATA[2018-12-12 13:58:05 - [TEST_CASE][PASSED] - Test Cases/Examination/AddTest: Test Cases/Examination/AddTest
+
+2018-12-12 13:58:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:58:09 - [TEST_STEP][PASSED] - setText: Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/ManageExam/input_search_exam'
+
+2018-12-12 13:58:09 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/ManageExam/input_search_exam'
+
+2018-12-12 13:58:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/icon_setup_category' is clicked on
+
+2018-12-12 13:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/icon_setup_category' is clicked on
+
+2018-12-12 13:58:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/icon_setup_category_detail' is clicked on
+
+2018-12-12 13:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/icon_setup_category_detail' is clicked on
+
+2018-12-12 13:58:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_add_test' is clicked on
+
+2018-12-12 13:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_add_test' is clicked on
+
+2018-12-12 13:58:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:24 - [TEST_STEP][PASSED] - setText: Text 'Đề thi 1' is set on object 'Object Repository/Examination/ManageExam/SetupCategory/input_name_test'
+
+2018-12-12 13:58:24 - [MESSAGE][PASSED] - Text 'Đề thi 1' is set on object 'Object Repository/Examination/ManageExam/SetupCategory/input_name_test'
+
+2018-12-12 13:58:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_get_question_from_bank' is clicked on
+
+2018-12-12 13:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_get_question_from_bank' is clicked on
+
+2018-12-12 13:58:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_select_all' is clicked on
+
+2018-12-12 13:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_select_all' is clicked on
+
+2018-12-12 13:58:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_luu_vao_de_thi' is clicked on
+
+2018-12-12 13:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_luu_vao_de_thi' is clicked on
+
+2018-12-12 13:58:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:58:34 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:58:34 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:58:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:58:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_close' is clicked on
+
+2018-12-12 13:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_close' is clicked on
+
+2018-12-12 13:58:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/tab_nang_cao' is clicked on
+
+2018-12-12 13:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/tab_nang_cao' is clicked on
+
+2018-12-12 13:58:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_hiethi_true_false' is clicked on
+
+2018-12-12 13:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_hiethi_true_false' is clicked on
+
+2018-12-12 13:58:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_save_dethi' is clicked on
+
+2018-12-12 13:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_save_dethi' is clicked on
+
+2018-12-12 13:58:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:58:46 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:58:46 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:58:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-12 13:58:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/icon_edit_test' is clicked on
+
+2018-12-12 13:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/icon_edit_test' is clicked on
+
+2018-12-12 13:58:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_get_question_from_bank' is clicked on
+
+2018-12-12 13:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_get_question_from_bank' is clicked on
+
+2018-12-12 13:58:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:58:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/a_loai_cau_hoi' is clicked on
+
+2018-12-12 13:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/a_loai_cau_hoi' is clicked on
+
+2018-12-12 13:58:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'essay' are selected in object 'Object Repository/Examination/ManageExam/SetupCategory/select_AnyQuestion'  using regular expression
+
+2018-12-12 13:59:00 - [MESSAGE][PASSED] - All options with value 'essay' are selected in object 'Object Repository/Examination/ManageExam/SetupCategory/select_AnyQuestion'  using regular expression
+
+2018-12-12 13:59:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_apply' is clicked on
+
+2018-12-12 13:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_apply' is clicked on
+
+2018-12-12 13:59:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_choose_essay' is clicked on
+
+2018-12-12 13:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_choose_essay' is clicked on
+
+2018-12-12 13:59:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_luu_vao_de_thi' is clicked on
+
+2018-12-12 13:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_luu_vao_de_thi' is clicked on
+
+2018-12-12 13:59:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:09 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:59:09 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:59:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:59:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_close' is clicked on
+
+2018-12-12 13:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_close' is clicked on
+
+2018-12-12 13:59:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_save_edit_test' is clicked on
+
+2018-12-12 13:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_save_edit_test' is clicked on
+
+2018-12-12 13:59:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:59:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:59:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:59:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-12 13:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/tab_list_student' is clicked on
+
+2018-12-12 13:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/tab_list_student' is clicked on
+
+2018-12-12 13:59:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:24 - [TEST_STEP][PASSED] - setText: Text 'BIDV002' is set on object 'Object Repository/Examination/ManageExam/SetupCategory/input_seach_student'
+
+2018-12-12 13:59:24 - [MESSAGE][PASSED] - Text 'BIDV002' is set on object 'Object Repository/Examination/ManageExam/SetupCategory/input_seach_student'
+
+2018-12-12 13:59:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_choose_student' is clicked on
+
+2018-12-12 13:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/checkbox_choose_student' is clicked on
+
+2018-12-12 13:59:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_add_student' is clicked on
+
+2018-12-12 13:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_add_student' is clicked on
+
+2018-12-12 13:59:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/tab_dethi' is clicked on
+
+2018-12-12 13:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/tab_dethi' is clicked on
+
+2018-12-12 13:59:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_finish' is clicked on
+
+2018-12-12 13:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/button_finish' is clicked on
+
+2018-12-12 13:59:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:35 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:59:35 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:59:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 13:59:38 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 13:59:38 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:59:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-12-12 13:59:38 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-12-12 13:59:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-12 13:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-12 13:59:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-12 13:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-12 13:59:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Examination/LearnExam" classname="Test Cases/Examination/LearnExam" status="FAILED">
+         <failure type="FAILED" message="Unable to accept alert (Root cause: No alert found)"/>
+         <system-out><![CDATA[2018-12-12 13:59:39 - [TEST_CASE][FAILED] - Test Cases/Examination/LearnExam: Test Cases/Examination/LearnExam FAILED because (of) Unable to accept alert (Root cause: No alert found)
+
+2018-12-12 13:59:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login2_Learn_Exam' successfully
+
+2018-12-12 13:59:39 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login2_Learn_Exam: Test Cases/Authentication/Login2_Learn_Exam
+
+2018-12-12 13:59:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-12 13:59:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-12 13:59:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-12 13:59:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-12 13:59:54 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-12 13:59:54 - [TEST_STEP][PASSED] - setText: Text 'BIDV002' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-12 13:59:54 - [MESSAGE][PASSED] - Text 'BIDV002' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-12 13:59:54 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-12 13:59:54 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-12 13:59:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-12 13:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-12 13:59:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login2_Learn_Exam' successfully
+
+2018-12-12 13:59:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-12 13:59:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 13:59:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 13:59:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/module_my_exam' is clicked on
+
+2018-12-12 14:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/module_my_exam' is clicked on
+
+2018-12-12 14:00:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:00:13 - [TEST_STEP][PASSED] - setText: Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/LearnExam/input_search_exam'
+
+2018-12-12 14:00:14 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/LearnExam/input_search_exam'
+
+2018-12-12 14:00:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:00:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/choose_exam' is clicked on
+
+2018-12-12 14:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/choose_exam' is clicked on
+
+2018-12-12 14:00:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:00:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/icon_choose_category' is clicked on
+
+2018-12-12 14:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/icon_choose_category' is clicked on
+
+2018-12-12 14:00:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:00:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/button_start_exam' is clicked on
+
+2018-12-12 14:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/button_start_exam' is clicked on
+
+2018-12-12 14:00:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): null
+
+2018-12-12 14:00:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/button_finish' is clicked on
+
+2018-12-12 14:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/button_finish' is clicked on
+
+2018-12-12 14:00:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:00:37 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-12 14:00:37 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 14:00:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:00:39 - [TEST_STEP][FAILED] - acceptAlert: Unable to accept alert (Root cause: No alert found)
+
+2018-12-12 14:00:39 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Exam\\20181212_135530\\1544598039127.png]]
+
+2018-12-12 14:00:39 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: No alert found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Exam\\20181212_135530\\1544598039537.png]]]]></system-out>
+         <system-err><![CDATA[2018-12-12 13:59:39 - [TEST_CASE][FAILED] - Test Cases/Examination/LearnExam: Test Cases/Examination/LearnExam FAILED because (of) Unable to accept alert (Root cause: No alert found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Examination/MarkTest" classname="Test Cases/Examination/MarkTest" status="PASSED">
+         <system-out><![CDATA[2018-12-12 14:00:39 - [TEST_CASE][PASSED] - Test Cases/Examination/MarkTest: Test Cases/Examination/MarkTest
+
+2018-12-12 14:00:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-12 14:00:40 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-12 14:00:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-12 14:00:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-12 14:00:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-12 14:00:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-12 14:00:50 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-12 14:00:50 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-12 14:00:50 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-12 14:00:50 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-12 14:00:50 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-12 14:00:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-12 14:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-12 14:00:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-12 14:00:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_exam' is clicked on
+
+2018-12-12 14:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_exam' is clicked on
+
+2018-12-12 14:01:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-12 14:01:11 - [TEST_STEP][PASSED] - setText: Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/ManageExam/input_search_exam'
+
+2018-12-12 14:01:12 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/Examination/ManageExam/input_search_exam'
+
+2018-12-12 14:01:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/icon_setup_category' is clicked on
+
+2018-12-12 14:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/icon_setup_category' is clicked on
+
+2018-12-12 14:01:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/ManageExam/SetupCategory/icon_setup_category_detail' is clicked on
+
+2018-12-12 14:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/ManageExam/SetupCategory/icon_setup_category_detail' is clicked on
+
+2018-12-12 14:01:21 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/MarkTesr/link_mark_test' is clicked on
+
+2018-12-12 14:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/MarkTesr/link_mark_test' is clicked on
+
+2018-12-12 14:01:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/MarkTesr/button_mark' is clicked on
+
+2018-12-12 14:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/MarkTesr/button_mark' is clicked on
+
+2018-12-12 14:01:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/MarkTesr/button_see_test' is clicked on
+
+2018-12-12 14:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/MarkTesr/button_see_test' is clicked on
+
+2018-12-12 14:01:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/MarkTesr/link_cham_diem' is clicked on
+
+2018-12-12 14:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/MarkTesr/link_cham_diem' is clicked on
+
+2018-12-12 14:01:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:34 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Examination/MarkTesr/input_score'
+
+2018-12-12 14:01:34 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Examination/MarkTesr/input_score'
+
+2018-12-12 14:01:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:36 - [TEST_STEP][PASSED] - setText: Text 'ahihi' is set on object 'Object Repository/Examination/MarkTesr/input_reply'
+
+2018-12-12 14:01:37 - [MESSAGE][PASSED] - Text 'ahihi' is set on object 'Object Repository/Examination/MarkTesr/input_reply'
+
+2018-12-12 14:01:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-12 14:01:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/MarkTesr/button_save_mark' is clicked on
+
+2018-12-12 14:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/MarkTesr/button_save_mark' is clicked on
+
+2018-12-12 14:01:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 13:55:32 - [TEST_SUITE][FAILED] - Exam: Test Cases/Examination/LearnExam FAILED because (of) Unable to accept alert (Root cause: No alert found)]]></system-out>
+      <system-err><![CDATA[2018-12-12 13:55:32 - [TEST_SUITE][FAILED] - Exam: Test Cases/Examination/LearnExam FAILED because (of) Unable to accept alert (Root cause: No alert found)]]></system-err>
+   </testsuite>
+</testsuites>
