@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_role_learner</name>
+   <name>a_role_my_course</name>
    <tag></tag>
-   <elementGuidId>10d7b6c7-082e-4fdd-9596-5778e194ef1b</elementGuidId>
+   <elementGuidId>e5b3bf6c-99d1-411a-bbf9-ca75f644462c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/?role=learner' and (text() = 'Khóa học của tôi' or . = 'Khóa học của tôi')]</value>
+         <value>//a[@href = '/?role=learner' and (text() = ' Khoá học của tôi' or . = ' Khoá học của tôi')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Khóa học của tôi</value>
+      <value> Khoá học của tôi</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

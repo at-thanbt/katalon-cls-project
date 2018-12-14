@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_approve</name>
+   <name>icon_detail_step</name>
    <tag></tag>
-   <elementGuidId>0e235694-a2ac-482e-a390-16fc2a00a9c8</elementGuidId>
+   <elementGuidId>6a639cd0-5464-491e-abff-772f3af8e2a3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;moduleContent&quot;]/div[1]/button[2]</value>
+         <value>//*[@id=&quot;courses-group&quot;]/tbody/tr/td[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

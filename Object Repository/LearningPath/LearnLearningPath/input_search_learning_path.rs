@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>choose_user</name>
+   <name>input_search_learning_path</name>
    <tag></tag>
-   <elementGuidId>7952e4c3-6257-4776-976c-da1361b72f0e</elementGuidId>
+   <elementGuidId>e763435f-410c-421b-aad3-c85023f741c7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ui-select-choices-row-0-13&quot;]/span</value>
+         <value>//*[@id=&quot;LoTrinhCuaToi&quot;]/div[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

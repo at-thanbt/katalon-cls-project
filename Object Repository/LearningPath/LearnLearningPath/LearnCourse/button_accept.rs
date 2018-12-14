@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>choose_user</name>
+   <name>button_accept</name>
    <tag></tag>
-   <elementGuidId>7952e4c3-6257-4776-976c-da1361b72f0e</elementGuidId>
+   <elementGuidId>40f4f498-aad9-473b-b542-a9690c9a9fc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ui-select-choices-row-0-13&quot;]/span</value>
+         <value>//*[@id=&quot;confirmModal&quot;]/div/div/div[2]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

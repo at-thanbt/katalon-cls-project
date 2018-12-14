@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_detail_learning_approve</name>
+   <name>input_search_learning_path</name>
    <tag></tag>
-   <elementGuidId>ca64f4e9-d08e-46b4-b50c-0648bcbcb8d5</elementGuidId>
+   <elementGuidId>39566c1a-2e64-47bb-8793-a4e13e97e532</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;courses-group&quot;]/tbody/tr[1]/td[4]/button</value>
+         <value>//*[@id=&quot;moduleContent&quot;]/div[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

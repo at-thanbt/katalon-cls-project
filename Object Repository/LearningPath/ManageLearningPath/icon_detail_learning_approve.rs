@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>choose_user</name>
+   <name>icon_detail_learning_approve</name>
    <tag></tag>
-   <elementGuidId>7952e4c3-6257-4776-976c-da1361b72f0e</elementGuidId>
+   <elementGuidId>ca64f4e9-d08e-46b4-b50c-0648bcbcb8d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ui-select-choices-row-0-13&quot;]/span</value>
+         <value>//*[@id=&quot;courses-group&quot;]/tbody/tr[1]/td[4]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LearningPath" time="288" tests="2" failures="1" errors="0">
+   <testsuite name="LearningPath" tests="2" failures="1" errors="0" time="288" timestamp="2018-12-14 11:15:35" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/LearningPath">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\LearningPath\\20181214_111530"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\LearningPath\\20181214_111530\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\LearningPath\\20181214_111530\\1544761222603.png"/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="1db6594f200322576378abb59a0817aa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LearningPath/AddLeaningNotFrequent" classname="Test Cases/LearningPath/AddLeaningNotFrequent" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:15:36 - [TEST_CASE][PASSED] - Test Cases/LearningPath/AddLeaningNotFrequent: Test Cases/LearningPath/AddLeaningNotFrequent
+
+2018-12-14 11:15:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-14 11:15:38 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-14 11:15:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-14 11:15:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:15:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-14 11:15:48 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-14 11:15:48 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-14 11:15:48 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-14 11:15:48 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-14 11:15:49 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-14 11:15:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-14 11:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-14 11:15:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-14 11:15:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-14 11:15:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-14 11:15:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_learning_path' is clicked on
+
+2018-12-14 11:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_learning_path' is clicked on
+
+2018-12-14 11:15:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:15:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/ManageLearningPath/button_add_learning_path' is clicked on
+
+2018-12-14 11:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/ManageLearningPath/button_add_learning_path' is clicked on
+
+2018-12-14 11:15:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:00 - [TEST_STEP][PASSED] - setText: Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/AddLearningPath/input_name_learning_path'
+
+2018-12-14 11:16:02 - [MESSAGE][PASSED] - Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/AddLearningPath/input_name_learning_path'
+
+2018-12-14 11:16:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_not_frequent_learning_path' is clicked on
+
+2018-12-14 11:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_not_frequent_learning_path' is clicked on
+
+2018-12-14 11:16:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_certificate' is clicked on
+
+2018-12-14 11:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_certificate' is clicked on
+
+2018-12-14 11:16:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/button_see_certificate' is clicked on
+
+2018-12-14 11:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/button_see_certificate' is clicked on
+
+2018-12-14 11:16:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/icon_close_model_certificate' is clicked on
+
+2018-12-14 11:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/icon_close_model_certificate' is clicked on
+
+2018-12-14 11:16:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/button_see_thang_danh_gia' is clicked on
+
+2018-12-14 11:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/button_see_thang_danh_gia' is clicked on
+
+2018-12-14 11:16:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/icon_close_model_thang_danh_gia' is clicked on
+
+2018-12-14 11:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/icon_close_model_thang_danh_gia' is clicked on
+
+2018-12-14 11:16:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/textarea_receiver' is clicked on
+
+2018-12-14 11:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/textarea_receiver' is clicked on
+
+2018-12-14 11:16:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/choose_user' is clicked on
+
+2018-12-14 11:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/choose_user' is clicked on
+
+2018-12-14 11:16:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_receive_report' is clicked on
+
+2018-12-14 11:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_receive_report' is clicked on
+
+2018-12-14 11:16:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:24 - [TEST_STEP][PASSED] - setText: Text 'Bước 1' is set on object 'Object Repository/LearningPath/AddLearningPath/input_name_step_1'
+
+2018-12-14 11:16:24 - [MESSAGE][PASSED] - Text 'Bước 1' is set on object 'Object Repository/LearningPath/AddLearningPath/input_name_step_1'
+
+2018-12-14 11:16:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/button_add_course' is clicked on
+
+2018-12-14 11:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/button_add_course' is clicked on
+
+2018-12-14 11:16:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:28 - [TEST_STEP][PASSED] - setText: Text 'Khóa học test ảnh' is set on object 'Object Repository/LearningPath/AddLearningPath/Course/input_search_course'
+
+2018-12-14 11:16:29 - [MESSAGE][PASSED] - Text 'Khóa học test ảnh' is set on object 'Object Repository/LearningPath/AddLearningPath/Course/input_search_course'
+
+2018-12-14 11:16:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/Course/button_apply' is clicked on
+
+2018-12-14 11:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/Course/button_apply' is clicked on
+
+2018-12-14 11:16:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/Course/checkbox_choose_couse' is clicked on
+
+2018-12-14 11:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/Course/checkbox_choose_couse' is clicked on
+
+2018-12-14 11:16:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/Course/button_add_course' is clicked on
+
+2018-12-14 11:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/Course/button_add_course' is clicked on
+
+2018-12-14 11:16:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_course_bat_buoc' is clicked on
+
+2018-12-14 11:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/checkbox_course_bat_buoc' is clicked on
+
+2018-12-14 11:16:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/button_add_exam' is clicked on
+
+2018-12-14 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/button_add_exam' is clicked on
+
+2018-12-14 11:16:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:41 - [TEST_STEP][PASSED] - setText: Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/LearningPath/AddLearningPath/Exam/input_seach_exam'
+
+2018-12-14 11:16:42 - [MESSAGE][PASSED] - Text 'Kỳ thi tạo từ Katalon' is set on object 'Object Repository/LearningPath/AddLearningPath/Exam/input_seach_exam'
+
+2018-12-14 11:16:42 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/Exam/button_apply' is clicked on
+
+2018-12-14 11:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/Exam/button_apply' is clicked on
+
+2018-12-14 11:16:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/Exam/checkbox_choose_exam' is clicked on
+
+2018-12-14 11:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/Exam/checkbox_choose_exam' is clicked on
+
+2018-12-14 11:16:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/Exam/button_add_exam' is clicked on
+
+2018-12-14 11:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/Exam/button_add_exam' is clicked on
+
+2018-12-14 11:16:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/icon_setting_exam' is clicked on
+
+2018-12-14 11:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/icon_setting_exam' is clicked on
+
+2018-12-14 11:16:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/icon_close_setting_exam' is clicked on
+
+2018-12-14 11:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/icon_close_setting_exam' is clicked on
+
+2018-12-14 11:16:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/AddLearningPath/button_save_learning_path' is clicked on
+
+2018-12-14 11:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/AddLearningPath/button_save_learning_path' is clicked on
+
+2018-12-14 11:16:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:56 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:16:56 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LearningPath/EditLearningPath" classname="Test Cases/LearningPath/EditLearningPath" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:16:56 - [TEST_CASE][PASSED] - Test Cases/LearningPath/EditLearningPath: Test Cases/LearningPath/EditLearningPath
+
+2018-12-14 11:16:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:16:59 - [TEST_STEP][PASSED] - setText: Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/ManageLearningPath/input_search_learning_path'
+
+2018-12-14 11:16:59 - [MESSAGE][PASSED] - Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/ManageLearningPath/input_search_learning_path'
+
+2018-12-14 11:16:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): null
+
+2018-12-14 11:17:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/ManageLearningPath/icon_edit_learning_path' is clicked on
+
+2018-12-14 11:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/ManageLearningPath/icon_edit_learning_path' is clicked on
+
+2018-12-14 11:17:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/tab_user' is clicked on
+
+2018-12-14 11:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/tab_user' is clicked on
+
+2018-12-14 11:17:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/radio_user' is clicked on
+
+2018-12-14 11:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/radio_user' is clicked on
+
+2018-12-14 11:17:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:11 - [TEST_STEP][PASSED] - setText: Text 'user1' is set on object 'Object Repository/LearningPath/EditLearning/input_search_user'
+
+2018-12-14 11:17:12 - [MESSAGE][PASSED] - Text 'user1' is set on object 'Object Repository/LearningPath/EditLearning/input_search_user'
+
+2018-12-14 11:17:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/checkbox_all' is clicked on
+
+2018-12-14 11:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/checkbox_all' is clicked on
+
+2018-12-14 11:17:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/button_add' is clicked on
+
+2018-12-14 11:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/button_add' is clicked on
+
+2018-12-14 11:17:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/button_save' is clicked on
+
+2018-12-14 11:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/button_save' is clicked on
+
+2018-12-14 11:17:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:20 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:17:20 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:17:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/button_send_approve' is clicked on
+
+2018-12-14 11:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/button_send_approve' is clicked on
+
+2018-12-14 11:17:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:24 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:17:25 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:17:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:27 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:17:27 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:17:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/ManageLearningPath/button_approve' is clicked on
+
+2018-12-14 11:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/ManageLearningPath/button_approve' is clicked on
+
+2018-12-14 11:17:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/ManageLearningPath/icon_detail_learning_approve' is clicked on
+
+2018-12-14 11:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/ManageLearningPath/icon_detail_learning_approve' is clicked on
+
+2018-12-14 11:17:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/ManageLearningPath/button_approve_learning' is clicked on
+
+2018-12-14 11:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/ManageLearningPath/button_approve_learning' is clicked on
+
+2018-12-14 11:17:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:37 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:17:37 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:17:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:39 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:17:39 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:17:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/ManageLearningPath/icon_back' is clicked on
+
+2018-12-14 11:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/ManageLearningPath/icon_back' is clicked on
+
+2018-12-14 11:17:42 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:44 - [TEST_STEP][PASSED] - setText: Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/ManageLearningPath/input_search_learning_path'
+
+2018-12-14 11:17:45 - [MESSAGE][PASSED] - Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/ManageLearningPath/input_search_learning_path'
+
+2018-12-14 11:17:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): null
+
+2018-12-14 11:17:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/icon_edit_learning' is clicked on
+
+2018-12-14 11:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/icon_edit_learning' is clicked on
+
+2018-12-14 11:17:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/tab_user' is clicked on
+
+2018-12-14 11:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/tab_user' is clicked on
+
+2018-12-14 11:17:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:55 - [TEST_STEP][PASSED] - setText: Text 'khoi' is set on object 'Object Repository/LearningPath/EditLearning/input_search_user'
+
+2018-12-14 11:17:55 - [MESSAGE][PASSED] - Text 'khoi' is set on object 'Object Repository/LearningPath/EditLearning/input_search_user'
+
+2018-12-14 11:17:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/checkbox_all' is clicked on
+
+2018-12-14 11:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/checkbox_all' is clicked on
+
+2018-12-14 11:17:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/EditLearning/button_add' is clicked on
+
+2018-12-14 11:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/EditLearning/button_add' is clicked on
+
+2018-12-14 11:18:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:02 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 2,000 second(s).
+
+2018-12-14 11:18:02 - [MESSAGE][PASSED] - Alert is present after 2,000 second(s).
+
+2018-12-14 11:18:02 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên'
+
+2018-12-14 11:18:02 - [MESSAGE][PASSED] - Get alert text successfully: 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên'
+
+2018-12-14 11:18:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên' and expected text 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên' are matched 
+
+2018-12-14 11:18:02 - [MESSAGE][PASSED] - Actual text 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên' and expected text 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên' are matched 
+
+2018-12-14 11:18:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:04 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:18:04 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:18:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-14 11:18:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-12-14 11:18:07 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-12-14 11:18:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-14 11:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-14 11:18:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-14 11:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-14 11:18:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LearningPath/LearnLearningPath" classname="Test Cases/LearningPath/LearnLearningPath" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)"/>
+         <system-out><![CDATA[2018-12-14 11:18:07 - [TEST_CASE][FAILED] - Test Cases/LearningPath/LearnLearningPath: Test Cases/LearningPath/LearnLearningPath FAILED because (of) Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)
+
+2018-12-14 11:18:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login2_Learn_Learning_Path' successfully
+
+2018-12-14 11:18:08 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login2_Learn_Learning_Path: Test Cases/Authentication/Login2_Learn_Learning_Path
+
+2018-12-14 11:18:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-14 11:18:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 11:18:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:18:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-14 11:18:13 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-14 11:18:13 - [TEST_STEP][PASSED] - setText: Text 'user16' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-14 11:18:13 - [MESSAGE][PASSED] - Text 'user16' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-14 11:18:13 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-14 11:18:13 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-14 11:18:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-14 11:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-14 11:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login2_Learn_Learning_Path' successfully
+
+2018-12-14 11:18:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-14 11:18:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-14 11:18:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/modul_learning_path' is clicked on
+
+2018-12-14 11:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/modul_learning_path' is clicked on
+
+2018-12-14 11:18:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:22 - [TEST_STEP][PASSED] - setText: Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/LearnLearningPath/input_search_learning_path'
+
+2018-12-14 11:18:22 - [MESSAGE][PASSED] - Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/LearnLearningPath/input_search_learning_path'
+
+2018-12-14 11:18:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/choose_learning_path' is clicked on
+
+2018-12-14 11:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/choose_learning_path' is clicked on
+
+2018-12-14 11:18:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/choose_course' is clicked on
+
+2018-12-14 11:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/choose_course' is clicked on
+
+2018-12-14 11:18:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:29 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'khóa học test ảnh'
+
+2018-12-14 11:18:31 - [MESSAGE][PASSED] - Switched to window with title: 'khóa học test ảnh'
+
+2018-12-14 11:18:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/start_learn_course' is clicked on
+
+2018-12-14 11:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/start_learn_course' is clicked on
+
+2018-12-14 11:18:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/LearnCourse/button_finish' is clicked on
+
+2018-12-14 11:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/LearnCourse/button_finish' is clicked on
+
+2018-12-14 11:18:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/LearnCourse/button_accept' is clicked on
+
+2018-12-14 11:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/LearnCourse/button_accept' is clicked on
+
+2018-12-14 11:18:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-12-14 11:18:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/modul_learning_path' is clicked on
+
+2018-12-14 11:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/modul_learning_path' is clicked on
+
+2018-12-14 11:18:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:51 - [TEST_STEP][PASSED] - setText: Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/LearnLearningPath/input_search_learning_path'
+
+2018-12-14 11:18:52 - [MESSAGE][PASSED] - Text 'Quy trình không thường xuyên Katalon 5' is set on object 'Object Repository/LearningPath/LearnLearningPath/input_search_learning_path'
+
+2018-12-14 11:18:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:18:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/choose_learning_path' is clicked on
+
+2018-12-14 11:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/choose_learning_path' is clicked on
+
+2018-12-14 11:18:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-12-14 11:19:05 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-12-14 11:19:06 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-12-14 11:19:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-14 11:19:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LearningPath/LearnLearningPath/choose_exam' is clicked on
+
+2018-12-14 11:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LearningPath/LearnLearningPath/choose_exam' is clicked on
+
+2018-12-14 11:19:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:19:13 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Danh sách chủ đề của kỳ thi'
+
+2018-12-14 11:19:14 - [MESSAGE][PASSED] - Switched to window with title: 'Danh sách chủ đề của kỳ thi'
+
+2018-12-14 11:19:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:19:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/icon_choose_category' is clicked on
+
+2018-12-14 11:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/icon_choose_category' is clicked on
+
+2018-12-14 11:19:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:19:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/button_start_exam' is clicked on
+
+2018-12-14 11:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/button_start_exam' is clicked on
+
+2018-12-14 11:19:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(10000): null
+
+2018-12-14 11:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Examination/LearnExam/button_finish' is clicked on
+
+2018-12-14 11:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Examination/LearnExam/button_finish' is clicked on
+
+2018-12-14 11:19:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-14 11:19:31 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:19:31 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:19:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-14 11:19:36 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-12-14 11:19:36 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-14 11:19:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-14 11:19:41 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Administrator/select_user_action' is hovered
+
+2018-12-14 11:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/select_user_action' is hovered
+
+2018-12-14 11:19:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-14 11:19:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-12-14 11:19:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)
+
+2018-12-14 11:20:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\LearningPath\\20181214_111530\\1544761222603.png]]]]></system-out>
+         <system-err><![CDATA[2018-12-14 11:18:07 - [TEST_CASE][FAILED] - Test Cases/LearningPath/LearnLearningPath: Test Cases/LearningPath/LearnLearningPath FAILED because (of) Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 11:15:35 - [TEST_SUITE][FAILED] - LearningPath: Test Cases/LearningPath/LearnLearningPath FAILED because (of) Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-12-14 11:15:35 - [TEST_SUITE][FAILED] - LearningPath: Test Cases/LearningPath/LearnLearningPath FAILED because (of) Unable to click on object 'Object Repository/Administrator/a_role_learner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Administrator/a_role_learner' located by 'By.xpath: //a[@href = '/?role=learner' and (text() = ' Người học' or . = ' Người học')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

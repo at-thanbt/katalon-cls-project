@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_add_learning_path</name>
+   <name>button_export_detail_step</name>
    <tag></tag>
-   <elementGuidId>fee1af1e-8fd4-4f67-aed0-db11eb5e229d</elementGuidId>
+   <elementGuidId>9c409dd2-ea40-4bec-9eac-db4baf252a52</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnAddLearningPath</value>
+      <value>btn-export-file</value>
    </webElementProperties>
 </WebElementEntity>

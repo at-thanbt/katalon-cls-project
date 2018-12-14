@@ -27,11 +27,11 @@ WebUI.click(findTestObject('Administrator/div_modun_learning_path'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('LearningPath/button_add_learning_path'))
+WebUI.click(findTestObject('LearningPath/ManageLearningPath/button_add_learning_path'))
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('LearningPath/AddLearningPath/input_name_learning_path'), 'Quy trình không thường xuyên Katalon 1')
+WebUI.setText(findTestObject('LearningPath/AddLearningPath/input_name_learning_path'), 'Quy trình không thường xuyên Katalon 6')
 
 Thread.sleep(2000)
 
@@ -59,8 +59,14 @@ WebUI.click(findTestObject('LearningPath/AddLearningPath/icon_close_model_thang_
 
 Thread.sleep(2000)
 
-//WebUI.setText(findTestObject('LearningPath/AddLearningPath/input_receiver'), 'admin')
-//Thread.sleep(2000)
+WebUI.click(findTestObject('LearningPath/AddLearningPath/textarea_receiver'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('LearningPath/AddLearningPath/choose_user'))
+
+Thread.sleep(2000)
+
 WebUI.click(findTestObject('LearningPath/AddLearningPath/checkbox_receive_report'))
 
 Thread.sleep(2000)
@@ -118,14 +124,6 @@ WebUI.click(findTestObject('LearningPath/AddLearningPath/icon_setting_exam'))
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('LearningPath/AddLearningPath/icon_close_setting_exam'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('LearningPath/AddLearningPath/textarea_receiver'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('LearningPath/AddLearningPath/choose_user'))
 
 Thread.sleep(2000)
 

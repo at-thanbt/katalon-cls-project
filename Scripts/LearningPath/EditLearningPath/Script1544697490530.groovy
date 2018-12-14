@@ -19,19 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Administrator/div_modun_learning_path'))
-
+//WebUI.callTestCase(findTestCase('Authentication/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.maximizeWindow()
+//WebUI.click(findTestObject('Administrator/div_modun_learning_path'))
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('LearningPath/input_search_learning_path'), 'Quy trình không thường xuyên Katalon 1')
+WebUI.setText(findTestObject('LearningPath/ManageLearningPath/input_search_learning_path'), 'Quy trình không thường xuyên Katalon 6')
 
 Thread.sleep(4000)
 
-WebUI.click(findTestObject('LearningPath/icon_edit_learning_path'))
+WebUI.click(findTestObject('LearningPath/ManageLearningPath/icon_edit_learning_path'))
 
 Thread.sleep(2000)
 
@@ -75,16 +72,65 @@ WebUI.acceptAlert()
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('LearningPath/button_approve'))
+WebUI.click(findTestObject('LearningPath/ManageLearningPath/button_approve'))
+
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('LearningPath/icon_detail_learning_approve'))
+WebUI.click(findTestObject('LearningPath/ManageLearningPath/icon_detail_learning_approve'))
+
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('LearningPath/button_approve_learning'))
+WebUI.click(findTestObject('LearningPath/ManageLearningPath/button_approve_learning'))
+
 Thread.sleep(2000)
 
 WebUI.acceptAlert()
+
 Thread.sleep(2000)
+
 WebUI.acceptAlert()
+
 Thread.sleep(2000)
+
+WebUI.click(findTestObject('LearningPath/ManageLearningPath/icon_back'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('LearningPath/ManageLearningPath/input_search_learning_path'), 'Quy trình không thường xuyên Katalon 6')
+
+Thread.sleep(4000)
+
+WebUI.click(findTestObject('LearningPath/EditLearning/icon_edit_learning'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('LearningPath/EditLearning/tab_user'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('LearningPath/EditLearning/input_search_user'), 'khoi')
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('LearningPath/EditLearning/checkbox_all'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('LearningPath/EditLearning/button_add'))
+
+Thread.sleep(2000)
+
+WebUI.waitForAlert(2000)
+
+String alertText = WebUI.getAlertText()
+
+WebUI.verifyMatch(alertText, 'Không thể ghi danh thêm người dùng vào quy trình đào tạo không thường xuyên', false)
+
+Thread.sleep(2000)
+
+WebUI.acceptAlert()
+
+Thread.sleep(3000)
+
+WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
