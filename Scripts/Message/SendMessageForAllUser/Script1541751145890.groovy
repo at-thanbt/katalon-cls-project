@@ -63,7 +63,8 @@ WebUI.verifyTextPresent('Tin nhắn tạo từ Katalon', false)
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+/*WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
@@ -81,3 +82,4 @@ Thread.sleep(2000)
 
 WebUI.verifyTextPresent('Tin nhắn tạo từ Katalon gửi cho tất cả user', false)
 
+*/

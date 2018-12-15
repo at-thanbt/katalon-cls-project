@@ -25,17 +25,28 @@ WebUI.click(findTestObject('Report/Course/link_report_course'))
 
 Thread.sleep(2000)
 
-//String title = WebUI.getWindowTitle()
-//WebUI.verifyMatch(title, 'Khoá học', true)
-//WebUI.click(findTestObject('Report/Course/link_admin'))
-//Thread.sleep(2000)
-//WebUI.click(findTestObject('Administrator/div_modun_report'))
-//Thread.sleep(2000)
-//WebUI.click(findTestObject('Report/Course/button_report_course'))
-//Thread.sleep(2000)
-//String title1 = WebUI.getWindowTitle()
-//WebUI.verifyMatch(title1, 'Khoá học', true)
-//WebUI.click(findTestObject('Report/Course/button_export_list_course'))
+String title = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(title, 'Khoá học', true)
+
+WebUI.click(findTestObject('Report/Course/link_admin'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Administrator/div_modun_report'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/button_report_course'))
+
+Thread.sleep(2000)
+
+String title1 = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(title1, 'Khoá học', true)
+
+WebUI.click(findTestObject('Report/Course/button_export_list_course'))
+
 Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Report/Course/input_search_course'), 'Khóa tự động do thân tạo')
@@ -43,26 +54,6 @@ WebUI.setText(findTestObject('Report/Course/input_search_course'), 'Khóa tự �
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/icon_detail_course'))
-
 Thread.sleep(2000)
-
-WebUI.click(findTestObject('Report/Course/DetailCourse/tab_learner'))
-
-Thread.sleep(2000)
-
-WebUI.setText(findTestObject('Report/Course/DetailCourse/TabLearner/input_search_user_content'), 'Admin2')
-
-WebUI.verifyTextPresent('admin2', false)
-
-WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail'))
-
-WebUI.click(findTestObject('Report/Course/DetailCourse/tab_content'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Report/Course/DetailCourse/tab_time_line'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Report/Course/DetailCourse/tab_info'))
+WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

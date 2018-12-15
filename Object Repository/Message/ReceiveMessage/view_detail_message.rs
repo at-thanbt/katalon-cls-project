@@ -6,14 +6,21 @@
    <elementGuidId>4b8df456-14bc-414a-a26a-744d04f76b6c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tr-360155&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;tr-321694&quot;]/td[3]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value> Tin nhắn tạo từ Katalon gửi cho khóa học</value>
+   </webElementProperties>
 </WebElementEntity>

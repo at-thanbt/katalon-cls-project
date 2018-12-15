@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Message,Chrome 71.0.3578.98,,2018-12-15 11:49:48,2018-12-15 11:52:39,2m - 50.617s,FAILED
+,,,,,,
+Test Cases/Message/SendMessageForAllUser,Chrome 71.0.3578.98,,2018-12-15 11:49:48,2018-12-15 11:50:25,36.354s,PASSED
+callTestCase,Chrome 71.0.3578.98,,2018-12-15 11:49:49,2018-12-15 11:50:02,13.214s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:02,2018-12-15 11:50:03,1.098s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:50:03,2018-12-15 11:50:06,3.000s,PASSED
+switchToWindowIndex,Chrome 71.0.3578.98,,2018-12-15 11:50:06,2018-12-15 11:50:06,0.011s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 71.0.3578.98,,2018-12-15 11:50:06,2018-12-15 11:50:06,0.009s,PASSED
+verifyMatch,Chrome 71.0.3578.98,,2018-12-15 11:50:06,2018-12-15 11:50:06,0.002s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:06,2018-12-15 11:50:06,0.254s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:06,2018-12-15 11:50:08,2.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:08,2018-12-15 11:50:09,0.084s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:09,2018-12-15 11:50:11,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:11,2018-12-15 11:50:11,0.273s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:11,2018-12-15 11:50:13,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:13,2018-12-15 11:50:13,0.220s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:13,2018-12-15 11:50:15,2.001s,PASSED
+uploadFile,Chrome 71.0.3578.98,,2018-12-15 11:50:15,2018-12-15 11:50:15,0.067s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:50:15,2018-12-15 11:50:18,3.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:18,2018-12-15 11:50:18,0.087s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:18,2018-12-15 11:50:20,2.002s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:20,2018-12-15 11:50:21,0.485s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:21,2018-12-15 11:50:23,2.001s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2018-12-15 11:50:23,2018-12-15 11:50:23,0.116s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:23,2018-12-15 11:50:25,2.001s,PASSED
+,,,,,,
+Test Cases/Message/SendMessageForBranch,Chrome 71.0.3578.98,,2018-12-15 11:50:25,2018-12-15 11:50:50,25.543s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:25,2018-12-15 11:50:26,1.091s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:50:26,2018-12-15 11:50:29,3.001s,PASSED
+switchToWindowIndex,Chrome 71.0.3578.98,,2018-12-15 11:50:29,2018-12-15 11:50:29,0.012s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 71.0.3578.98,,2018-12-15 11:50:29,2018-12-15 11:50:29,0.013s,PASSED
+verifyMatch,Chrome 71.0.3578.98,,2018-12-15 11:50:29,2018-12-15 11:50:29,0.003s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:29,2018-12-15 11:50:29,0.196s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:29,2018-12-15 11:50:31,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:31,2018-12-15 11:50:31,0.124s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:31,2018-12-15 11:50:33,2.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:33,2018-12-15 11:50:34,0.085s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:34,2018-12-15 11:50:36,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:36,2018-12-15 11:50:36,0.257s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:36,2018-12-15 11:50:38,2.002s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:38,2018-12-15 11:50:39,0.785s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:39,2018-12-15 11:50:41,2.001s,PASSED
+uploadFile,Chrome 71.0.3578.98,,2018-12-15 11:50:41,2018-12-15 11:50:41,0.057s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:50:41,2018-12-15 11:50:44,3.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:44,2018-12-15 11:50:44,0.093s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:44,2018-12-15 11:50:46,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:46,2018-12-15 11:50:46,0.480s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:46,2018-12-15 11:50:48,2.001s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2018-12-15 11:50:48,2018-12-15 11:50:48,0.094s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:48,2018-12-15 11:50:50,2.002s,PASSED
+,,,,,,
+Test Cases/Message/SendMessageForCourse,Chrome 71.0.3578.98,,2018-12-15 11:50:50,2018-12-15 11:51:15,25.033s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:51,2018-12-15 11:50:52,1.094s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:50:52,2018-12-15 11:50:55,3.002s,PASSED
+switchToWindowIndex,Chrome 71.0.3578.98,,2018-12-15 11:50:55,2018-12-15 11:50:55,0.013s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 71.0.3578.98,,2018-12-15 11:50:55,2018-12-15 11:50:55,0.009s,PASSED
+verifyMatch,Chrome 71.0.3578.98,,2018-12-15 11:50:55,2018-12-15 11:50:55,0.002s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:55,2018-12-15 11:50:55,0.209s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:55,2018-12-15 11:50:57,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:50:57,2018-12-15 11:50:57,0.203s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:57,2018-12-15 11:50:59,2.000s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:50:59,2018-12-15 11:50:59,0.076s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:50:59,2018-12-15 11:51:01,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:01,2018-12-15 11:51:01,0.250s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:01,2018-12-15 11:51:03,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:03,2018-12-15 11:51:04,0.203s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:04,2018-12-15 11:51:06,2.001s,PASSED
+uploadFile,Chrome 71.0.3578.98,,2018-12-15 11:51:06,2018-12-15 11:51:06,0.056s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:51:06,2018-12-15 11:51:09,3.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:51:09,2018-12-15 11:51:09,0.080s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:09,2018-12-15 11:51:11,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:11,2018-12-15 11:51:11,0.487s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:11,2018-12-15 11:51:13,2.001s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2018-12-15 11:51:13,2018-12-15 11:51:13,0.087s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:13,2018-12-15 11:51:15,2.001s,PASSED
+,,,,,,
+Test Cases/Message/SendMessageForOneUser,Chrome 71.0.3578.98,,2018-12-15 11:51:15,2018-12-15 11:51:41,25.674s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:51:16,2018-12-15 11:51:17,1.104s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:51:17,2018-12-15 11:51:20,3.001s,PASSED
+switchToWindowIndex,Chrome 71.0.3578.98,,2018-12-15 11:51:20,2018-12-15 11:51:20,0.012s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 71.0.3578.98,,2018-12-15 11:51:20,2018-12-15 11:51:20,0.008s,PASSED
+verifyMatch,Chrome 71.0.3578.98,,2018-12-15 11:51:20,2018-12-15 11:51:20,0.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:51:20,2018-12-15 11:51:20,0.220s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:20,2018-12-15 11:51:22,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:22,2018-12-15 11:51:22,0.119s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:22,2018-12-15 11:51:24,2.000s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:51:24,2018-12-15 11:51:24,0.075s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:24,2018-12-15 11:51:26,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:26,2018-12-15 11:51:26,0.253s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:26,2018-12-15 11:51:28,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:28,2018-12-15 11:51:29,0.212s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:29,2018-12-15 11:51:31,2.000s,PASSED
+uploadFile,Chrome 71.0.3578.98,,2018-12-15 11:51:31,2018-12-15 11:51:31,0.053s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 71.0.3578.98,,2018-12-15 11:51:31,2018-12-15 11:51:34,3.001s,PASSED
+click,Chrome 71.0.3578.98,,2018-12-15 11:51:34,2018-12-15 11:51:34,0.079s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:34,2018-12-15 11:51:36,2.000s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:36,2018-12-15 11:51:36,0.600s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:36,2018-12-15 11:51:38,2.003s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2018-12-15 11:51:38,2018-12-15 11:51:39,0.208s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:39,2018-12-15 11:51:41,2.001s,PASSED
+callTestCase,Chrome 71.0.3578.98,,2018-12-15 11:51:41,2018-12-15 11:51:41,0.409s,PASSED
+,,,,,,
+Test Cases/Message/ViewDetailMessage,Chrome 71.0.3578.98,,2018-12-15 11:51:41,2018-12-15 11:52:02,21.015s,FAILED
+callTestCase,Chrome 71.0.3578.98,,2018-12-15 11:51:41,2018-12-15 11:51:54,12.917s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:54,2018-12-15 11:51:55,0.983s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:55,2018-12-15 11:51:57,2.001s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2018-12-15 11:51:57,2018-12-15 11:51:57,0.094s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:51:57,2018-12-15 11:51:59,2.001s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-15 11:51:59,2018-12-15 11:52:00,0.348s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 71.0.3578.98,,2018-12-15 11:52:00,2018-12-15 11:52:02,2.000s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2018-12-15 11:52:02,2018-12-15 11:52:02,0.330s,FAILED
+,,,,,,
+Test Cases/Message/DeleteMessage,Chrome 71.0.3578.98,,2018-12-15 11:52:02,2018-12-15 11:52:38,35.769s,FAILED
+callTestCase,Chrome 71.0.3578.98,,2018-12-15 11:52:02,2018-12-15 11:52:38,35.460s,FAILED

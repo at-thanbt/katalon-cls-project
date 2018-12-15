@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Report" time="258" tests="3" failures="0" errors="0">
+   <testsuite name="Report" tests="3" failures="0" errors="0" time="258" timestamp="2018-12-15 11:31:47" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Report\\20181215_113145"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Report\\20181215_113145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="ace794bdaa7cfb0631893f94ca16bf31"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Report/ReportBranch/OpenReportBranch" classname="Test Cases/Report/ReportBranch/OpenReportBranch" status="PASSED">
+         <system-out><![CDATA[2018-12-15 11:31:48 - [TEST_CASE][PASSED] - Test Cases/Report/ReportBranch/OpenReportBranch: Test Cases/Report/ReportBranch/OpenReportBranch
+
+2018-12-15 11:31:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 11:31:49 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-15 11:31:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-15 11:31:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-15 11:31:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 11:31:53 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 11:31:53 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 11:31:54 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 11:31:54 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 11:31:54 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 11:31:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 11:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 11:31:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 11:31:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/link_report_branch' is clicked on
+
+2018-12-15 11:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/link_report_branch' is clicked on
+
+2018-12-15 11:31:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:01 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Chi nhánh'
+
+2018-12-15 11:32:01 - [MESSAGE][PASSED] - Current window's title is: 'Chi nhánh'
+
+2018-12-15 11:32:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Chi nhánh' and expected text 'Chi nhánh' are matched  using regular expression
+
+2018-12-15 11:32:01 - [MESSAGE][PASSED] - Actual text 'Chi nhánh' and expected text 'Chi nhánh' are matched  using regular expression
+
+2018-12-15 11:32:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/link_admin' is clicked on
+
+2018-12-15 11:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/link_admin' is clicked on
+
+2018-12-15 11:32:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_report' is clicked on
+
+2018-12-15 11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_report' is clicked on
+
+2018-12-15 11:32:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/button_report_branch' is clicked on
+
+2018-12-15 11:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/button_report_branch' is clicked on
+
+2018-12-15 11:32:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:11 - [TEST_STEP][PASSED] - Statement - title1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Chi nhánh'
+
+2018-12-15 11:32:11 - [MESSAGE][PASSED] - Current window's title is: 'Chi nhánh'
+
+2018-12-15 11:32:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Chi nhánh' and expected text 'Chi nhánh' are matched  using regular expression
+
+2018-12-15 11:32:11 - [MESSAGE][PASSED] - Actual text 'Chi nhánh' and expected text 'Chi nhánh' are matched  using regular expression
+
+2018-12-15 11:32:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:13 - [TEST_STEP][PASSED] - setText: Text 'Cà mau' is set on object 'Object Repository/Report/ReportBranch/input_search_branch'
+
+2018-12-15 11:32:13 - [MESSAGE][PASSED] - Text 'Cà mau' is set on object 'Object Repository/Report/ReportBranch/input_search_branch'
+
+2018-12-15 11:32:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/icon_detail_branch' is clicked on
+
+2018-12-15 11:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/icon_detail_branch' is clicked on
+
+2018-12-15 11:32:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_learner' is clicked on
+
+2018-12-15 11:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_learner' is clicked on
+
+2018-12-15 11:32:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:20 - [TEST_STEP][PASSED] - setText: Text 'Admin2' is set on object 'Object Repository/Report/ReportBranch/input_search_user'
+
+2018-12-15 11:32:20 - [MESSAGE][PASSED] - Text 'Admin2' is set on object 'Object Repository/Report/ReportBranch/input_search_user'
+
+2018-12-15 11:32:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'admin2' is present on page 
+
+2018-12-15 11:32:22 - [MESSAGE][PASSED] - Text 'admin2' is present on page 
+
+2018-12-15 11:32:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/button_export_user' is clicked on
+
+2018-12-15 11:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/button_export_user' is clicked on
+
+2018-12-15 11:32:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:32:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:27 - [TEST_STEP][PASSED] - setText: Text 'Tạo ở chi nhánh' is set on object 'Object Repository/Report/ReportBranch/input_search_course'
+
+2018-12-15 11:32:27 - [MESSAGE][PASSED] - Text 'Tạo ở chi nhánh' is set on object 'Object Repository/Report/ReportBranch/input_search_course'
+
+2018-12-15 11:32:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tạo ở chi nhánh' is present on page 
+
+2018-12-15 11:32:29 - [MESSAGE][PASSED] - Text 'Tạo ở chi nhánh' is present on page 
+
+2018-12-15 11:32:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/button_export_course' is clicked on
+
+2018-12-15 11:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/button_export_course' is clicked on
+
+2018-12-15 11:32:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_time_line' is clicked on
+
+2018-12-15 11:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_time_line' is clicked on
+
+2018-12-15 11:32:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/button_export_timeline' is clicked on
+
+2018-12-15 11:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/button_export_timeline' is clicked on
+
+2018-12-15 11:32:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/page_2' is clicked on
+
+2018-12-15 11:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/page_2' is clicked on
+
+2018-12-15 11:32:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/ReportBranch/page_3' is clicked on
+
+2018-12-15 11:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/ReportBranch/page_3' is clicked on
+
+2018-12-15 11:32:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_info' is clicked on
+
+2018-12-15 11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_info' is clicked on
+
+2018-12-15 11:32:40 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-12-15 11:32:42 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-12-15 11:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-15 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-15 11:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-15 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-15 11:32:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report/ReportCourse/OpenReportCoureFromLink" classname="Test Cases/Report/ReportCourse/OpenReportCoureFromLink" status="PASSED">
+         <system-out><![CDATA[2018-12-15 11:32:42 - [TEST_CASE][PASSED] - Test Cases/Report/ReportCourse/OpenReportCoureFromLink: Test Cases/Report/ReportCourse/OpenReportCoureFromLink
+
+2018-12-15 11:32:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 11:32:43 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-15 11:32:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-15 11:32:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-15 11:32:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-15 11:32:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 11:32:47 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 11:32:47 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 11:32:47 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 11:32:47 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 11:32:47 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 11:32:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 11:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 11:32:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 11:32:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/link_report_course' is clicked on
+
+2018-12-15 11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/link_report_course' is clicked on
+
+2018-12-15 11:32:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:54 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Khoá học'
+
+2018-12-15 11:32:54 - [MESSAGE][PASSED] - Current window's title is: 'Khoá học'
+
+2018-12-15 11:32:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Khoá học' and expected text 'Khoá học' are matched  using regular expression
+
+2018-12-15 11:32:54 - [MESSAGE][PASSED] - Actual text 'Khoá học' and expected text 'Khoá học' are matched  using regular expression
+
+2018-12-15 11:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/link_admin' is clicked on
+
+2018-12-15 11:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/link_admin' is clicked on
+
+2018-12-15 11:32:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:32:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Administrator/div_modun_report' is clicked on
+
+2018-12-15 11:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Administrator/div_modun_report' is clicked on
+
+2018-12-15 11:32:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/button_report_course' is clicked on
+
+2018-12-15 11:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/button_report_course' is clicked on
+
+2018-12-15 11:33:02 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:04 - [TEST_STEP][PASSED] - Statement - title1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Khoá học'
+
+2018-12-15 11:33:04 - [MESSAGE][PASSED] - Current window's title is: 'Khoá học'
+
+2018-12-15 11:33:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Khoá học' and expected text 'Khoá học' are matched  using regular expression
+
+2018-12-15 11:33:04 - [MESSAGE][PASSED] - Actual text 'Khoá học' and expected text 'Khoá học' are matched  using regular expression
+
+2018-12-15 11:33:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/button_export_list_course' is clicked on
+
+2018-12-15 11:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/button_export_list_course' is clicked on
+
+2018-12-15 11:33:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:06 - [TEST_STEP][PASSED] - setText: Text 'Khóa tự động do thân tạo' is set on object 'Object Repository/Report/Course/input_search_course'
+
+2018-12-15 11:33:07 - [MESSAGE][PASSED] - Text 'Khóa tự động do thân tạo' is set on object 'Object Repository/Report/Course/input_search_course'
+
+2018-12-15 11:33:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/icon_detail_course' is clicked on
+
+2018-12-15 11:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/icon_detail_course' is clicked on
+
+2018-12-15 11:33:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-12-15 11:33:12 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-12-15 11:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-15 11:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-15 11:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-15 11:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-15 11:33:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report/ReportCourse/DetailUserReport" classname="Test Cases/Report/ReportCourse/DetailUserReport" status="PASSED">
+         <system-out><![CDATA[2018-12-15 11:33:12 - [TEST_CASE][PASSED] - Test Cases/Report/ReportCourse/DetailUserReport: Test Cases/Report/ReportCourse/DetailUserReport
+
+2018-12-15 11:33:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 11:33:13 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-15 11:33:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-15 11:33:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-15 11:33:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-15 11:33:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 11:33:17 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 11:33:17 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 11:33:17 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 11:33:17 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 11:33:17 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 11:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 11:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 11:33:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 11:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/link_report_course' is clicked on
+
+2018-12-15 11:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/link_report_course' is clicked on
+
+2018-12-15 11:33:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:24 - [TEST_STEP][PASSED] - setText: Text 'Khóa tự động do thân tạo' is set on object 'Object Repository/Report/Course/input_search_course'
+
+2018-12-15 11:33:24 - [MESSAGE][PASSED] - Text 'Khóa tự động do thân tạo' is set on object 'Object Repository/Report/Course/input_search_course'
+
+2018-12-15 11:33:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/icon_detail_course' is clicked on
+
+2018-12-15 11:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/icon_detail_course' is clicked on
+
+2018-12-15 11:33:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_learner' is clicked on
+
+2018-12-15 11:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_learner' is clicked on
+
+2018-12-15 11:33:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:31 - [TEST_STEP][PASSED] - setText: Text 'Admin2' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_user_content'
+
+2018-12-15 11:33:32 - [MESSAGE][PASSED] - Text 'Admin2' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_user_content'
+
+2018-12-15 11:33:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'admin2' is present on page 
+
+2018-12-15 11:33:34 - [MESSAGE][PASSED] - Text 'admin2' is present on page 
+
+2018-12-15 11:33:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail' is clicked on
+
+2018-12-15 11:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail' is clicked on
+
+2018-12-15 11:33:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/tab_content' is clicked on
+
+2018-12-15 11:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/tab_content' is clicked on
+
+2018-12-15 11:33:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/button_export_content_1' is clicked on
+
+2018-12-15 11:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/button_export_content_1' is clicked on
+
+2018-12-15 11:33:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:43 - [TEST_STEP][PASSED] - setText: Text 'Bài khảo sát' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:33:44 - [MESSAGE][PASSED] - Text 'Bài khảo sát' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:33:44 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Bài khảo sát' is present on page 
+
+2018-12-15 11:33:46 - [MESSAGE][PASSED] - Text 'Bài khảo sát' is present on page 
+
+2018-12-15 11:33:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:33:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:33:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:52 - [TEST_STEP][PASSED] - setText: Text 'Bài kiểm tra' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:33:52 - [MESSAGE][PASSED] - Text 'Bài kiểm tra' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:33:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:54 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Bài kiểm tra' is present on page 
+
+2018-12-15 11:33:54 - [MESSAGE][PASSED] - Text 'Bài kiểm tra' is present on page 
+
+2018-12-15 11:33:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:33:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:33:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:33:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:00 - [TEST_STEP][PASSED] - setText: Text 'document question' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:01 - [MESSAGE][PASSED] - Text 'document question' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:03 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'document question' is present on page 
+
+2018-12-15 11:34:03 - [MESSAGE][PASSED] - Text 'document question' is present on page 
+
+2018-12-15 11:34:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:34:05 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:34:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:09 - [TEST_STEP][PASSED] - setText: Text 'document with time' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:10 - [MESSAGE][PASSED] - Text 'document with time' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:12 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'document with time' is present on page 
+
+2018-12-15 11:34:12 - [MESSAGE][PASSED] - Text 'document with time' is present on page 
+
+2018-12-15 11:34:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:14 - [TEST_STEP][PASSED] - setText: Text 'Flash' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:14 - [MESSAGE][PASSED] - Text 'Flash' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Flash' is present on page 
+
+2018-12-15 11:34:16 - [MESSAGE][PASSED] - Text 'Flash' is present on page 
+
+2018-12-15 11:34:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:18 - [TEST_STEP][PASSED] - setText: Text 'flash question' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:18 - [MESSAGE][PASSED] - Text 'flash question' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'flash question' is present on page 
+
+2018-12-15 11:34:20 - [MESSAGE][PASSED] - Text 'flash question' is present on page 
+
+2018-12-15 11:34:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:34:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:34:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:26 - [TEST_STEP][PASSED] - setText: Text 'flash with time' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:26 - [MESSAGE][PASSED] - Text 'flash with time' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'flash with time' is present on page 
+
+2018-12-15 11:34:28 - [MESSAGE][PASSED] - Text 'flash with time' is present on page 
+
+2018-12-15 11:34:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:30 - [TEST_STEP][PASSED] - setText: Text 'scorm 1' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:31 - [MESSAGE][PASSED] - Text 'scorm 1' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'scorm 1' is present on page 
+
+2018-12-15 11:34:33 - [MESSAGE][PASSED] - Text 'scorm 1' is present on page 
+
+2018-12-15 11:34:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:35 - [TEST_STEP][PASSED] - setText: Text 'scorm with question' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:35 - [MESSAGE][PASSED] - Text 'scorm with question' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'scorm with question' is present on page 
+
+2018-12-15 11:34:37 - [MESSAGE][PASSED] - Text 'scorm with question' is present on page 
+
+2018-12-15 11:34:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_detail_content' is clicked on
+
+2018-12-15 11:34:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/icon_close_popup' is clicked on
+
+2018-12-15 11:34:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:43 - [TEST_STEP][PASSED] - setText: Text 'scorm with time' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:43 - [MESSAGE][PASSED] - Text 'scorm with time' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'scorm with time' is present on page 
+
+2018-12-15 11:34:45 - [MESSAGE][PASSED] - Text 'scorm with time' is present on page 
+
+2018-12-15 11:34:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:47 - [TEST_STEP][PASSED] - setText: Text 'Tài liệu 1' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:47 - [MESSAGE][PASSED] - Text 'Tài liệu 1' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tài liệu 1' is present on page 
+
+2018-12-15 11:34:50 - [MESSAGE][PASSED] - Text 'Tài liệu 1' is present on page 
+
+2018-12-15 11:34:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Report/Course/DetailCourse/TabLearner/input_search_content'
+
+2018-12-15 11:34:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/select_content' is clicked on
+
+2018-12-15 11:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/select_content' is clicked on
+
+2018-12-15 11:34:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/content_content' is clicked on
+
+2018-12-15 11:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabLearner/content_content' is clicked on
+
+2018-12-15 11:34:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:34:58 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-12-15 11:34:58 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-12-15 11:34:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:34:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/button_export_content' is clicked on
+
+2018-12-15 11:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/button_export_content' is clicked on
+
+2018-12-15 11:35:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:02 - [TEST_STEP][PASSED] - setText: Text 'Tài liệu 1' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/input_search_content'
+
+2018-12-15 11:35:03 - [MESSAGE][PASSED] - Text 'Tài liệu 1' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/input_search_content'
+
+2018-12-15 11:35:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/icon_detail_content' is clicked on
+
+2018-12-15 11:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/icon_detail_content' is clicked on
+
+2018-12-15 11:35:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:08 - [TEST_STEP][PASSED] - setText: Text 'admin2' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/DetailContent/input_search_user'
+
+2018-12-15 11:35:08 - [MESSAGE][PASSED] - Text 'admin2' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/DetailContent/input_search_user'
+
+2018-12-15 11:35:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:10 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'admin2' is present on page 
+
+2018-12-15 11:35:10 - [MESSAGE][PASSED] - Text 'admin2' is present on page 
+
+2018-12-15 11:35:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailContent/tab_timeline' is clicked on
+
+2018-12-15 11:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailContent/tab_timeline' is clicked on
+
+2018-12-15 11:35:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailContent/button_export_timeline' is clicked on
+
+2018-12-15 11:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailContent/button_export_timeline' is clicked on
+
+2018-12-15 11:35:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:16 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-12-15 11:35:16 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-12-15 11:35:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:35:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:20 - [TEST_STEP][PASSED] - setText: Text 'document question' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/input_search_content'
+
+2018-12-15 11:35:21 - [MESSAGE][PASSED] - Text 'document question' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/input_search_content'
+
+2018-12-15 11:35:21 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/icon_detail_content' is clicked on
+
+2018-12-15 11:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/icon_detail_content' is clicked on
+
+2018-12-15 11:35:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/button_export_info' is clicked on
+
+2018-12-15 11:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/button_export_info' is clicked on
+
+2018-12-15 11:35:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_detail_test' is clicked on
+
+2018-12-15 11:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_detail_test' is clicked on
+
+2018-12-15 11:35:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_close' is clicked on
+
+2018-12-15 11:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_close' is clicked on
+
+2018-12-15 11:35:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_analist' is clicked on
+
+2018-12-15 11:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_analist' is clicked on
+
+2018-12-15 11:35:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_test' is clicked on
+
+2018-12-15 11:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_test' is clicked on
+
+2018-12-15 11:35:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_timeline' is clicked on
+
+2018-12-15 11:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_timeline' is clicked on
+
+2018-12-15 11:35:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/button_export_time_line' is clicked on
+
+2018-12-15 11:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/button_export_time_line' is clicked on
+
+2018-12-15 11:35:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:40 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-12-15 11:35:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-12-15 11:35:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_content' is clicked on
+
+2018-12-15 11:35:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:45 - [TEST_STEP][PASSED] - setText: Text 'Bài kiểm tra' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/input_search_content'
+
+2018-12-15 11:35:45 - [MESSAGE][PASSED] - Text 'Bài kiểm tra' is set on object 'Object Repository/Report/Course/DetailCourse/TabContent/input_search_content'
+
+2018-12-15 11:35:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/icon_detail_content' is clicked on
+
+2018-12-15 11:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/icon_detail_content' is clicked on
+
+2018-12-15 11:35:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_detail_test_of_test' is clicked on
+
+2018-12-15 11:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_detail_test_of_test' is clicked on
+
+2018-12-15 11:35:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_close' is clicked on
+
+2018-12-15 11:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/icon_close' is clicked on
+
+2018-12-15 11:35:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_analist' is clicked on
+
+2018-12-15 11:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_analist' is clicked on
+
+2018-12-15 11:35:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_timeline' is clicked on
+
+2018-12-15 11:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/TabContent/DetailTest/tab_timeline' is clicked on
+
+2018-12-15 11:35:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:35:58 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-12-15 11:35:59 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-12-15 11:35:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:36:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/tab_time_line' is clicked on
+
+2018-12-15 11:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/tab_time_line' is clicked on
+
+2018-12-15 11:36:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 11:36:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Report/Course/DetailCourse/button_export_timeline' is clicked on
+
+2018-12-15 11:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Report/Course/DetailCourse/button_export_timeline' is clicked on
+
+2018-12-15 11:36:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-15 11:31:47 - [TEST_SUITE][PASSED] - Report: Test Cases/Report/ReportCourse/DetailUserReport]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

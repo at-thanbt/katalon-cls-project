@@ -97,6 +97,12 @@ WebUI.click(findTestObject('Report/ReportBranch/page_2'))
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/ReportBranch/page_3'))
+
 Thread.sleep(2000)
+
 WebUI.click(findTestObject('Report/Course/DetailCourse/tab_info'))
+
+Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

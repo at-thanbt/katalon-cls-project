@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Message" time="197" tests="4" failures="2" errors="0">
+   <testsuite name="Message" tests="4" failures="2" errors="0" time="197" timestamp="2018-12-15 12:35:11" hostname="buithan - DESKTOP-9IOQSG7" id="Test Suites/Message">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Message\\20181215_123508"/>
+         <property name="logFiles" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Message\\20181215_123508\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Message\\20181215_123508\\1544852269989.png, C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Message\\20181215_123508\\1544852308150.png"/>
+         <property name="hostName" value="buithan - DESKTOP-9IOQSG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="93516aa4968b54f58f8259c6c1e934ed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Message/SendMessageForAllUser" classname="Test Cases/Message/SendMessageForAllUser" status="PASSED">
+         <system-out><![CDATA[2018-12-15 12:35:12 - [TEST_CASE][PASSED] - Test Cases/Message/SendMessageForAllUser: Test Cases/Message/SendMessageForAllUser
+
+2018-12-15 12:35:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Message/OpenPageMessage' successfully
+
+2018-12-15 12:35:13 - [TEST_CASE][PASSED] - Test Cases/Message/OpenPageMessage: Test Cases/Message/OpenPageMessage
+
+2018-12-15 12:35:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 12:35:14 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login1: Test Cases/Authentication/Login1
+
+2018-12-15 12:35:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-15 12:35:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-15 12:35:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 12:35:21 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 12:35:21 - [TEST_STEP][PASSED] - setText: Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 12:35:21 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 12:35:21 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 12:35:21 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 12:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 12:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 12:35:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login1' successfully
+
+2018-12-15 12:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/message_counter' is clicked on
+
+2018-12-15 12:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/message_counter' is clicked on
+
+2018-12-15 12:35:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:35:30 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-12-15 12:35:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-12-15 12:35:30 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Tin nhắn'
+
+2018-12-15 12:35:30 - [MESSAGE][PASSED] - Current window's title is: 'Tin nhắn'
+
+2018-12-15 12:35:30 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Tin nhắn' and expected text 'Tin nhắn' are matched  using regular expression
+
+2018-12-15 12:35:30 - [MESSAGE][PASSED] - Actual text 'Tin nhắn' and expected text 'Tin nhắn' are matched  using regular expression
+
+2018-12-15 12:35:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Message/OpenPageMessage' successfully
+
+2018-12-15 12:35:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/ReceiveMessage/button_add_message' is clicked on
+
+2018-12-15 12:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/ReceiveMessage/button_add_message' is clicked on
+
+2018-12-15 12:35:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:35:34 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-12-15 12:35:34 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-12-15 12:35:34 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:35:34 - [MESSAGE][PASSED] - Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:35:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:35:34 - [MESSAGE][PASSED] - Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:35:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:35:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/choose_all_user' is clicked on
+
+2018-12-15 12:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/choose_all_user' is clicked on
+
+2018-12-15 12:35:36 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:38 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho tất cả user' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:35:38 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho tất cả user' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:35:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:40 - [TEST_STEP][PASSED] - setText: Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:35:41 - [MESSAGE][PASSED] - Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:35:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:43 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:35:43 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:35:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:35:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:35:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:48 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho tất cả user' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:35:48 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho tất cả user' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:35:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tin nhắn tạo từ Katalon' is present on page 
+
+2018-12-15 12:35:50 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon' is present on page 
+
+2018-12-15 12:35:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Message/SendMessageForBranch" classname="Test Cases/Message/SendMessageForBranch" status="PASSED">
+         <system-out><![CDATA[2018-12-15 12:35:52 - [TEST_CASE][PASSED] - Test Cases/Message/SendMessageForBranch: Test Cases/Message/SendMessageForBranch
+
+2018-12-15 12:35:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/ReceiveMessage/button_add_message_send' is clicked on
+
+2018-12-15 12:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/ReceiveMessage/button_add_message_send' is clicked on
+
+2018-12-15 12:35:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:35:57 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-12-15 12:35:57 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-12-15 12:35:57 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:35:57 - [MESSAGE][PASSED] - Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:35:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:35:57 - [MESSAGE][PASSED] - Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:35:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:35:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:35:59 - [TEST_STEP][PASSED] - setText: Text 'Cà Mau' is set on object 'Object Repository/Message/CreateMessage/input_diachinguoinhan'
+
+2018-12-15 12:35:59 - [MESSAGE][PASSED] - Text 'Cà Mau' is set on object 'Object Repository/Message/CreateMessage/input_diachinguoinhan'
+
+2018-12-15 12:35:59 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/choose_user' is clicked on
+
+2018-12-15 12:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/choose_user' is clicked on
+
+2018-12-15 12:36:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:03 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho chi nhánh' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:36:04 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho chi nhánh' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:36:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:06 - [TEST_STEP][PASSED] - setText: Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:36:07 - [MESSAGE][PASSED] - Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:36:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:09 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:36:09 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:36:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:36:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:14 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho chi nhánh' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:36:14 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho chi nhánh' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:36:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tin nhắn tạo từ Katalon gửi cho chi nhánh' is present on page 
+
+2018-12-15 12:36:17 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho chi nhánh' is present on page 
+
+2018-12-15 12:36:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Message/SendMessageForCourse" classname="Test Cases/Message/SendMessageForCourse" status="PASSED">
+         <system-out><![CDATA[2018-12-15 12:36:19 - [TEST_CASE][PASSED] - Test Cases/Message/SendMessageForCourse: Test Cases/Message/SendMessageForCourse
+
+2018-12-15 12:36:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/ReceiveMessage/button_add_message_send' is clicked on
+
+2018-12-15 12:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/ReceiveMessage/button_add_message_send' is clicked on
+
+2018-12-15 12:36:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:36:23 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-12-15 12:36:23 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-12-15 12:36:23 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:36:23 - [MESSAGE][PASSED] - Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:36:23 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:36:23 - [MESSAGE][PASSED] - Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:36:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:36:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:25 - [TEST_STEP][PASSED] - setText: Text 'Khóa học tự động do thân tạo' is set on object 'Object Repository/Message/CreateMessage/input_diachinguoinhan'
+
+2018-12-15 12:36:26 - [MESSAGE][PASSED] - Text 'Khóa học tự động do thân tạo' is set on object 'Object Repository/Message/CreateMessage/input_diachinguoinhan'
+
+2018-12-15 12:36:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/choose_user' is clicked on
+
+2018-12-15 12:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/choose_user' is clicked on
+
+2018-12-15 12:36:28 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:30 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho khóa học' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:36:30 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho khóa học' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:36:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:32 - [TEST_STEP][PASSED] - setText: Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:36:32 - [MESSAGE][PASSED] - Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:36:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:34 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:36:34 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:36:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:36:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:36:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:40 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho khóa học' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:36:40 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho khóa học' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:36:40 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:42 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tin nhắn tạo từ Katalon gửi cho khóa học' is present on page 
+
+2018-12-15 12:36:42 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho khóa học' is present on page 
+
+2018-12-15 12:36:42 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Message/SendMessageForOneUser" classname="Test Cases/Message/SendMessageForOneUser" status="PASSED">
+         <system-out><![CDATA[2018-12-15 12:36:44 - [TEST_CASE][PASSED] - Test Cases/Message/SendMessageForOneUser: Test Cases/Message/SendMessageForOneUser
+
+2018-12-15 12:36:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/ReceiveMessage/button_add_message_send' is clicked on
+
+2018-12-15 12:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/ReceiveMessage/button_add_message_send' is clicked on
+
+2018-12-15 12:36:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:36:49 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-12-15 12:36:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-12-15 12:36:49 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:36:49 - [MESSAGE][PASSED] - Current window's title is: 'Gửi tin nhắn'
+
+2018-12-15 12:36:49 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:36:49 - [MESSAGE][PASSED] - Actual text 'Gửi tin nhắn' and expected text 'Gửi tin nhắn' are matched  using regular expression
+
+2018-12-15 12:36:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/diachinguoinhan' is clicked on
+
+2018-12-15 12:36:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:51 - [TEST_STEP][PASSED] - setText: Text 'Admin2' is set on object 'Object Repository/Message/CreateMessage/input_diachinguoinhan'
+
+2018-12-15 12:36:51 - [MESSAGE][PASSED] - Text 'Admin2' is set on object 'Object Repository/Message/CreateMessage/input_diachinguoinhan'
+
+2018-12-15 12:36:51 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/choose_user' is clicked on
+
+2018-12-15 12:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/choose_user' is clicked on
+
+2018-12-15 12:36:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:55 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho một người dùng' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:36:56 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho một người dùng' is set on object 'Object Repository/Message/CreateMessage/title_message'
+
+2018-12-15 12:36:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:36:58 - [TEST_STEP][PASSED] - setText: Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:36:58 - [MESSAGE][PASSED] - Text 'Nội dung tin nhắn được tạp từ Katalon' is set on object 'Object Repository/Message/CreateMessage/input_content_message'
+
+2018-12-15 12:36:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:37:00 - [TEST_STEP][PASSED] - uploadFile: File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:37:00 - [MESSAGE][PASSED] - File 'E:\api.xlsx' sent to object: 'Object Repository/Message/CreateMessage/attach_file'
+
+2018-12-15 12:37:00 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-12-15 12:37:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Message/CreateMessage/button_send_message' is clicked on
+
+2018-12-15 12:37:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:37:05 - [TEST_STEP][PASSED] - setText: Text 'Tin nhắn tạo từ Katalon gửi cho một người dùng' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:37:06 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho một người dùng' is set on object 'Object Repository/Message/SendMessage/input_search_message_send'
+
+2018-12-15 12:37:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:37:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tin nhắn tạo từ Katalon gửi cho một người dùng' is present on page 
+
+2018-12-15 12:37:08 - [MESSAGE][PASSED] - Text 'Tin nhắn tạo từ Katalon gửi cho một người dùng' is present on page 
+
+2018-12-15 12:37:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:37:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Logout' successfully
+
+2018-12-15 12:37:10 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+2018-12-15 12:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-15 12:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/select_user_action' is clicked on
+
+2018-12-15 12:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-15 12:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Logout/Page Administrator/logout' is clicked on
+
+2018-12-15 12:37:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Message/ViewDetailMessage" classname="Test Cases/Message/ViewDetailMessage" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)"/>
+         <system-out><![CDATA[2018-12-15 12:37:10 - [TEST_CASE][FAILED] - Test Cases/Message/ViewDetailMessage: Test Cases/Message/ViewDetailMessage FAILED because (of) Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)
+
+2018-12-15 12:37:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login2' successfully
+
+2018-12-15 12:37:11 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login2: Test Cases/Authentication/Login2
+
+2018-12-15 12:37:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-15 12:37:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-15 12:37:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-15 12:37:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 12:37:16 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 12:37:16 - [TEST_STEP][PASSED] - setText: Text 'admin2' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 12:37:17 - [MESSAGE][PASSED] - Text 'admin2' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 12:37:17 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 12:37:17 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 12:37:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 12:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 12:37:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login2' successfully
+
+2018-12-15 12:37:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:37:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)
+
+2018-12-15 12:37:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Message\\20181215_123508\\1544852269989.png]]]]></system-out>
+         <system-err><![CDATA[2018-12-15 12:37:10 - [TEST_CASE][FAILED] - Test Cases/Message/ViewDetailMessage: Test Cases/Message/ViewDetailMessage FAILED because (of) Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Message/DeleteMessage" classname="Test Cases/Message/DeleteMessage" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)"/>
+         <system-out><![CDATA[2018-12-15 12:37:50 - [TEST_CASE][FAILED] - Test Cases/Message/DeleteMessage: Test Cases/Message/DeleteMessage FAILED because (of) Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)
+
+2018-12-15 12:37:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Authentication/Login2' successfully
+
+2018-12-15 12:37:50 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login2: Test Cases/Authentication/Login2
+
+2018-12-15 12:37:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-15 12:37:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-15 12:37:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-15 12:37:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 12:37:55 - [MESSAGE][PASSED] - Navigate to 'https://ntmtien.cls.vn/account/login' successfully
+
+2018-12-15 12:37:55 - [TEST_STEP][PASSED] - setText: Text 'admin2' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 12:37:55 - [MESSAGE][PASSED] - Text 'admin2' is set on object 'Object Repository/Authentincation/Login/Page Login/input_UserName'
+
+2018-12-15 12:37:55 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 12:37:55 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Authentincation/Login/Page Login/input_Password'
+
+2018-12-15 12:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 12:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentincation/Login/Page Login/button_login' is clicked on
+
+2018-12-15 12:37:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login2' successfully
+
+2018-12-15 12:37:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-12-15 12:37:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)
+
+2018-12-15 12:38:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)
+[[ATTACHMENT|C:\\Users\\buithan\\git\\katalon-cls-project\\Reports\\Message\\20181215_123508\\1544852308150.png]]]]></system-out>
+         <system-err><![CDATA[2018-12-15 12:37:50 - [TEST_CASE][FAILED] - Test Cases/Message/DeleteMessage: Test Cases/Message/DeleteMessage FAILED because (of) Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-15 12:35:11 - [TEST_SUITE][FAILED] - Message: Test Cases/Message/ViewDetailMessage FAILED because (of) Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)]]></system-out>
+      <system-err><![CDATA[2018-12-15 12:35:11 - [TEST_SUITE][FAILED] - Message: Test Cases/Message/ViewDetailMessage FAILED because (of) Unable to click on object 'Object Repository/Message/message_counter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Message/message_counter' located by 'By.xpath: //*[@id = 'messageCounter']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

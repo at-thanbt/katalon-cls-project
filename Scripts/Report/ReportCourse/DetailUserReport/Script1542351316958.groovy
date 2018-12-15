@@ -49,10 +49,6 @@ WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/button_export_content'))
-
-Thread.sleep(2000)
-
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/tab_content'))
 
 Thread.sleep(2000)
@@ -70,12 +66,12 @@ WebUI.verifyTextPresent('Bài khảo sát', false)
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail_content'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_close_popup'))
-Thread.sleep(2000)
 
-if()
+Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Report/Course/DetailCourse/TabLearner/input_search_content'), 'Bài kiểm tra')
 
@@ -86,9 +82,11 @@ WebUI.verifyTextPresent('Bài kiểm tra', false)
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail_content'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_close_popup'))
+
 Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Report/Course/DetailCourse/TabLearner/input_search_content'), 'document question')
@@ -98,10 +96,13 @@ Thread.sleep(2000)
 WebUI.verifyTextPresent('document question', false)
 
 Thread.sleep(2000)
+
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail_content'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_close_popup'))
+
 Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Report/Course/DetailCourse/TabLearner/input_search_content'), 'document with time')
@@ -127,11 +128,15 @@ Thread.sleep(2000)
 WebUI.verifyTextPresent('flash question', false)
 
 Thread.sleep(2000)
+
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail_content'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_close_popup'))
+
 Thread.sleep(2000)
+
 WebUI.setText(findTestObject('Report/Course/DetailCourse/TabLearner/input_search_content'), 'flash with time')
 
 Thread.sleep(2000)
@@ -155,10 +160,13 @@ Thread.sleep(2000)
 WebUI.verifyTextPresent('scorm with question', false)
 
 Thread.sleep(2000)
+
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_detail_content'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/icon_close_popup'))
+
 Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Report/Course/DetailCourse/TabLearner/input_search_content'), 'scorm with time')
@@ -183,5 +191,130 @@ Thread.sleep(2000)
 
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/select_content'))
 
+Thread.sleep(2000)
+
 WebUI.click(findTestObject('Report/Course/DetailCourse/TabLearner/content_content'))
+
+Thread.sleep(2000)
+
+WebUI.back()
+WebUI.click(findTestObject('Report/Course/DetailCourse/tab_content'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/button_export_content'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Report/Course/DetailCourse/TabContent/input_search_content'), 'Tài liệu 1')
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/icon_detail_content'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Report/Course/DetailCourse/TabContent/DetailContent/input_search_user'), 'admin2')
+
+Thread.sleep(2000)
+
+WebUI.verifyTextPresent('admin2', false)
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailContent/tab_timeline'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailContent/button_export_timeline'))
+
+Thread.sleep(2000)
+
+WebUI.back()
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/tab_content'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Report/Course/DetailCourse/TabContent/input_search_content'), 'document question')
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/icon_detail_content'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/button_export_info'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/icon_detail_test'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/icon_close'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/tab_analist'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/tab_test'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/tab_timeline'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/button_export_time_line'))
+
+Thread.sleep(2000)
+
+WebUI.back()
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/tab_content'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Report/Course/DetailCourse/TabContent/input_search_content'), 'Bài kiểm tra')
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/icon_detail_content'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/icon_detail_test_of_test'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/icon_close'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/tab_analist'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/TabContent/DetailTest/tab_timeline'))
+
+Thread.sleep(2000)
+
+WebUI.back()
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/tab_time_line'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Report/Course/DetailCourse/button_export_timeline'))
+
+Thread.sleep(2000)
 

@@ -6,12 +6,11 @@
    <elementGuidId>4f1279ea-93bd-4dee-980d-2dd2e3e83fde</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;confirmModal&quot;]/div/div/div[2]/button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>s//*[@id=&quot;confirmModal&quot;]/div/div/div[2]/button[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

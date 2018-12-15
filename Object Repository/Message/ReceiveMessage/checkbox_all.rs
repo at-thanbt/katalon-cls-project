@@ -6,12 +6,12 @@
    <elementGuidId>457f6eec-b0c1-429e-a765-e6f2b9631da2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'checkall' and @type = 'checkbox']</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;TableShowMessage&quot;]/thead/tr/th[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id=&quot;TableShowMessage&quot;]//input[@id=&quot;checkall&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'checkall' and @type = 'checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

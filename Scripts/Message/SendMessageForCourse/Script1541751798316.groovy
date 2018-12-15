@@ -19,9 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Message/OpenPageMessage'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Message/ReceiveMessage/button_add_message'))
+//WebUI.callTestCase(findTestCase('Message/OpenPageMessage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Message/ReceiveMessage/button_add_message_send'))
 
 Thread.sleep(3000)
 
@@ -67,7 +66,7 @@ WebUI.verifyTextPresent('Tin nhắn tạo từ Katalon gửi cho khóa học', f
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.callTestCase(findTestCase('Authentication/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
@@ -85,3 +84,4 @@ Thread.sleep(2000)
 
 WebUI.verifyTextPresent('Tin nhắn tạo từ Katalon gửi cho khóa học', false)
 
+*/

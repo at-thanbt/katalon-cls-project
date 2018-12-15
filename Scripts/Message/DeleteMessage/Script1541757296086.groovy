@@ -19,17 +19,75 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Message/OpenPageMessage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authentication/Login2'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/message_counter'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Message/ReceiveMessage/input_search_receive_message'), 'Tin nhắn tạo từ Katalon gửi cho tất cả user')
+
+Thread.sleep(4000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/checkbox_all'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/button_delete'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/button_confirm_delete_message'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Message/ReceiveMessage/input_search_receive_message'), 'Tin nhắn tạo từ Katalon gửi cho chi nhánh')
+
+Thread.sleep(4000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/checkbox_all'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/button_delete'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/button_confirm_delete_message'))
+
+Thread.sleep(2000)
 
 WebUI.setText(findTestObject('Message/ReceiveMessage/input_search_receive_message'), 'Tin nhắn tạo từ Katalon gửi cho khóa học')
 
 Thread.sleep(4000)
 
 WebUI.click(findTestObject('Message/ReceiveMessage/checkbox_all'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Message/ReceiveMessage/button_delete'))
+
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Message/ReceiveMessage/button_confirm_delete_message'))
+
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('Message/ReceiveMessage/input_search_receive_message'), 'Tin nhắn tạo từ Katalon gửi cho một người dùng')
+
+Thread.sleep(4000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/checkbox_all'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/button_delete'))
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('Message/ReceiveMessage/button_confirm_delete_message'))
+
+Thread.sleep(2000)
 
